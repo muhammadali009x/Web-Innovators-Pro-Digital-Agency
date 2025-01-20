@@ -110,7 +110,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+.checked {
+  color: orange;
+}
+ 
 /*---------------------------------
 	typography css start 
 ---------------------------------*/
@@ -16929,3 +16932,6 @@ p.checkout-coupon input[type=text]:focus {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/* /// My Custom CSS //// */
+

@@ -4,36 +4,17 @@ const MeetTeam = ({ title, description, teamMembers }) => {  // `title`, `descri
     return (
         <section>
 
-            <div className='container'>
+            <div className='mt-50 container text-center'>
                 <h2>{title}</h2>  {/* Dynamic title */}
-                <p>{description}</p>  {/* Dynamic description */}
+                <p className='fs-5'>{description}</p>  {/* Dynamic description */}
 
-                <div className='row'>
-                    <div className='col-6'>
-                        <p>{description}</p>  {/* Dynamic paragraph */}
-                        <div className='d-flex'>
-                            <div>
-                                <strong>Meet Your Team</strong>  {/* Static Text */}
-                                <span>Say Hello to all the Web Innovators Pro</span>  {/* Static Text */}
-                            </div>
-                            <button>
-                                Get To Know Us
-                            </button>
-                        </div>
-                    </div>
-                    <div className='col-6'>
-                        <img src="" alt="Team Image" />  {/* You can pass an image URL here dynamically */}
-                    </div>
-                </div>
-
-                <p>{description}</p>  {/* Dynamic paragraph */}
-
-                <div className='row'>
+               
+                <div className='row mt-40'>
                     {teamMembers.map((member, index) => (  // `teamMembers` array ko map kar rahe hain
-                        <div className='col-4' key={index}>
-                            <img src={member.image} alt={member.name} />  {/* Dynamic image */}
+                        <div className='mb-30 col-4' key={index}>
+                            <img className='w-50' src={member.image} alt={member.name} />  {/* Dynamic image */}
                             <h3>{member.name}</h3>  {/* Dynamic team member name */}
-                            <p>{member.role}</p>  {/* Dynamic team member role */}
+                            <p className='fs-5'>{member.role}</p>  {/* Dynamic team member role */}
                         </div>
                     ))}
                 </div>

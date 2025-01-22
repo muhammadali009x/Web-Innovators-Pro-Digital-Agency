@@ -40,12 +40,12 @@ const footer_links = [
 ]
 
 const footer_content ={
-   footer_logo: "/assets/img/logo/black-logo.png",
+   footer_logo: "/assets/img/preimages/logo.webp",
    about: "About Us",
    about_des: <>Your goals are individual. We believe business advice should be too, so we have to help your business thrive in this work
    environment situation.</>,
    phone_icon: "/assets/img/footer/call-icon.png",
-   address: <>1300 Don City, NYC</>,
+   address: <>xxx</>,
    phone: <>000-222-9090</>,
    
 }

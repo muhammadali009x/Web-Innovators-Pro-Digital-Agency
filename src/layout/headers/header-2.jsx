@@ -50,7 +50,7 @@ const HeaderTwo = () => {
                <div className="row align-items-center">
                   <div className="col-lg-3 col-3">
                      <div className="logo">
-                        <Link href="/"><img src="/assets/img/logo/logo-orange.png" alt="logo" /></Link>
+                        <Link href="/"><img src="/assets/img/preimages/logo.webp" alt="logo" /></Link>
                      </div>
                   </div>
                   <div className="col-xl-6 d-none d-xl-block">
@@ -65,7 +65,7 @@ const HeaderTwo = () => {
                      <div className="d-flex justify-content-end">
                         <div className="tp-it-header__main-cta">
                            <span><i className="fas fa-envelope-open"></i> Support Email</span>
-                           <b><a href="mailto:info@gencio.com">info@gencio.com</a></b>
+                           <b><a href="mailto:hello@webinnovatorspro.com">hello@webinnovatorspro.com</a></b>
                         </div>
                      </div>
 

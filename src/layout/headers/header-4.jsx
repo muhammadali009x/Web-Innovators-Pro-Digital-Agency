@@ -24,7 +24,7 @@ const HeaderFour = () => {
                 <div className="col-xl-3  col-6">
                   <div className="logo">
                     <Link href="/">
-                      <img src="/assets/img/logo/gradian-logo.png" alt="" />
+                      <img src="/assets/img/preimages/logo.webp" alt="" />
                     </Link>
                   </div>
                 </div>

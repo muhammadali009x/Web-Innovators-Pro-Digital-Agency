@@ -16,7 +16,7 @@ const about_content = {
     author_name: "Mikado Sinson",
     author_des:<>“ Find IT Marketing In Usa! Privacy Friendly. lways Facts. Unlimited Access. ”</>,
     phone: "78568065900",
-    email : "info@gencio.com"
+    email : "hello@webinnovatorspro.com"
 
 
 }

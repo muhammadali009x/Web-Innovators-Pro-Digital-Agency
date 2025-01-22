@@ -23,7 +23,7 @@ const HeaderThree = () => {
                 <div className="col-xl-3 col-3">
                   <div className="logo">
                     <Link href="/">
-                      <img src="/assets/img/logo/gradian-logo.png" alt="logo" />
+                      <img src="/assets/img/preimages/logo.webp" alt="logo" />
                     </Link>
                   </div>
                 </div>
@@ -43,10 +43,10 @@ const HeaderThree = () => {
                         <i className="fal fa-long-arrow-right"></i>
                       </span>
                     </a>
-                    <p className="mt-10 mb-0">
+                    {/* <p className="mt-10 mb-0">
                       or <b>call:</b>
                       <a href="tel:+89700011102">+897 000 111 02 </a>
-                    </p>
+                    </p> */}
                   </div>
                 </div>
 

@@ -30,7 +30,7 @@ const FooterFive = () => {
                             <div className="col-lg-7 col-12">
                                 <div className="mp-footer-ct-btns d-md-flex justify-content-lg-end">
                                     <div className="mp-footer-mail mr-30 mb-30 ">
-                                        <a  href="mailto:info@gencio.com" className="ft-mail-btn d-inline-block">info@gencio.com</a>
+                                        <a  href="mailto:hello@webinnovatorspro.com" className="ft-mail-btn d-inline-block">hello@webinnovatorspro.com</a>
                                     </div>
                                     <div className="mp-footer-phone mb-30">
                                         <a href="tel:78568065900" className="ft-phone-btn d-inline-block">786 122 222 00</a>

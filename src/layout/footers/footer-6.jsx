@@ -16,12 +16,12 @@ const FooterSix = () => {
                         <div className="col-xl-3 col-md-6">
                             <div className="tp-footer__widget mb-40">
                                 <h3 className="tp-footer__widget-title mb-35">
-                                    Get In Touch
+                                    Get In TouchXX
                                 </h3>
                                 <div className="tp-footer-cta d-flex align-items-center mb-30">
                                     <span className="call-icon"><img src="/assets/img/icons/law-call.png" alt="" /></span>
                                     <p className="mb-0">
-                                        <span>1300 Don City, NYC</span> <br />
+                                        <span>1300 Don City, NYCXXX</span> <br />
                                         <b><a href="callto:0002229090"> Call Us: 000-222-9090 </a></b>
                                     </p>
                                 </div>
@@ -29,7 +29,7 @@ const FooterSix = () => {
                                     <span className="call-icon"><img src="/assets/img/icons/law-mail.png" alt="" /></span>
                                     <p className="mb-0">
                                         <span>1300 Don City, N</span> <br />
-                                        <b><a href="mailto:info@gencio.com"> info@gencio.com </a></b>
+                                        <b><a href="mailto:hello@webinnovatorspro.com"> hello@webinnovatorspro.com </a></b>
                                     </p>
                                 </div>
                             </div>

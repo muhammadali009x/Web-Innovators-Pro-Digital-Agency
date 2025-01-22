@@ -9,15 +9,12 @@ const footer_links = [
     col: "col-xl-3",
     id: "company",
     links: [
-      { title: "About", link: "/about" },
-      { title: "Affiliates", link: "/faq" },
-      { title: "Careers", link: "/job" },
+      { title: "About", link: "/about" },  
       { title: "Legal & Privacy", link: "/privacy-policy" },
       { title: "Our Team", link: "/team" },
       { title: "Refund Policy", link: "/privacy-policy" },
       { title: "Terms & Rules", link: "/terms" },
-      { title: "Get In Touch", link: "/contact" },
-      { title: "other", link: "/" },
+      { title: "Get In Touch", link: "/contact" }, 
     ],
   },
   {
@@ -28,9 +25,8 @@ const footer_links = [
     links: [
       { title: "Business Consultancy", link: "/" },
       { title: "Web Development", link: "/" },
-      { title: "UI & UX Design", link: "/" },
-      { title: "Legal & Privacy", link: "/privacy-policy" },
-      { title: "Engine Optimization", link: "/" },
+      { title: "UI & UX Design", link: "/" }, 
+      { title: "Search Engine Optimization", link: "/" },
       { title: "Digital marketing", link: "/" },
     ],
   },
@@ -88,9 +84,9 @@ export const FooterCopyRight = ({style_3, style_7, style_9}) => {
                 <li>
                   <Link href="/faq">FAQ</Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link href="/about">Insights</Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

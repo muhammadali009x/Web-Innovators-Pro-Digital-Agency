@@ -6,7 +6,7 @@ import NavMenu from './nav-menu';
 
 
 const header_ten_content = {
-    email: "info@gencio.com",
+    email: "hello@webinnovatorspro.com",
     phone: "750 252 000 02",
 
 }

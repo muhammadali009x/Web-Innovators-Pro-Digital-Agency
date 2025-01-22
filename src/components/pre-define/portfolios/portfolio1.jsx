@@ -2,16 +2,16 @@ import React from 'react';
 
 const Portfolio1 = ({ title, description, projects }) => {  // `projects`, `title`, aur `description` ko props ke roop mein pass kiya
     return (
-        <section>
+        <section className='container text-center'>
             <h2>{title}</h2>  {/* Dynamic title */}
-            <p>{description}</p>  {/* Dynamic description */}
+            <p className='fs-5'>{description}</p>  {/* Dynamic description */}
 
-            <div className='row'>
+            <div className='row mt-50'>
                 {projects.map((project, index) => (  // `projects` array ko map kar rahe hain
-                    <div className='col-4' key={index}>
-                        <img src={project.image} alt={project.title} />  {/* Dynamic image */}
+                    <div className='col-4 p-20 ' key={index}>
+                        <img className='w-100' src={project.image} alt={project.title} />  {/* Dynamic image */}
                         <h3>{project.title}</h3>  {/* Dynamic project title */}
-                        <p>{project.description}</p>  {/* Dynamic project description */}
+                        <p className='fs-5'>{project.description}</p>  {/* Dynamic project description */}
                     </div>
                 ))}
             </div>

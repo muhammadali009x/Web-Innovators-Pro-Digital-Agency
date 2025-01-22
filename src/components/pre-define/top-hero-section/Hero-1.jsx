@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero1 = ({ title, subtitle, paragraph, img1, img2, alt1, alt2, srcset1, srcset2 }) => {
     return (
-        <div className='container-fluid'>
+        <section className='container-fluid bg-hero'>
             <div className='row'>
                 <div className='col-6'>
                     <h1>{title}</h1>
@@ -17,7 +17,7 @@ const Hero1 = ({ title, subtitle, paragraph, img1, img2, alt1, alt2, srcset1, sr
                     {/* Other content can go here */}
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 

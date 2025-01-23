@@ -15,7 +15,8 @@ const {bg_img , img_1, img_2, img_3, title, des, btn_text}  = hero_content
 
 
 
-const HeroAbout = () => {
+const HeroAbout = ({Data}) => {
+    
     return (
         <>
             <div className="law-hero-area"  
@@ -38,9 +39,9 @@ const HeroAbout = () => {
                                 </div>
                             </div>
                             <div className="law-hero__content">
-                                <h2 className="law-hero__content-title mb-20 wow tpfadeUp">{title}</h2>
+                                <h2 className="law-hero__content-title mb-20 wow tpfadeUp">{Data[0].Title}</h2>
                                 <p className="mb-50 wow tpfadeUp" data-wow-delay=".4s">
-                                    {des}
+                                    {Data[0].Description}
                                 </p>
                                 <a href={`tel:${btn_text}`} className="tp-red-btn tp-btn-hover alt-bg-white wow tpfadeUp" data-wow-delay=".5s">
                                     <span className="mr-10">

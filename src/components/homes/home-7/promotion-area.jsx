@@ -14,13 +14,13 @@ const promotion_content  = {
 
 const {img_1, img_2, title, des}  = promotion_content
 
-const PromotionArea = () => {
+const PromotionArea = ({Data}) => {
     return (
         <>
             <div className="law-promotion-area wine-bg pt-100 pb-90 p-relative">
             <div className="container">
                 <div className="row align-items-xl-center">
-                    <div className="col-xl-6 col-lg-5">
+                    {/* <div className="col-xl-6 col-lg-5">
                         <div className="law-promotion-books mb-20">
                             <div className="row">
                                 <div className="col-md-6">
@@ -35,12 +35,13 @@ const PromotionArea = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="col-xl-6 col-lg-7">
+                    </div> */}
+                    <div className="col-xl-12 col-lg-12">
                         <div className="section-title-wraper">
                             <div className="tp-section">
-                                <h2 className="tp-section__title text-white mb-10 text-uppercase wow tpfadeUp"> {title}</h2>
-                                <p className="text-lily wow tpfadeUp"> {des}</p>
+                                <h2 className="tp-section__title text-white mb-10 text-uppercase wow tpfadeUp"> {Data[1].Title}</h2>
+                                <p className="text-lily wow tpfadeUp"> {Data[1].Para1}</p>
+                                <p className="text-lily wow tpfadeUp"> {Data[1].Para2}</p>
                                 <a href="#" className="tp-red-btn tp-btn-hover alt-bg-white wow tpfadeUp" data-wow-delay=".3s">
                                     download now
                                     <span className="ml-10 wow tpfadeUp">

@@ -21,14 +21,30 @@ const menu_data = [
   {
     id: 3,
     mega_menu: false,
-    has_dropdown: false,
-    title: "service",
+    has_dropdown: true,
+    title: "Services",
     link: "/service",
-    // sub_menus: [
-    //   { link: "/shop", title: "Shop" },
-    //   { link: "/shop-details", title: "Shop Details" },
-    //   { link: "/checkout", title: "Checkout Page" },
-    // ],
+    sub_menus: [
+      { link: "/checkout", title: "Web Apps" },
+      { link: "/checkout", title: "WordPress" },
+      { link: "/checkout", title: "Laravel" },
+      { link: "/checkout", title: "Angular" },
+      { link: "/checkout", title: "Contao" },
+      { link: "/checkout", title: "Drupal" },
+      { link: "/checkout", title: "Joomla" }, 
+      { link: "/checkout", title: "Matomo" },
+      { link: "/checkout", title: "Symfony" }, 
+      { link: "/checkout", title: "React" },
+      { link: "/checkout", title: "Vue.js" },
+      { link: "/shop", title: "Accessibility" }, 
+    ],
+  },
+  {
+    id: 2,
+    mega_menu: false,
+    has_dropdown: false,
+    title: "Work",
+    link: "/Work",
   },
   {
     id: 2,
@@ -37,13 +53,7 @@ const menu_data = [
     title: "About",
     link: "/about",
   },
-  {
-    id: 2,
-    mega_menu: false,
-    has_dropdown: false,
-    title: "Portfolio",
-    link: "/portfolio",
-  },
+ 
   // {
   //   id: 4,
   //   mega_menu: true,

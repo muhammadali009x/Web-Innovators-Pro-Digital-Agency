@@ -53,7 +53,7 @@ const BlogDetailsArea = () => {
           <div className="container">
             <div className="row">
               {/* left site */}
-              <div className="col-xxl-9 col-xl-9 col-lg-8 col-12">
+              <div className="col-xxl-12 col-xl-12 col-lg-12 col-12">
                 <div className="postbox__wrapper pr-50 mr-30">
                   <div className="postbox__border">
 
@@ -161,7 +161,7 @@ const BlogDetailsArea = () => {
                               </div>
                             </div>
                           </div>
-                          <blockquote>
+                          {/* <blockquote>
                             <div className="quote-box text-center">
                               <span className="quote-icon">
                                 <i className="flaticon-quote"></i>
@@ -188,12 +188,12 @@ const BlogDetailsArea = () => {
                             for commerce and specialized to be powered by
                             Shopify APIs and infrastructure: The future of
                             commerce is dynamic and personalized.
-                          </p>
+                          </p> */}
                         </div>
                       </div>
                     </article>
                     
-                    <div className="tp-blog-dt-pagination tp-border-bottom pb-50 mb-30">
+                    {/* <div className="tp-blog-dt-pagination tp-border-bottom pb-50 mb-30">
                       <div className="row">
                         <div className="col-md-6">
                           <h3 className="tp-blog-dt-pagination-title mb-25">
@@ -310,13 +310,13 @@ const BlogDetailsArea = () => {
 
                     <div className="tp-blog-comment-form">
                       <CommentForm />
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
 
               {/* right site */}
-              <div className="col-xxl-3 col-xl-3 col-lg-4 col-12">
+              {/* <div className="col-xxl-3 col-xl-3 col-lg-4 col-12">
                 <div className="sidebar__wrapper">
                   <div className="sidebar__widget mb-40">
                     <h3 className="sidebar__widget-title">About Me</h3>
@@ -378,7 +378,7 @@ const BlogDetailsArea = () => {
                     <img src="/assets/img/promotion/ads.jpg" alt="them-pure" />
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

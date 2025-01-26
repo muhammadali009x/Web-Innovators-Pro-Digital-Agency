@@ -5,29 +5,36 @@ import React from "react";
 const footer_links = [
   {
     id: 1,
-    title: "Company",
+    title: "Services",
     col: "col-xl-3",
     id: "company",
     links: [
-      { title: "About", link: "/about" },  
-      { title: "Legal & Privacy", link: "/privacy-policy" },
-      { title: "Our Team", link: "/team" },
-      { title: "Refund Policy", link: "/privacy-policy" },
-      { title: "Terms & Rules", link: "/terms" },
-      { title: "Get In Touch", link: "/contact" }, 
+      
+
+      { title: "Accessibility", link: "/" }, 
+      { title: "Angular", link: "/" }, 
+      { title: "Contao", link: "/" }, 
+      { title: "Drupal", link: "/" }, 
+      { title: "Joomla", link: "/" }, 
+      { title: "Laravel", link: "/" }, 
+      { title: "Matomo", link: "/" }, 
+      { title: "Symfony", link: "/" }, 
+      { title: "Web Apps", link: "/" }, 
+      { title: "WordPress", link: "/" }, 
+      { title: "React", link: "/" }, 
+      { title: "Vue.js", link: "/" },   
     ],
   },
   {
     id: 2,
-    title: "Services",
+    title: "Company",
     col: "col-xl-2",
-    id: "",
+    id: "company",
     links: [
-      { title: "Business Consultancy", link: "/" },
-      { title: "Web Development", link: "/" },
-      { title: "UI & UX Design", link: "/" }, 
-      { title: "Search Engine Optimization", link: "/" },
-      { title: "Digital marketing", link: "/" },
+      { title: "Work", link: "/about" },  
+      { title: "About", link: "/about" },  
+      { title: "Contact", link: "/privacy-policy" },   
+      
     ],
   },
 ];

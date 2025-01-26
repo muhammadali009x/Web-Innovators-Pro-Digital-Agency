@@ -1,55 +1,61 @@
-import BusinessJourney from '@/src/common/business-journey';
-import Brand from '@/src/components/about-3/brand';
-import WhyWeBest from '@/src/components/homes/home-10/why-we-best';
-import Blog from '@/src/components/homes/home-4/blog';
-import FeatureArea from '@/src/components/homes/home-4/feature-area';
-import Service from '@/src/components/homes/home-2/Service';
-
-import HeroAbout from '@/src/components/homes/home-7/hero-area';
-import PromotionArea from '@/src/components/homes/home-7/promotion-area';
-import AboutArea from '@/src/components/homes/home-8/about-area';
-import ServiceArea from '@/src/components/homes/home-8/service-area';
-import ServiceArea2 from '@/src/components/homes/home-10/service-area';
-
-import ProjectsArea from '@/src/components/homes/home/projects-area';
-import FooterThree from '@/src/layout/footers/footer-3';
-import HeaderThree from '@/src/layout/headers/header-3';
-import Wrapper from '@/src/layout/wrapper';
 import React from 'react';
+
+// Layout components
+import Wrapper from '@/src/layout/wrapper';
+import HeaderThree from '@/src/layout/headers/header-3';
+import FooterThree from '@/src/layout/footers/footer-3';
+
+// Page sections/components
+import HeroAbout from '@/src/components/pages/web-app/hero-area';
+import Brand from '@/src/components/about-3/brand';
+import PromotionArea from '@/src/components/pages/web-app/promotion-area';
+import ProjectsArea from '@/src/components/pages/web-app/projects-area';
+import AboutArea from '@/src/components/pages/web-app/about-area';
+import ServiceArea from '@/src/components/pages/web-app/service-area';
+import ServiceArea2 from '@/src/components/pages/web-app/service-area2';
+import Blog from '@/src/components/pages/web-app/blog';
+import FeatureArea from '@/src/components/pages/web-app/feature-area';
+import BusinessJourney from '@/src/common/business-journey';
+import Service from '@/src/components/pages/web-app/service-section';
+import AppFaqArea from '@/src/components/pages/web-app/app-faq-area';
 import ContactHomeSeven from '@/src/components/homes/home-7/contact-home';
-import AppFaqArea from '@/src/components/homes/home-4/app-faq-area';
+import SEO from '@/src/common/seo';
+
+// Define SEO data
+const SEOData = {
+  pageTitle: `Custom Web App Development | Innovative Digital Solutions 
+`,
+  description: `Boost your business with custom web apps. From design to deployment, we create innovative, user-friendly solutions tailored to your unique needs.
+`,
+  image: '/assets/img/seo-image.jpg',  // Update with an actual image path
+  url: 'https://webinnovatorspro.com/agency/web-app',  // Replace with the actual URL
+  keywords: `Web App Development,
+Custom Web Applications,
+Innovative Web Apps,
+Web App Design,
+Innovative Web App Solutions,
+Digital Solutions <end,
+Innovative Web Solutions,
+SEO-friendly Web Apps,
+Custom Web App Development,
+`
+};
 
 const WebApp = () => {
-
-
-  var Data = [
-    {
-      Section: 1,
-      Title: 'Your Go-To Agency for Web Apps',
-      Description: `Looking for a partner to bring your web app vision to life?
-         We've got you covered! With years of digital expertise and hands-on experience,
-          our developers specialize in crafting innovative web apps tailored to fit your
-           needs—no matter the size or complexity of your project. From dynamic startups to 
-           established enterprises, we’re here to turn your ideas into impactful digital solutions. 
-           Let's build something extraordinary together!`
-    },
-    {
-      Section: 2,
-      Title: `Do you need a sophisticated web app that delivers a seamless online experience while keeping your users engaged? We've got you covered! `,
-      Para1: `Web apps are changing the game in how businesses connect with their customers. They’re dynamic, versatile, and built to adapt. With instant updates and responsive designs, web apps create intuitive user experiences across all devices. Whether you’re managing breaking news, offering rides, or providing tailored services, a well-developed web app ensures lightning-fast access and unmatched reliability. `,
-      Para2: `Take a page from industry leaders like CNN, The New York Times, and Uber—these corporations leverage web apps to immerse their users and stay ahead of the curve. Imagine what a thoughtfully designed web app could do for your business.`
-    }
-  ]
-
-
-
-
   return (
     <Wrapper>
+      {/* Pass SEOData props to the SEO component */}
+      <SEO
+        pageTitle={SEOData.pageTitle}
+        description={SEOData.description}
+        image={SEOData.image}
+        url={SEOData.url}
+        keywords={SEOData.keywords}
+      />
       <HeaderThree />
-      <HeroAbout Data={Data} />
+      <HeroAbout />
       <Brand />
-      <PromotionArea  Data={Data} />
+      <PromotionArea />
       <ProjectsArea />
       <AboutArea />
       <ServiceArea />

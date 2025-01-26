@@ -1,52 +1,11 @@
 import React from 'react';
 
 
-// ****** Accordion Data ****** //
-const accordion_data = [
-    {
-        id: 1,
-        question: "Usability Testing",
-        answer: <>On the other hand we denounce with righteous indignation &
-        dislike men who are so beguiled and demoralized by the charms
-        of pleasure of the moment.</>,
-        accordion_id: "faq1",
-        collapsed: "",
-        data_bs_target: "#collapseOne",
-        aria_expanded: true,
-        aria_controls: "collapseOne",
-        show: "show",
-      },
-      {
-        id: 2,
-        question: "Design Making & Develop",
-        answer:  <>Research helps you plan the best way to get your product from the manufacturer
-        to the retail shelf. In addition to deciding which retailers should carry your
-        product, you should determine where your inventory will be held.Research helps.</>,
-        accordion_id: "faq2",
-        collapsed: "collapsed",
-        data_bs_target: "#collapseTwo",
-        aria_expanded: false,
-        aria_controls: "collapseTwo",
-        show: "",
-      },
-      {
-        id: 3,
-        question: "Refund Policy",
-        answer:  <>On the other hand we denounce with righteous indignation &
-        dislike men who are so beguiled and demoralized by the charms
-        of pleasure of the moment.</>,
-        accordion_id: "faq3",
-        collapsed: "collapsed",
-        data_bs_target: "#collapseThree",
-        aria_expanded: false,
-        aria_controls: "collapseThree",
-        show: "",
-      },
-]
 
 
 
-const Accordion = () => {
+
+const Accordion = ({accordion_data}) => {
   return (
     <>
       {accordion_data.map((item, i) => (

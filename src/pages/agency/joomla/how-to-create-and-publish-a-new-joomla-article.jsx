@@ -3,10 +3,7 @@ import FooterThree from '@/src/layout/footers/footer-3';
 import HeaderThree from '@/src/layout/headers/header-3';
 import Link from 'next/link';
 import React from 'react';
-
-
-
-
+ 
 const WhyIsThereAStrangeGtmTagInTheCodeOfMyJoomlaSite = () => {
     return (
         <>
@@ -101,8 +98,6 @@ const WhyIsThereAStrangeGtmTagInTheCodeOfMyJoomlaSite = () => {
                                 </div>
                             </div>
                         </div>
-
-
                     </div>
                 </div>
             </div>

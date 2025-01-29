@@ -2,50 +2,34 @@ import service_data from '@/src/data/service-data';
 import React from 'react';
 
 const service_content = {
-    title: "What We Provide",
+    title: "Why Is There a Strange GTM Tag in the Code of My Joomla Site? ",
     description: <>Search Engine & Social Media Optimization Experts</>
 }
-const {title, description}  = service_content
+const { title, description } = service_content
 
 
 const ServiceArea = () => {
     return (
         <>
             <div className="seo-service-area pt-120 pb-120">
-            <div className="container">
-                <div className="row">
-                    <div className="col-12">
-                        <div className="section-title-wraper text-center">
-                            <div className="tp-section">
-                                <h2 className="tp-section__title seagreen-text-color wow tpfadeUp" data-wow-delay=".3s">{title}
-                                </h2>
-                                <p className="text-greyv wow tpfadeUp" data-wow-delay=".4s">{description}</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="seo-service">
+                <div className="container">
                     <div className="row">
-
-                        {
-                            service_data.slice(7, 11).map((item, i) => 
-                            <div key={i} className="col-xl-3 col-lg-6">
-                            <div className="seo-service-item text-center wow tpfadeUp" data-wow-delay={item.delay}>
-                                <div className="seo-service-item__thumb mb-35">
-                                    <img src={item.img} alt="theme-pure" />
+                        <div className="col-12">
+                            <div className="section-title-wraper text-center">
+                                <div className="tp-section">
+                                    <h2 className="tp-section__title seagreen-text-color wow tpfadeUp" data-wow-delay=".3s">{title}
+                                    </h2>
+                                    <p className="text-greyv wow tpfadeUp" data-wow-delay=".4s">If you've encountered an unfamiliar GTM tag in your Joomla site's code, don’t worry—we explain why it's there and how to identify its purpose. This guide provides clear insights into understanding tracking tags and keeping your site secure.
+                                    </p>
+                                    <p className="text-greyv wow tpfadeUp" data-wow-delay=".4s">These resources are here to support your Joomla projects—helping you tackle common challenges and optimize your workflow. Whether you're troubleshooting an issue or looking to build a better website, explore our detailed guides and start making the most of Joomla today.
+                                    </p>
                                 </div>
-                                <h3 className="seo-service-item__title mb-20"><a href="#">{item.title}</a></h3>
-                                <p className="mb-45">{item.des}</p>
-                                <a href="#" className="seo-service-btn">Details <i className="fal fa-long-arrow-right"></i></a>
                             </div>
                         </div>
-                            
-                            )
-                        }                     
                     </div>
+                     
                 </div>
             </div>
-        </div>
         </>
     );
 };

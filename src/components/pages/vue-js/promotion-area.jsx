@@ -4,7 +4,8 @@ import React from 'react';
 const promotion_content  = {
     img_1: "/assets/img/promotion/law-book-1.jpg",
     img_2: "/assets/img/promotion/law-book-2.jpg",
-    title: <>Download our prospactus here</>,
+    title: `Do you need a powerful and flexible framework like Vue.js for your next digital project?
+`,
     des: <>S Hossain & Associates is a full service law firm in Bangladesh and
     has adequate
     knowledge, expertise, lawyers, consultants and logistics to undertake any legal a
@@ -40,7 +41,12 @@ const PromotionArea = () => {
                         <div className="section-title-wraper">
                             <div className="tp-section">
                                 <h2 className="tp-section__title text-white mb-10 text-uppercase wow tpfadeUp"> {title}</h2>
-                                <p className="text-lily wow tpfadeUp"> {des}</p>
+                                <p className="text-lily wow tpfadeUp"> Since its launch in 2014, Vue.js has rapidly become one of the most popular JavaScript frameworks, known for its simplicity, robust functionality, and ability to create highly interactive user interfaces. Its progressive architecture allows developers to integrate it incrementally into projects, making it adaptable to a variety of needs. From startups to industry giants, organizations across sectors are relying on Vue.js to deliver performant and responsive web applications. Notably, companies like NASA, Adobe, and IBM have leveraged Vue.js to advance their digital platforms.
+                                </p>
+                                <p className="text-lily wow tpfadeUp">Whether you're building a single-page application, progressive web app, or an entirely dynamic website, utilizing Vue.js can significantly enhance your project's efficiency and interactivity. With our team of seasoned developers, you’ll have access to deep expertise in Vue.js development. We focus on finding solutions tailored to your unique requirements, ensuring your project is built with precision and scalability in mind.
+                                </p>
+                                <p className="text-lily wow tpfadeUp">Regardless of your project’s size or complexity, we are here to provide the technical guidance and support you need to design remarkable web experiences with Vue.js.
+                                </p>
                                 <a href="#" className="tp-red-btn tp-btn-hover alt-bg-white wow tpfadeUp" data-wow-delay=".3s">
                                     download now
                                     <span className="ml-10 wow tpfadeUp">

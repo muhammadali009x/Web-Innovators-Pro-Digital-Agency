@@ -6,7 +6,7 @@ const hero_content = {
     img_1: "/assets/img/hero/law-1.png",
     img_2: "/assets/img/hero/law-2.png",
     img_3: "/assets/img/hero/law-3.png",
-    title: <>niche Legal <br /> Advisory</>,
+    title: `We’d love to be your trusted Joomla Agency.`,
     des: <>We’ve always known that for businesses large and small, IT will <br /> can be a real challenge to manage.</>,
     btn_text: "786. 869. 350. 00"
 }
@@ -40,7 +40,13 @@ const HeroAbout = () => {
                             <div className="law-hero__content">
                                 <h2 className="law-hero__content-title mb-20 wow tpfadeUp">{title}</h2>
                                 <p className="mb-50 wow tpfadeUp" data-wow-delay=".4s">
-                                    {des}
+                                Based in Boston, we have been working with Joomla for nearly two decades, gaining deep, hands-on experience with this versatile content management system. Our expertise encompasses every aspect of Joomla, from planning and designing to developing and maintaining robust, efficient websites tailored to your unique needs. 
+                                </p>
+                                <p className="mb-50 wow tpfadeUp" data-wow-delay=".4s">
+                                By partnering with us, you gain access to a team that understands Joomla inside and out. Whether you’re starting from scratch or need an expert hand to optimize or maintain your existing site, we’re here to guide you every step of the way. 
+                                </p>
+                                <p className="mb-50 wow tpfadeUp" data-wow-delay=".4s">
+                                Looking for a dependable Joomla partner? Let's make your website exceptional!
                                 </p>
                                 <a href={`tel:${btn_text}`} className="tp-red-btn tp-btn-hover alt-bg-white wow tpfadeUp" data-wow-delay=".5s">
                                     <span className="mr-10">

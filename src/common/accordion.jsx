@@ -8,7 +8,7 @@ import React from 'react';
 const Accordion = ({accordion_data}) => {
   return (
     <>
-      {accordion_data.map((item, i) => (
+      {accordion_data?.map((item, i) => (
         <div key={i} className="accordion-item">
           <h2 className="accordion-header" id={item.accordion_id}>
             <button

@@ -8,7 +8,7 @@ const about_content = {
     circle_img: "/assets/img/about/ca-cirlce-logo.png",
     about: "About",
     sub_title: "About Us",
-    title: "To Make Your Digital Experience Brighter.",
+    title: "Who We Are",
     des: <>Being employee-owned keeps us focused on the unique needs of our
     users, and we wouldn't have it any other way. Our many security features
     include Multi Factor Authentication, auto-enabled sFTP .</>,
@@ -55,7 +55,12 @@ const AboutArea = () => {
                                     <span className="tp-section__bigtitle">{about}</span>
                                     <span className="tp-section__subtitle shadow-none text-rgb mb-15 p-0">{sub_title}</span>
                                     <h2 className="tp-section__title mb-30">{title}</h2>
-                                    <p>{des}</p>
+                                    <p> At our US-based agency, we specialize in developing and supporting websites and web applications tailored to meet the needs of modern businesses. With a talented team of 25 professionals, we bring extensive expertise across a broad range of technologies to every project. Over the past two decades, we have refined our approach, focusing on delivering exceptional project management, clear communication, and outstanding customer service.
+                                    </p>
+                                    <p> One of our strengths lies in being owner-managed. This means our leadership is deeply involved in the daily operations and actively contributes to project success. While our headquarters are based in Boston, we take pride in being a globally connected team, with members located in various parts of the US and Europe. This international presence allows us to bring diverse perspectives and skills to our work, ensuring innovative and custom solutions for our clients.
+                                    </p>
+                                    <p> We are committed to partnering with our clients every step of the way, leveraging our experience and collaborative approach to create digital experiences that drive success. Whether it’s developing a new platform or enhancing an existing one, our team is ready to guide your project from concept to completion.
+                                    </p>
                                 </div>
                             </div>
                             <div className="ca-about-info tp-border-bottom d-md-flex align-items-center pb-40 mb-50">

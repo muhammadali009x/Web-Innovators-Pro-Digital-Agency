@@ -3,30 +3,42 @@ import React from "react";
 
 
 const feature_data = [
-    {
-        id: 1,
-        icon: "/assets/img/icons/app-fea-icon-1.png",
-        title: <>Cloud Compatible</>,
-        des: <>Software is a collection of instructions that tell a computer how to work in the other way.</>
-    },
-    {
-        id: 2,
-        icon: "/assets/img/icons/app-fea-icon-2.png",
-        title: <>Check Compatible</>,
-        des: <>Software is a collection of instructions that tell a computer how to work in the other way.</>
-    },
-    {
-        id: 3,
-        icon: "/assets/img/icons/app-fea-icon-3.png",
-        title: <>Code Compatible</>,
-        des: <>Software is a collection of instructions that tell a computer how to work in the other way.</>
-    },
-    {
-        id: 4,
-        icon: "/assets/img/icons/app-fea-icon-4.png",
-        title: <>More Compatible</>,
-        des: <>Software is a collection of instructions that tell a computer how to work in the other way.</>
-    },
+  {
+    id: 1,
+    icon: "/assets/img/icons/app-fea-icon-1.png",
+    title: `We’re Specialists
+`,
+    des: `Our team brings a deep understanding of Matomo and its advanced analytics framework. This expertise allows us to design and implement powerful, user-focused analytics solutions tailored to your needs. By leveraging Matomo’s robust data insights, we help you unlock precise, actionable strategies for your business.
+`},
+  {
+    id: 2,
+    icon: "/assets/img/icons/app-fea-icon-2.png",
+    title: `We’re Flexible
+`,
+    des: `Flexibility is at the core of what we offer. Whether you require custom tracking configurations, detailed user behavior analysis, or seamless dashboard integrations, our team is equipped to create solutions that align perfectly with your unique objectives. We pride ourselves on delivering a bespoke approach, ensuring your Matomo setup provides valuable insights tailored to your goals.
+`    },
+  {
+    id: 3,
+    icon: "/assets/img/icons/app-fea-icon-3.png",
+    title: `We’re Knowledgeable
+`,
+    des: `With extensive experience across popular CMS platforms like Drupal, WordPress, Contao, and Joomla—and frameworks such as Angular, Laravel, Symfony, and Vue.js—we can integrate Matomo with virtually any digital environment. This level of versatility means we can help you gain meaningful insights from your website or app, regardless of the underlying technologies.
+` },
+  {
+    id: 4,
+    icon: "/assets/img/icons/app-fea-icon-4.png",
+    title: `We’re Transparent
+`,
+    des: `We believe that collaboration and clear communication are fundamental to successful projects. Throughout every stage, from initial planning to final deployment, our team keeps you informed and engaged. We aim to be more than just a service provider—we strive to be your trusted digital partner, fully invested in the success of your project.
+` },
+
+  {
+    id: 4,
+    icon: "/assets/img/icons/app-fea-icon-4.png",
+    title: `We’re Here for You
+`,
+    des: `Our commitment doesn’t end at implementation. We focus on building lasting relationships with our clients by offering reliable support and maintenance services. From adapting your Matomo installation to meet evolving business needs to ensuring it stays up-to-date with the latest security patches and feature upgrades, we’re here to grow alongside you and your requirements.
+` },
 ]
 
 
@@ -39,19 +51,13 @@ const FeatureArea = () => {
             <div className="col-12">
               <div className="section-title-wraper">
                 <div className="tp-section text-center">
-                  <span
-                    className="tp-section__subtitle mb-15 shadow-none text-cornblue p-0 change-icon-size wow tpfadeUp"
-                    data-wow-delay=".4s"
-                  >
-                    <i className="far fa-circle"></i>
-                    Core Features
-                    <i className="far fa-circle"></i>
-                  </span>
+
                   <h2
                     className="tp-section__title mb-60 text-mirage wow tpfadeUp"
                     data-wow-delay=".3s"
                   >
-                    Through Our Application
+                    How Are We Different From Other Agencies?
+
                   </h2>
                 </div>
               </div>
@@ -84,6 +90,11 @@ const FeatureArea = () => {
               </div>
             ))}
           </div>
+          <p>By choosing us, you’re partnering with an agency that prioritizes expertise, flexibility, and long-term client success.
+          </p>
+
+
+
         </div>
       </div>
     </>

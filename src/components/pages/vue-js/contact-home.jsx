@@ -11,7 +11,7 @@ const contact_content = {
 
 const { title, phone, email, address, date } = contact_content;
 
-const ContactHomeSeven = ({style_from_pric}) => {
+const ContactHomeSeven = ({ style_from_pric }) => {
   return (
     <>
       <div className={`it-cta-area law-cta-area ${style_from_pric && "price-cta-form "} pt-120 pb-85 theme-bg-6`}>
@@ -28,6 +28,8 @@ const ContactHomeSeven = ({style_from_pric}) => {
                       >
                         {title}
                       </h2>
+                      <p>We'd love to hear all about it! Fill out our contact form, and our team will get back to you within one working day. Prefer a more direct approach? Feel free to give us a call or send an email—we're here to help you tackle your project with expert guidance and support every step of the way.
+                      </p>
                     </div>
                   </div>
                 </div>

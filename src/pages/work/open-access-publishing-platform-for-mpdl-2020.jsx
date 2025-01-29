@@ -4,7 +4,7 @@ import HeaderThree from '@/src/layout/headers/header-3';
 import Link from 'next/link';
 import React from 'react';
 
-const WhyIsThereAStrangeGtmTagInTheCodeOfMyJoomlaSite = () => {
+const Index = () => {
     return (
         <>
             <HeaderThree />
@@ -105,7 +105,7 @@ const WhyIsThereAStrangeGtmTagInTheCodeOfMyJoomlaSite = () => {
 
                                 </div>
                             </div>
-                        </div> 
+                        </div>
                     </div>
                 </div>
             </div>
@@ -114,4 +114,4 @@ const WhyIsThereAStrangeGtmTagInTheCodeOfMyJoomlaSite = () => {
     );
 };
 
-export default WhyIsThereAStrangeGtmTagInTheCodeOfMyJoomlaSite;
+export default Index;

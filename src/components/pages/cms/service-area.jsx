@@ -4,35 +4,50 @@ import React from "react";
 
 
 const service_data = [
-    {
-        id: 1, 
-        img: "/assets/img/services/icon/ca-sv-icon-1.png",
-        title: "Product Design",
-        des: <>Our typical customer doesn’t want to be distracted by IT Services.</>
-    },
-    {
-        id: 2, 
-        img: "/assets/img/services/icon/ca-sv-icon-2.png",
-        title: "IT & Cyber Security",
-        des: <>Our typical customer doesn’t want to be distracted by IT Services.</>
-    },
-    {
-        id: 3, 
-        img: "/assets/img/services/icon/ca-sv-icon-3.png",
-        title: "Server & Hosting",
-        des: <>Our typical customer doesn’t want to be distracted by IT Services.</>
-    },
+  {
+    id: 1,
+    img: "/assets/img/services/icon/ca-sv-icon-1.png",
+    title: `Custom CMS Development
+`,
+    des: `Are you envisioning a corporate website, a dynamic publishing platform, or an interactive community hub? Our team is committed to turning your vision into a reality. We leverage the most suitable Content Management System (CMS) tailored to your specific goals, ensuring both functionality and user experience work seamlessly together. Every project is built with an eye for precision and scalability to fully meet your business needs.
+`
+  },
+  {
+    id: 2,
+    img: "/assets/img/services/icon/ca-sv-icon-2.png",
+    title: `Concept & Design
+`,
+    des: `Our expertise extends beyond technical implementation. We create captivating concepts and modern, responsive designs that ensure your website performs flawlessly across all devices and screen sizes. With a focus on usability and visual appeal, we make sure your site not only functions efficiently but looks exceptional—providing an immersive experience for your users.
+`
+  },
+  {
+    id: 3,
+    img: "/assets/img/services/icon/ca-sv-icon-3.png",
+    title: `CMS Selection & Migration
+`,
+    des: `Choosing the right CMS can be overwhelming, but we’re here to guide you every step of the way. Our team helps you determine which CMS best suits your project and handles migrations from your current platform with care, ensuring all existing content and features are transferred without disruption. Whether it’s WordPress, Drupal, Joomla, Contao, or another CMS solution, we have extensive experience across a wide range of platforms and frameworks.
+`
+  },
+  {
+    id: 4,
+    img: "/assets/img/services/icon/ca-sv-icon-3.png",
+    title: `Support & Maintenance
+`,
+    des: `Keeping your website secure, functional, and up-to-date is a top priority. From addressing security concerns to rolling out software updates, our support and maintenance services ensure that your platform remains resilient and optimized at all times. Our tailored monthly service plans provide comprehensive ongoing care, so you can focus on your work while we handle the rest.
+`
+  },
 ]
 
-const service_content ={
-    title: "Service",
-    main_title: "Our Services",
-    we_do: "What We Do",
-    btn_text: "More Services"
+const service_content = {
+  title: "Service",
+  main_title: "Our Services",
+  we_do: `Our CMS Development Services`,
+  btn_text: "More Services"
 }
 
 
-const {title, main_title , we_do, btn_text}  = service_content
+const { title, main_title, we_do, btn_text } = service_content
+
 
 const ServiceArea = () => {
   return (
@@ -91,6 +106,8 @@ const ServiceArea = () => {
               </div>
             ))}
           </div>
+          <p>With our rich experience in CMS development and dedication to excellence, we aim to deliver solutions that drive your business forward. Your digital presence is in expert hands.
+          </p>
         </div>
       </div>
     </>

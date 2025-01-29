@@ -2,7 +2,8 @@ import SendSmsForm from "@/src/forms/send-sms-form";
 import React from "react";
 
 const contact_content = {
-  title: "Project On Your Mind. Let Us...",
+  title: `Got a Laravel project in mind? We’d love to hear about it! 
+`,
   phone: "+123 488 9652",
   email: "info@gencio-itsolutions.com",
   address: "25 West 21th Street, Miami FL, US",
@@ -28,6 +29,8 @@ const ContactHomeSeven = ({style_from_pric}) => {
                       >
                         {title}
                       </h2>
+                      <p>Fill out our quick form, and we’ll get back to you within one business day—no stress, no delays. Prefer the direct route? You can also give us a call or drop us an email. 
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -49,6 +52,8 @@ const ContactHomeSeven = ({style_from_pric}) => {
                     {date}
                   </span>
                 </div>
+                <p>Let’s brainstorm, collaborate, and bring your ideas to life!
+                </p>
               </div>
             </div>
             <div className="col-xl-6 wow tpfadeUp" data-wow-delay=".5s">

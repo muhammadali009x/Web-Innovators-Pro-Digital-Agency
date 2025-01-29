@@ -3,7 +3,7 @@ import React from 'react';
 
 const business_journey_content = {
     sub_title: "Schedule a 30 minute call",
-    title: <>Start your business journey better <br /> with</>,
+    title: `Get Expert Solutions for Your Angular Project`,
     img_1: "/assets/img/cta/ca-avata.png",
     img_2: "/assets/img/cta/cta-avata-2.png",
 }
@@ -24,7 +24,7 @@ const BusinessJourney = ({style_service}) => {
                                 </span>
                             <div className="cd-intro">
                                 <h3
-                                    className="bs-cta-section__title ca-cta-section-title cd-headline loading-bar mb-55 ca-cta-title wow tpfadeUp">
+                                    className="bs-cta-section__title ca-cta-section-title cd-headline loading-bar ca-cta-title wow tpfadeUp">
                                     <span>{title}</span>
                                     <span className="cd-words-wrapper bs-cta-wrapper ca-cta-wrapper">
                                         <b className="is-hidden"> Gencio</b>
@@ -33,6 +33,8 @@ const BusinessJourney = ({style_service}) => {
                                     </span>
                                     <span> Consulting</span>
                                 </h3>
+                                <p style={{color: 'white'}}>We’d love to hear more about your Angular project! Share the details by filling out the form, and our team will get back to you within one business day with tailored insights and solutions. Prefer a direct conversation? Feel free to give us a call or send an email—our team is ready to discuss how we can bring your project to life.
+                                </p>
                             </div>
                         </div>
                     </div>

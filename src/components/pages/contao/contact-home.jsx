@@ -28,6 +28,8 @@ const ContactHomeSeven = ({style_from_pric}) => {
                       >
                         {title}
                       </h2>
+                      <p>Looking to bring your Contao project to life? We’re here to make it happen. Share the details of your project by filling out the form, and you’ll hear from us within one working day. Prefer a more direct approach? Feel free to call or email us—we’re ready to discuss how we can support your vision.
+                      </p>
                     </div>
                   </div>
                 </div>

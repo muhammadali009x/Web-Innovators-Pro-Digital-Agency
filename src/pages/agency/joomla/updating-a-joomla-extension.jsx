@@ -7,7 +7,7 @@ import React from 'react';
 
 
 
-const WhyIsThereAStrangeGtmTagInTheCodeOfMyJoomlaSite = () => {
+const Index = () => {
     return (
         <>
             <HeaderThree />
@@ -111,4 +111,4 @@ const WhyIsThereAStrangeGtmTagInTheCodeOfMyJoomlaSite = () => {
     );
 };
 
-export default WhyIsThereAStrangeGtmTagInTheCodeOfMyJoomlaSite;
+export default Index;

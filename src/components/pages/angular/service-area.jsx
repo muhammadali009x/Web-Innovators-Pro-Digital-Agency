@@ -4,35 +4,58 @@ import React from "react";
 
 
 const service_data = [
-    {
-        id: 1, 
-        img: "/assets/img/services/icon/ca-sv-icon-1.png",
-        title: "Product Design",
-        des: <>Our typical customer doesn’t want to be distracted by IT Services.</>
-    },
-    {
-        id: 2, 
-        img: "/assets/img/services/icon/ca-sv-icon-2.png",
-        title: "IT & Cyber Security",
-        des: <>Our typical customer doesn’t want to be distracted by IT Services.</>
-    },
-    {
-        id: 3, 
-        img: "/assets/img/services/icon/ca-sv-icon-3.png",
-        title: "Server & Hosting",
-        des: <>Our typical customer doesn’t want to be distracted by IT Services.</>
-    },
+  {
+    id: 1,
+    img: "/assets/img/services/icon/ca-sv-icon-1.png",
+    title: `Custom Angular Applications 
+`,
+    des: `Leverage the expertise of our adept developers to create custom web applications tailored precisely to your business requirements. By utilizing Angular’s robust framework, we craft solutions that embody performance, scalability, and adaptability, ensuring your business is equipped with cutting-edge technology. Each application is designed to deliver results while aligning seamlessly with your objectives. 
+`
+  },
+  {
+    id: 2,
+    img: "/assets/img/services/icon/ca-sv-icon-2.png",
+    title: `Scalable Enterprise Solutions 
+`,
+    des: `Empower your organization to scale effortlessly with our Angular-based enterprise solutions. Catering specifically to the needs of large corporations, our solutions are engineered to integrate smoothly with your existing systems while optimizing efficiency. Whether expanding capabilities or streamlining operations, our team ensures every solution supports your organization's growth ambitions.
+`
+  },
+  {
+    id: 3,
+    img: "/assets/img/services/icon/ca-sv-icon-3.png",
+    title: `Component Design and Development 
+`,
+    des: `Unlock the true potential of Angular’s component-based architecture with our custom-designed components. These tailored pieces, created by our expert developers, enhance the functionality and performance of your applications. Our focus on seamless integration and user-centric design ensures a highly intuitive experience for your users, meeting both aesthetic and functional standards.
+`
+  },
+  {
+    id: 4,
+    img: "/assets/img/services/icon/ca-sv-icon-3.png",
+    title: `API Integration with Angular 
+`,
+    des: `Maximize the connectivity of your applications through the seamless integration of APIs. Backed by extensive expertise in designing and implementing RESTful solutions, our team enables your Angular applications to connect effortlessly with external systems. This ensures increased flexibility, interoperability, and a robust flow of data within your technological ecosystem.
+`
+  },
+  {
+    id: 5,
+    img: "/assets/img/services/icon/ca-sv-icon-3.png",
+    title: `Ongoing Maintenance and Support 
+`,
+    des: `We believe that exceptional development includes comprehensive post-launch support. Our team provides continuous maintenance to ensure your Angular applications stay up-to-date, secure, and high-performing. With regular monitoring, updates, and prompt troubleshooting, we keep your technology running at its best while adapting to changing requirements.
+`
+  },
 ]
 
-const service_content ={
-    title: "Service",
-    main_title: "Our Services",
-    we_do: "What We Do",
-    btn_text: "More Services"
+const service_content = {
+  title: "Service",
+  main_title: "Our Services",
+  we_do: `Our Angular Development Services
+`,
+  btn_text: "More Services"
 }
 
 
-const {title, main_title , we_do, btn_text}  = service_content
+const { title, main_title, we_do, btn_text } = service_content
 
 const ServiceArea = () => {
   return (
@@ -91,6 +114,8 @@ const ServiceArea = () => {
               </div>
             ))}
           </div>
+          <p>Partner with us to bring innovation, efficiency, and reliability to your Angular development projects. Our commitment is to equip your business with tools that deliver real value, driving sustainable success. Contact us today to explore how we can support your next project.
+          </p>
         </div>
       </div>
     </>

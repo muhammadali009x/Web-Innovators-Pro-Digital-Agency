@@ -4,7 +4,7 @@ import HeaderThree from '@/src/layout/headers/header-3';
 import Link from 'next/link';
 import React from 'react';
 
-const WhyIsThereAStrangeGtmTagInTheCodeOfMyJoomlaSite = () => {
+const Index = () => {
     return (
         <>
             <HeaderThree />
@@ -20,7 +20,7 @@ const WhyIsThereAStrangeGtmTagInTheCodeOfMyJoomlaSite = () => {
                                     <article>
                                         <section>
                                             <h1>Why is My Joomla Article Locked and Can’t Be Edited?</h1>
-                                         </section>
+                                        </section>
                                         <section>
                                             <h2>What Does the Lock Icon Mean?</h2>
                                             <p>
@@ -124,4 +124,4 @@ const WhyIsThereAStrangeGtmTagInTheCodeOfMyJoomlaSite = () => {
     );
 };
 
-export default WhyIsThereAStrangeGtmTagInTheCodeOfMyJoomlaSite;
+export default Index;

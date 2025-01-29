@@ -6,9 +6,10 @@ const hero_content = {
     img_1: "/assets/img/hero/law-1.png",
     img_2: "/assets/img/hero/law-2.png",
     img_3: "/assets/img/hero/law-3.png",
-    title: <>niche Legal <br /> Advisory</>,
-    des: <>We’ve always known that for businesses large and small, IT will <br /> can be a real challenge to manage.</>,
-    btn_text: "786. 869. 350. 00"
+    title: `Your Laravel Agency `,
+    des: `Bring over 10 years of Laravel expertise to your next digital project! Whether you’re launching something brand new, improving an existing platform, or tackling a large-scale development challenge, our skilled Laravel team is here to help. We collaborate with businesses of all sizes to craft tailored solutions that meet your unique needs, ensuring every detail is thoughtfully implemented. With us, you’re not just getting a service—you’re gaining a dedicated partner in building exceptional digital experiences.
+`,
+    btn_text: "Get Start Your Project"
 }
 const {bg_img , img_1, img_2, img_3, title, des, btn_text}  = hero_content
 

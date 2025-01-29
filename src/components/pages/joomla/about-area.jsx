@@ -8,7 +8,8 @@ const about_content = {
     circle_img: "/assets/img/about/ca-cirlce-logo.png",
     about: "About",
     sub_title: "About Us",
-    title: "To Make Your Digital Experience Brighter.",
+    title: `Who Are We?
+`,
     des: <>Being employee-owned keeps us focused on the unique needs of our
     users, and we wouldn't have it any other way. Our many security features
     include Multi Factor Authentication, auto-enabled sFTP .</>,
@@ -55,7 +56,12 @@ const AboutArea = () => {
                                     <span className="tp-section__bigtitle">{about}</span>
                                     <span className="tp-section__subtitle shadow-none text-rgb mb-15 p-0">{sub_title}</span>
                                     <h2 className="tp-section__title mb-30">{title}</h2>
-                                    <p>{des}</p>
+                                    <p>We are a dedicated web agency based in the United States, specializing in building cutting-edge websites and web applications. Over the past 20 years, our team of 25 skilled professionals has worked with a diverse range of technologies, delivering tailored solutions that help businesses thrive online.
+                                    </p>
+                                    <p>Our deep connection with Joomla dates back to its early days. For some of our team members, Joomla was the very first content management system they worked with. Since 2006, we’ve embraced Joomla’s versatility and capabilities, leveraging it to create robust and feature-rich digital platforms for our clients.
+                                    </p>
+                                    <p>Whether it’s designing visually stunning websites or developing complex web applications, our approach is rooted in expertise, innovation, and collaboration. With a long history in the industry, we’re passionate about helping our clients achieve their digital goals.
+                                    </p>
                                 </div>
                             </div>
                             <div className="ca-about-info tp-border-bottom d-md-flex align-items-center pb-40 mb-50">

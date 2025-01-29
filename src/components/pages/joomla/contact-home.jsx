@@ -11,7 +11,7 @@ const contact_content = {
 
 const { title, phone, email, address, date } = contact_content;
 
-const ContactHomeSeven = ({style_from_pric}) => {
+const ContactHomeSeven = ({ style_from_pric }) => {
   return (
     <>
       <div className={`it-cta-area law-cta-area ${style_from_pric && "price-cta-form "} pt-120 pb-85 theme-bg-6`}>
@@ -28,6 +28,10 @@ const ContactHomeSeven = ({style_from_pric}) => {
                       >
                         {title}
                       </h2>
+                      <p>We’re here to help! Complete the form with your project details, and our team will get back to you within one business day. Need assistance right away? Feel free to give us a call or send us an email.
+                      </p>
+                      <p>Whether you’re building a new site, enhancing functionality, or tackling a specific challenge, we’re ready to provide expert guidance tailored to your needs. Get started today, and let's make your Joomla project a success!
+                      </p>
                     </div>
                   </div>
                 </div>

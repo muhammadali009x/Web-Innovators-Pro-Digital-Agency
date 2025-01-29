@@ -5,7 +5,7 @@ import Link from 'next/link';
 import React from 'react';
 
 
-const WhyIsThereAStrangeGtmTagInTheCodeOfMyJoomlaSite = () => {
+const Index = () => {
     return (
         <>
             <HeaderThree />
@@ -119,21 +119,17 @@ const WhyIsThereAStrangeGtmTagInTheCodeOfMyJoomlaSite = () => {
 
                                             <h3>3. User Testing</h3>
                                             <p>Invite people with diverse disabilities to test your platform. Their feedback is invaluable for understanding potential gaps in accessibility.</p>
-
                                             <h3>4. Code Validation</h3>
                                             <p>Run your code through validators like the W3C Markup Validation Service to ensure compliance with web standards.</p>
-
                                             <h3>5. Ongoing Updates</h3>
                                             <p>Accessibility isn’t a one-off task. Conduct regular checks during maintenance cycles to ensure ongoing compliance.</p>
                                             <p>Document the methods, tools, and results of your tests to refine strategies and demonstrate your commitment to accessibility.</p>
                                         </section>
-
                                         <section>
                                             <h2>Why Accessibility Matters to Us</h2>
                                             <p>Web accessibility is deeply personal to us. Our commitment started years ago when we partnered with a non-profit serving individuals with disabilities. That project opened our eyes to how technology can bridge gaps—or widen them if inclusivity is overlooked.</p>
                                             <p>We believe accessibility should be a guiding principle, not an afterthought. Creating web platforms that anyone can use reflects the values of fairness, inclusivity, and respect.</p>
                                         </section>
-
                                         <section>
                                             <h2>Resources to Learn More</h2>
                                             <p>For those eager to explore accessibility further, the following resources are invaluable starting points:</p>
@@ -144,17 +140,13 @@ const WhyIsThereAStrangeGtmTagInTheCodeOfMyJoomlaSite = () => {
                                                 <li><a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility" target="_blank" rel="noopener noreferrer">MDN Web Docs:</a> Accessibility best practices from Mozilla.</li>
                                             </ul>
                                         </section>
-
                                         <footer>
                                             <p>By making accessibility a priority in digital development, we create opportunities for everyone to engage, participate, and thrive. Whether you’re developing your first project or revising an existing platform, remember this simple truth—when we build inclusively, we build better.</p>
                                         </footer>
                                     </article>
-
                                 </div>
                             </div>
                         </div>
-
-
                     </div>
                 </div>
             </div>
@@ -163,4 +155,4 @@ const WhyIsThereAStrangeGtmTagInTheCodeOfMyJoomlaSite = () => {
     );
 };
 
-export default WhyIsThereAStrangeGtmTagInTheCodeOfMyJoomlaSite;
+export default Index;

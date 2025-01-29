@@ -44,7 +44,7 @@ const commet_data = [
 
 ]
 
-const WhyIsThereAStrangeGtmTagInTheCodeOfMyJoomlaSite = () => {
+const Index = () => {
     return (
         <>
             <HeaderThree />
@@ -341,4 +341,4 @@ const WhyIsThereAStrangeGtmTagInTheCodeOfMyJoomlaSite = () => {
     );
 };
 
-export default WhyIsThereAStrangeGtmTagInTheCodeOfMyJoomlaSite;
+export default Index;

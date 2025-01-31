@@ -24,8 +24,8 @@ const feature_data = [
     icon: "/assets/img/icons/app-fea-icon-3.png",
     title: `We’re knowledgeable 
 `,
-    des: `Frameworks, CMS platforms, tech stacks—you name it, we’ve got it covered. Whether it’s React, Angular, Vue.js, or Laravel, we have hands-on experience building with a variety of tools. We’re equally skilled with CMS platforms like WordPress, Drupal, Contao, and Joomla. Not sure what technology suits your project best? We’ll guide you through the options, breaking down the pros and cons, so you make informed decisions.
-`
+    des: <>Frameworks, CMS platforms, tech stacks—you name it, we’ve got it covered. Whether it’s  <Link href="/agency/react" className="text-decoration-underline text-black">React</Link>, <Link href="/agency/angular" className="text-decoration-underline text-black">Angular</Link>, <Link href="/agency/Vue-js" className="text-decoration-underline text-black">Vue.js</Link>, or <Link href="/agency/laravel" className="text-decoration-underline text-black">Laravel</Link>, we have hands-on experience building with a variety of tools. We’re equally skilled with CMS platforms like <Link href="/agency/wordpress" className="text-decoration-underline text-black">WordPress</Link>, <Link href="/agency/drupal" className="text-decoration-underline text-black">Drupal</Link>, <Link href="/agency/contao" className="text-decoration-underline text-black">Contao</Link>, and <Link href="/agency/joomla" className="text-decoration-underline text-black">Joomla</Link>. Not sure what technology suits your project best? We’ll guide you through the options, breaking down the pros and cons, so you make informed decisions.
+    </>
   },
   {
     id: 4,

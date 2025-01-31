@@ -6,7 +6,7 @@ const hero_content = {
     img_1: "/assets/img/hero/law-1.png",
     img_2: "/assets/img/hero/law-2.png",
     img_3: "/assets/img/hero/law-3.png",
-    title: <>niche Legal <br /> Advisory</>,
+    title: `Web Solutions & Services`,
     des: <>We’ve always known that for businesses large and small, IT will <br /> can be a real challenge to manage.</>,
     btn_text: "786. 869. 350. 00"
 }
@@ -40,7 +40,12 @@ const HeroAbout = () => {
                             <div className="law-hero__content">
                                 <h2 className="law-hero__content-title mb-20 wow tpfadeUp">{title}</h2>
                                 <p className="mb-50 wow tpfadeUp" data-wow-delay=".4s">
-                                    {des}
+                                With over 20 years of experience in web development, we provide comprehensive solutions tailored to meet your digital needs. From strategic planning and development to ongoing maintenance, our team ensures your projects are delivered with precision and care. 
+
+                                </p>
+                                <p className="mb-50 wow tpfadeUp" data-wow-delay=".4s">
+                                Whether you're launching a new website, developing a web application, or upgrading an existing platform, we bring expertise and dedication to every stage of the process. We're not just here to deliver a product—we're here to support the growth and success of your digital presence.
+
                                 </p>
                                 <a href={`tel:${btn_text}`} className="tp-red-btn tp-btn-hover alt-bg-white wow tpfadeUp" data-wow-delay=".5s">
                                     <span className="mr-10">

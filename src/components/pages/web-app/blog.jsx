@@ -13,10 +13,10 @@ return (
 <div className="tp-section text-center">
 <span className="tp-section__subtitle mb-15 shadow-none text-cornblue p-0 change-icon-size wow tpfadeUp" data-wow-delay=".3s">
 <i className="far fa-circle"></i>
-News
+OUR POPULAR
 <i className="far fa-circle"></i>
 </span>
-<h2 className="tp-section__title mb-75 text-mirage wow tpfadeUp" data-wow-delay=".5s">Blog & Insights</h2>
+<h2 className="tp-section__title mb-75 text-mirage wow tpfadeUp" data-wow-delay=".5s">Agency Insights</h2>
 </div>
 </div>
 </div>

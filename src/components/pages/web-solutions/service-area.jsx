@@ -7,27 +7,38 @@ const service_data = [
     {
         id: 1, 
         img: "/assets/img/services/icon/ca-sv-icon-1.png",
-        title: "Product Design",
-        des: <>Our typical customer doesn’t want to be distracted by IT Services.</>
-    },
+        title: `CMS Development 
+`,
+        des: `Navigating the complex world of content management systems (CMS) is one of our core strengths. Our expertise spans leading platforms such as Drupal, WordPress, Joomla, and Contao. Whether you're building a user-friendly blog or a robust, content-rich website, we strategically use the unique benefits of each platform to create personalized solutions. Each project is designed to resonate with your audience while aligning with your business goals, delivering an exceptional digital experience. 
+`   },
     {
         id: 2, 
         img: "/assets/img/services/icon/ca-sv-icon-2.png",
-        title: "IT & Cyber Security",
-        des: <>Our typical customer doesn’t want to be distracted by IT Services.</>
-    },
+        title: `Web App Development 
+`,
+        des: `Web applications are at the forefront of digital transformation, offering businesses a way to create immersive, user-focused digital experiences. Our process centers on building responsive, high-performance applications tailored to streamline your business operations. We prioritize user engagement by developing platforms that evolve alongside your clients' needs, ensuring your web app remains innovative and effective in a fast-changing digital landscape. 
+`},
     {
         id: 3, 
         img: "/assets/img/services/icon/ca-sv-icon-3.png",
-        title: "Server & Hosting",
-        des: <>Our typical customer doesn’t want to be distracted by IT Services.</>
-    },
+        title: `Frameworks & Libraries 
+`,
+        des: `We specialize in leveraging state-of-the-art frameworks and libraries to build solutions that are powerful, flexible, and user-focused. On the backend, we rely on the robust capabilities of Laravel and Symfony to ensure reliability and scalability. On the frontend, we use dynamic tools like React, Angular, and Vue.js to craft interactive, visually striking interfaces. Every solution is designed with care to ensure the technology serves your business objectives effectively while delivering a seamless user experience. 
+`},
+    {
+      id: 4, 
+      img: "/assets/img/services/icon/ca-sv-icon-3.png",
+      title: `Web Solutions & Services 
+`,
+      des: `A strong digital presence is about more than just aesthetics and functionality—it’s about ensuring inclusivity and data-driven success. We are committed to making your website accessible to everyone, providing a seamless experience for all visitors by adhering to web accessibility standards. Additionally, with our expertise in Matomo analytics, we equip you with actionable insights that drive informed decision-making and enhance the effectiveness of your digital strategies. 
+` },
 ]
 
 const service_content ={
     title: "Service",
     main_title: "Our Services",
-    we_do: "What We Do",
+    we_do: `Our Web Services 
+`,
     btn_text: "More Services"
 }
 
@@ -91,6 +102,8 @@ const ServiceArea = () => {
               </div>
             ))}
           </div>
+          <p>From development to analysis, we’re here to ensure your digital presence isn’t just functional, but impactful and inclusive.
+          </p>
         </div>
       </div>
     </>

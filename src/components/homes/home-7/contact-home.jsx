@@ -17,7 +17,7 @@ const { title, phone, email, address, date, des, des2 } = contact_content;
 const ContactHomeSeven = ({style_from_pric}) => {
   return (
     <>
-      <div className={`it-cta-area law-cta-area ${style_from_pric && "price-cta-form "} pt-120 pb-85 theme-bg-6`}>
+      <div id="contact-form-section" className={`it-cta-area law-cta-area ${style_from_pric && "price-cta-form "} pt-120 pb-85 theme-bg-6`}>
         <div className="container">
           <div className="row align-items-center">
             <div className="col-xl-6">

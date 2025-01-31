@@ -3,7 +3,8 @@ import React from 'react';
 
 const business_journey_content = {
     sub_title: "Schedule a 30 minute call",
-    title: <>Start your business journey better <br /> with</>,
+    title: `Are you searching for a digital agency that truly understands your needs? 
+`,
     img_1: "/assets/img/cta/ca-avata.png",
     img_2: "/assets/img/cta/cta-avata-2.png",
 }
@@ -25,14 +26,14 @@ const BusinessJourney = ({style_service}) => {
                             <div className="cd-intro">
                                 <h3
                                     className="bs-cta-section__title ca-cta-section-title cd-headline loading-bar mb-55 ca-cta-title wow tpfadeUp">
-                                    <span>{title}</span>
-                                    <span className="cd-words-wrapper bs-cta-wrapper ca-cta-wrapper">
-                                        <b className="is-hidden"> Gencio</b>
-                                        {/* <b className="is-hidden">Branding</b>
-                                        <b className="is-visible">Markting</b> */}
-                                    </span>
-                                    <span> Consulting</span>
+                                    <span>{title}</span> 
                                 </h3>
+                                <p style={{color: 'white'}}>Our team specializes in creating tailored digital solutions designed to help your business succeed. Whether you need a beautifully designed website, an expertly run marketing campaign, or guidance on building your online presence, we’ve got you covered. 
+                                </p>
+                                <p style={{color: 'white'}}>With a focus on clarity, innovation, and accessibility, we make it easy to communicate your vision and connect with your audience. When you work with us, you’re not just hiring an agency—you’re partnering with a team committed to helping your brand thrive. 
+                                </p>
+                                <p style={{color: 'white'}}>Explore our services today and discover how we can support your digital growth.
+                                </p>
                             </div>
                         </div>
                     </div>

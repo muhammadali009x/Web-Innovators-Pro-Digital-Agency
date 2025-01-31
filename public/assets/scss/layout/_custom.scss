@@ -2,12 +2,16 @@
 h1 {
     font-size: 80px;
 }
-
+.ca-about-circle img {
+    width: 200px;
+}
 
 .checked {
     color: orange;
 }
-
+.text-black {
+    color: black;
+}
 .bg-hero {
     padding-bottom: 80px;
     padding-top: 80px;
@@ -54,4 +58,11 @@ h1 {
 
 .bs-footer__top-logo img {
     width: 75%;
+}
+
+.swiper-wrapper {
+    align-items: center;
+}
+.ab-brand-overlay .tp-app-brand-item{
+    opacity: 1 !important;
 }

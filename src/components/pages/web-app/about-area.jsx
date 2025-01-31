@@ -5,7 +5,7 @@ import Tilt from "react-parallax-tilt";
 
 const about_content = {
     about_img: "/assets/img/about/ca-about.jpg",
-    circle_img: "/assets/img/about/ca-cirlce-logo.png",
+    circle_img: "/assets/img/about/favicon.webp",
     about: "About",
     sub_title: "About Us",
     title: "Who Are We?",

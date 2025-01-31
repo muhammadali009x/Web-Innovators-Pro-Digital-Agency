@@ -95,12 +95,12 @@ const ServiceArea = () => {
                       <img src={item.img} alt="" />
                     </div>
                     <h3 className="ca-service__item-title mb-20">
-                      <a href="#">{item.title}</a>
+                      {item.title} 
                     </h3>
                     <p className="mb-30">{item.des}</p>
-                    <a href="#" className="read-btn">
+                    {/* <a href="#" className="read-btn">
                       Read More <i className="fal fa-long-arrow-right"></i>
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>

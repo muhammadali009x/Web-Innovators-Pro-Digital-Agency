@@ -58,15 +58,15 @@ const WordPress = () => {
       <Brand />
       <AboutArea />
       <ServiceArea />
-      <ProjectsArea /> 
+      <ProjectsArea />
       <PromotionArea />
       <FeatureArea />
       <Service />
       <BusinessJourney />
       <Blog />
-     
-    
-     
+
+
+
       <ContactHomeSeven />
       <AppFaqArea />
       <ServiceArea2 />

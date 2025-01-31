@@ -5,51 +5,35 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const brands_data = [
   {
     id: 1,
-    img: "/assets/img/brand/white-brand-1.png",
+    img: "/assets/img/brand/GartnerLogo.svg.webp",
   },
   {
     id: 2,
-    img: "/assets/img/brand/white-brand-2.png",
+    img: "/assets/img/brand/clutchLogo.webp",
   },
   {
     id: 3,
-    img: "/assets/img/brand/white-brand-3.png",
+    img: "/assets/img/brand/ToptalLogo.webp",
   },
   {
     id: 4,
-    img: "/assets/img/brand/white-brand-4.png",
+    img: "/assets/img/brand/DesignRushLogo.webp",
   },
   {
     id: 5,
-    img: "/assets/img/brand/white-brand-5.png",
+    img: "/assets/img/brand/SortListLogo.webp",
   },
   {
     id: 6,
-    img: "/assets/img/brand/white-brand-5.png",
+    img: "/assets/img/brand/TheMinifistLogo.webp",
   },
   {
     id: 7,
-    img: "/assets/img/brand/white-brand-1.png",
+    img: "/assets/img/brand/UpCityLogo.webp",
   },
   {
     id: 8,
-    img: "/assets/img/brand/white-brand-2.png",
-  },
-  {
-    id: 9,
-    img: "/assets/img/brand/white-brand-3.png",
-  },
-  {
-    id: 10,
-    img: "/assets/img/brand/white-brand-4.png",
-  },
-  {
-    id: 11,
-    img: "/assets/img/brand/white-brand-5.png",
-  },
-  {
-    id: 12,
-    img: "/assets/img/brand/white-brand-5.png",
+    img: "/assets/img/brand/GoodFirmsLogo.webp",
   },
 ];
 
@@ -86,13 +70,13 @@ const Brand = () => {
 
   return (
     <>
-      <div className="tp-app-brand pt-120 pb-120 black-bg">
+      <div className="tp-app-brand pt-120 pb-120 ">
         <div className="container">
           <div className="row">
             <div className="col-12">
               <div className="app-breand-title text-center mb-60">
-                <span className="text-white">
-                  The best teams around the world can back us.
+                <span className="text-black fs-9">
+                Top-Rated Agency for Leading Brands
                 </span>
               </div>
               <div className="tp-bs-brand-slider ">

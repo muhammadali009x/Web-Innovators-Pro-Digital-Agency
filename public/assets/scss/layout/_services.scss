@@ -478,7 +478,7 @@
 }
 
 .ca-service__item {
-    padding: 40px 60px;
+    padding: 18px 15px;
     border: 1px solid transparent;
     @include transition(.3s);
 
@@ -829,6 +829,7 @@
     padding: 40px;
     @include transition(.3s);
     position: relative;
+
     &__icon {
         margin-bottom: 10px;
         font-size: 50px;
@@ -839,14 +840,17 @@
 
     &__title {
         font-size: 20px;
-        &:hover{
+
+        &:hover {
             color: var(--tp-theme-redical);
         }
     }
-    &:hover{
+
+    &:hover {
         border-color: var(--tp-theme-redical);
     }
-    & .counter-number{
+
+    & .counter-number {
         position: absolute;
         top: 20px;
         right: 20px;

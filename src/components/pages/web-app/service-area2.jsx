@@ -13,41 +13,41 @@ const service_data = [
     // service data home 2
     {
         id: 1,
-        link: "/service-3",
+        link: "/agency/laravel",
         img: "/assets/img/services/icon/it-service-1.png",
-        title: "Laravel Development Services",
+        title: "Laravel Agency",
         des: `Custom web applications built for scalability and seamless performance.
 `
     },
     {
         id: 2,
-        link: "/service-3",
+        link: "/agency/symfony",
         img: "/assets/img/services/icon/it-service-2.png",
-        title: `Symfony Expertise`,
+        title: `Symfony Agency`,
         des: `Elegant and robust solutions designed to tackle complex business challenges.
 `
     }, 
     {
         id: 2,
-        link: "/service-3",
+        link: "/agency/react",
         img: "/assets/img/services/icon/it-service-2.png",
-        title: `React Capabilities`,
+        title: `React Agency`,
         des: `Modern, dynamic user interfaces that drive engagement and enhance usability.
 `
     }, 
     {
         id: 2,
-        link: "/service-3",
+        link: "/agency/angular",
         img: "/assets/img/services/icon/it-service-2.png",
-        title: `Angular Mastery`,
+        title: `Angular Agency`,
         des: `Build fast, scalable, and feature-rich applications with precision.
 `
     }, 
     {
         id: 2,
-        link: "/service-3",
+        link: "/agency/vue-js",
         img: "/assets/img/services/icon/it-service-2.png",
-        title: `Vue.js Innovations`,
+        title: `Vue.js Agency`,
         des: `Simple, yet flexible frameworks for efficient, high-performing solutions.
 `
     }, 
@@ -79,9 +79,9 @@ const ServiceArea = () => {
                                 <div className="seo-service-item__thumb mb-35">
                                     <img src={item.img} alt="theme-pure" />
                                 </div>
-                                <h3 className="seo-service-item__title mb-20"><a href="#">{item.title}</a></h3>
-                                <p className="mb-45">{item.des}</p>
-                                <a href="#" className="seo-service-btn">Details <i className="fal fa-long-arrow-right"></i></a>
+                                <h3 className="seo-service-item__title mb-20"><a href={item.link}>{item.title}</a></h3>
+                                {/* <p className="mb-45">{item.des}</p> */}
+                                {/* <a href={item.link} className="seo-service-btn">Details <i className="fal fa-long-arrow-right"></i></a> */}
                             </div>
                         </div>
                             

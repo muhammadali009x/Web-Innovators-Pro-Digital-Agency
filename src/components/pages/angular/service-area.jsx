@@ -6,7 +6,7 @@ import React from "react";
 const service_data = [
   {
     id: 1,
-    img: "/assets/img/services/icon/ca-sv-icon-1.png",
+    img: "/assets/img/services/icon/custom_angular_applications.jpg",
     title: `Custom Angular Applications 
 `,
     des: `Leverage the expertise of our adept developers to create custom web applications tailored precisely to your business requirements. By utilizing Angular’s robust framework, we craft solutions that embody performance, scalability, and adaptability, ensuring your business is equipped with cutting-edge technology. Each application is designed to deliver results while aligning seamlessly with your objectives. 

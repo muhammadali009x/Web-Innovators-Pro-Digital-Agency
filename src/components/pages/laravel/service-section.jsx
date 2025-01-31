@@ -6,7 +6,7 @@ const service_data = [
   {
     id: 1,
     link: "/service-3",
-    img: "/assets/img/services/icon/it-service-1.png",
+    img: "/assets/img/services/icon/versatile_database_handling.jpg",
     title: `Versatile Database Handling `,
     des: `Laravel’s Eloquent ORM (Object-Relational Mapping) is a powerhouse for database management. It's efficient, intuitive, and versatile, allowing developers to easily manage complex database queries. Whether your project requires simple tables or intricate multi-relational datasets, Eloquent streamlines operations, providing flexibility for a range of project requirements. This versatility enables developers to craft more tailored and functional applications that meet precise business goals.
 `
@@ -14,7 +14,7 @@ const service_data = [
   {
     id: 2,
     link: "/service-3",
-    img: "/assets/img/services/icon/it-service-2.png",
+    img: "/assets/img/services/icon/built_in_tools_that_supercharge_development.jpg",
     title: `Built-In Tools that Supercharge Development 
 `,
     des: `Time is money, and Laravel understands that! Its built-in tools, particularly the Artisan CLI (Command Line Interface), are designed to make developers' lives easier. From automating repetitive tasks to troubleshooting with precision, Artisan helps streamline workflows, ensuring projects move from concept to completion faster. For startups rushing to market or companies looking to maintain rapid iterations, this is a game-changer.
@@ -23,7 +23,7 @@ const service_data = [
   {
     id: 3,
     link: "/service-3",
-    img: "/assets/img/services/icon/it-service-3.png",
+    img: "/assets/img/services/icon/a_clear_structure_via_mvc_architecture.jpg",
     title: `A Clear Structure via MVC Architecture`,
     des: `Laravel takes a structured approach with its MVC (Model-View-Controller) architecture. This framework ensures clean, organized, and maintainable code. For businesses, this translates into apps that don’t just work well now but are also easy to upgrade and expand as business needs evolve. No more messy codebases—Laravel sets your project up for long-term success.
 `
@@ -37,7 +37,7 @@ const service_data2 = [
   {
     id: 1,
     link: "/service-3",
-    img: "/assets/img/services/icon/it-service-1.png",
+    img: "/assets/img/services/icon/high_performance_applications (1).jpg",
     title: `High-Performance Applications`,
     des: `While Laravel performs admirably across a variety of use cases, it’s not the lightest framework out there. For applications that require lightning-fast speed and handle exceptionally high traffic, more lightweight PHP frameworks may offer a slight edge. If your project is all about ultra-low latency and high scalability, it’s worth considering options that specialize in such performance.
 `
@@ -45,7 +45,7 @@ const service_data2 = [
   {
     id: 2,
     link: "/service-3",
-    img: "/assets/img/services/icon/it-service-2.png",
+    img: "/assets/img/services/icon/flexibility_in_visual_design.jpg",
     title: `Flexibility in Visual Design `,
     des: `Laravel sticks to its core strength of functionality, which means it doesn't come with native support for themes. Design-heavy projects that rely on diverse, visually striking templates might require additional packages or custom-coded solutions to achieve unique looks. While achievable, this can add extra development effort and timelines.
 `

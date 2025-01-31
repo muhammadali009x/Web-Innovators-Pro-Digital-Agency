@@ -6,33 +6,33 @@ import React from "react";
 const service_data = [
   {
     id: 1,
-    img: "/assets/img/services/icon/ca-sv-icon-1.png",
+    img: "/assets/img/services/icon/custom_web_applications_icon (1).jpg",
     title: "Custom Web Applications",
     des: `Tired of one-size-fits-all solutions? Our custom web applications are built uniquely for you. Our team of skilled developers takes pride in crafting apps that align perfectly with your business needs. Whether you're looking for robust functionality, a user-friendly interface, or a platform that caters to the specific demands of your industry, we've got you covered. Your vision, combined with our expertise, results in web applications that truly work for your business.
 `
   },
   {
     id: 2,
-    img: "/assets/img/services/icon/ca-sv-icon-2.png",
+    img: "/assets/img/services/icon/icon_for_robust_enterprise_solutions.jpg",
     title: "Robust Enterprise Solutions",
     des: `Big business? Small business? Somewhere in between? No matter your size, we deliver enterprise-grade solutions tailored to your organization’s needs. Integration doesn’t have to be a headache—we design systems to seamlessly blend into your existing infrastructure. And because every business evolves, our solutions are scalable, ensuring they grow and adapt alongside you. Empower your business to handle today’s challenges and tomorrow’s opportunities.`
   },
   {
     id: 3,
-    img: "/assets/img/services/icon/ca-sv-icon-3.png",
+    img: "/assets/img/services/icon/icon_for_dynamic_user_interface_design (1).jpg",
     title: "Dynamic User Interface Design",
     des: `A first impression is everything, and your web app’s user interface can make or break it. Our design team understands the importance of keeping users engaged from the moment they arrive. We develop dynamic, visually striking, yet intuitive interfaces that make navigating your app enjoyable. Whether you're captivating new users or inviting returning ones back for more, we make sure your UI keeps them involved and satisfied every step of the way.`
   },
   {
     id: 4,
-    img: "/assets/img/services/icon/ca-sv-icon-3.png",
+    img: "/assets/img/services/icon/icon_for_seamless_api_integrations.jpg",
     title: "Seamless API Integrations",
     des: `Today’s digital landscape demands connectivity, not limits. We make sure your web apps are ready to interact efficiently with external services by providing seamless API integrations. From payment processing to third-party data services, we ensure functionality is enhanced across the board. With a proven track record of working with diverse APIs, our team ensures your digital tools are as versatile as you need them to be.
 `
   },
   {
     id: 5,
-    img: "/assets/img/services/icon/ca-sv-icon-3.png",
+    img: "/assets/img/services/icon/icon_for_continuous_maintenance_and_support (1).jpg",
     title: "Continuous Maintenance and Support",
     des: `Building your web app is just the beginning. Our commitment to your success extends far beyond launch day. We offer comprehensive maintenance and support services to ensure your app remains secure, fast, and up to date. From implementing new features to optimizing performance, our team works hard to ensure your app consistently delivers its best. Rest easy knowing there's a partner ready to support your long-term goals. `
   },

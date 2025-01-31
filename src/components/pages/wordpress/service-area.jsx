@@ -6,14 +6,14 @@ import React from "react";
 const service_data = [
     {
         id: 1, 
-        img: "/assets/img/services/icon/ca-sv-icon-1.png",
+        img: "/assets/img/services/icon/icon_for_development_for_new_and_existing.jpg",
         title: "Development for New and Existing WordPress Sites ",
         des: `Whether you're launching a brand-new WordPress site or need improvements for your existing one, we've got you covered. Our team specializes in creating robust, scalable, and user-friendly WordPress solutions. From initial setup to advanced customizations, we provide guidance and support for all your development needs. Whether you're managing a small blog or a large-scale business website, we ensure your site performs at its best.
 `
     },
     {
         id: 2, 
-        img: "/assets/img/services/icon/ca-sv-icon-2.png",
+        img: "/assets/img/services/icon/icon_for_woocommerce_website_and_plugin_development.jpg",
         title: `WooCommerce Website and Plugin Development 
 `,
         des: `Looking to enhance your eCommerce presence? We offer customized WooCommerce development services to help you build or optimize your online store. Already running a WooCommerce site? We can improve functionality, optimize performance, or extend features with custom plugin development. If you're just starting, we can guide you through setting up your store for success, ensuring seamless integration and a smooth user experience.
@@ -21,14 +21,14 @@ const service_data = [
     },
     {
         id: 3, 
-        img: "/assets/img/services/icon/ca-sv-icon-3.png",
+        img: "/assets/img/services/icon/icon_for_wordpress_support_maintenance_and_repair.jpg",
         title: `WordPress Support, Maintenance, and Repair `,
         des: `Keeping your WordPress website secure and high-performing is critical. We provide comprehensive maintenance services, including regular backups, performance optimization, and installing the latest updates. If your site is facing issues—whether from hacks, errors, or crashes—we specialize in recovery and repair to get your website back online quickly and efficiently.`
     },
 
     {
       id: 4, 
-      img: "/assets/img/services/icon/ca-sv-icon-3.png",
+      img: "/assets/img/services/icon/icon_for_expertise_in_other_cms_and.jpg",
       title: `Expertise in Other CMS and Web Technologies 
  `,
       des: `WordPress isn’t your only option. Our expertise extends to other popular CMS platforms such as Drupal, Joomla, and Contao, among others. Whether you need help selecting a system that suits your needs or migrating your website to a new platform, our team ensures a smooth transition and optimal results. We’re here to guide you to the right solution for your business goals.

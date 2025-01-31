@@ -6,7 +6,7 @@ import React from "react";
 const service_data = [
   {
     id: 1,
-    img: "/assets/img/services/icon/ca-sv-icon-1.png",
+    img: "/assets/img/services/icon/icon_for_custom_web_applications.jpg",
     title: `Custom Web Applications 
 `,
     des: `Looking for a web application that does more than just tick boxes? Our developers specialize in creating custom Laravel software, designed to fit your unique requirements like a glove. From intuitive user interfaces to powerhouse backend functionality, we tailor every line of code to bring your vision to life. 
@@ -14,7 +14,7 @@ const service_data = [
   },
   {
     id: 2,
-    img: "/assets/img/services/icon/ca-sv-icon-2.png",
+    img: "/assets/img/services/icon/icon_for_enterprise_level_solutions.jpg",
     title: `Enterprise-Level Solutions 
 `,
     des: `Big business? Big ambitions? We've got you covered. Our Laravel enterprise solutions are built to help large corporates scale seamlessly, handling complex operations with ease. We design software that integrates effortlessly with your existing systems, offering tools to streamline your workflow and propel your business forward. 
@@ -22,7 +22,7 @@ const service_data = [
   },
   {
     id: 3,
-    img: "/assets/img/services/icon/ca-sv-icon-3.png",
+    img: "/assets/img/services/icon/icon_for_custom_package_development.jpg",
     title: `Custom Package Development 
 `,
     des: `Harness the power of Laravel's extensibility. Our team excels in designing and building custom Laravel packages, optimized to enhance the core framework’s functionality. The result? Flexible, scalable applications that grow with you and adapt to your evolving business needs. 
@@ -30,7 +30,7 @@ const service_data = [
   },
   {
     id: 4,
-    img: "/assets/img/services/icon/ca-sv-icon-3.png",
+    img: "/assets/img/services/icon/icon_for_seamless_api_integration.jpg",
     title: `Seamless API Integration 
 `,
     des: `Connectivity is key in today’s interconnected world—and we make it happen. With deep expertise in APIs and Laravel API generator packages, our team develops RESTful solutions that enhance your application’s functionality. The outcome? Fully connected software that performs seamlessly across platforms. 
@@ -38,7 +38,7 @@ const service_data = [
   },
   {
     id: 5,
-    img: "/assets/img/services/icon/ca-sv-icon-3.png",
+    img: "/assets/img/services/icon/icon_for_ongoing_maintenance_and_support.jpg",
     title: `Ongoing Maintenance and Support 
 `,
     des: `Building your Laravel application is just the beginning. We offer continuous support and maintenance to ensure your software stays updated, secure, and performing at its absolute best. Think of us as your co-pilots, ensuring smooth sailing for the long haul. 

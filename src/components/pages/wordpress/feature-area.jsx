@@ -5,28 +5,28 @@ import React from "react";
 const feature_data = [
     {
         id: 1,
-        icon: "/assets/img/icons/app-fea-icon-1.png",
+        icon: "/assets/img/icons/extensive_plugin_library.jpg",
         title: `Extensive Plugin Library`,
         des: ` The sheer number of plugins available enables users to achieve a wide variety of functionalities quickly and efficiently, making WordPress a highly flexible and customizable platform.
 `
     },
     {
         id: 2,
-        icon: "/assets/img/icons/app-fea-icon-2.png",
+        icon: "/assets/img/icons/ecommerce_compatibility.jpg",
         title: `Ecommerce Compatibility `,
         des: ` Thanks to WooCommerce, WordPress has established itself as a strong contender for ecommerce projects, providing a seamless and cost-effective solution for businesses of all sizes to sell online.
 `
     },
     {
         id: 3,
-        icon: "/assets/img/icons/app-fea-icon-3.png",
+        icon: "/assets/img/icons/intuitive_content_editing.jpg",
         title: `Intuitive Content Editing`,
         des: ` The Gutenberg editor offers a fast, user-friendly experience, allowing content creators to build and edit pages with ease, even without technical expertise.
 `
     },
     {
         id: 4,
-        icon: "/assets/img/icons/app-fea-icon-4.png",
+        icon: "/assets/img/icons/icon_for_community_support.jpg",
         title: `Community Support 
 `,
         des: ` One of WordPress's greatest assets is its robust community. Developers, designers, and users worldwide contribute to its continuous improvement, offering guidance, tools, and solutions to common challenges.

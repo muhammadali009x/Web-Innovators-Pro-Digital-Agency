@@ -6,7 +6,7 @@ const service_data = [
   {
     id: 1,
     link: "/service-3",
-    img: "/assets/img/services/icon/it-service-1.png",
+    img: "/assets/img/services/icon/icon_for_platform_independence.jpg",
     title: `Platform Independence 
 `,
     des: `Imagine a solution that works everywhere—this is the beauty of web applications. Since they run directly in browsers, they can be accessed from any device with an internet connection, from desktops to smartphones. No downloads? No problem! Your users can access your products or services seamlessly, anytime, anywhere.
@@ -14,7 +14,7 @@ const service_data = [
   {
     id: 2,
     link: "/service-3",
-    img: "/assets/img/services/icon/it-service-2.png",
+    img: "/assets/img/services/icon/icon_for_cost_effective_maintenance.jpg",
     title: `Cost-Effective Maintenance 
 `,
     des: `Updates couldn’t be easier. With web applications, all updates are managed on the server-side. Instead of asking users to download and install new versions, they’ll instantly get the latest features and fixes without lifting a finger. For businesses, this means streamlined maintenance and fewer disruptions—plus happier users.
@@ -22,7 +22,7 @@ const service_data = [
   {
     id: 3,
     link: "/service-3",
-    img: "/assets/img/services/icon/it-service-3.png",
+    img: "/assets/img/services/icon/icon_for_built_to_grow.jpg",
     title: `Built to Grow 
 `,
     des: `Growth is good—but only if your tech can keep up. Web apps are designed with scalability in mind. Whether your user base gradually increases or your business sees explosive growth, these apps adapt with ease, maintaining top-notch performance and user experience no matter the demand.
@@ -33,7 +33,7 @@ const service_data = [
     id: 4,
     icon: "flaticon-diaphragm",
     link: "#",
-    img: "/assets/img/services/icon/it-service-3.png",
+    img: "/assets/img/services/icon/flytographer.jpg",
     title: "Flytographer",
     des: <>Photographer is someone who takes photographs.</>
   },
@@ -44,7 +44,7 @@ const service_data2 = [
   {
     id: 1,
     link: "/service-3",
-    img: "/assets/img/services/icon/it-service-1.png",
+    img: "/assets/img/services/icon/icon_for_performance_limitations.jpg",
     title: `Performance Limitations 
  
 `,
@@ -53,7 +53,7 @@ const service_data2 = [
   {
     id: 2,
     link: "/service-3",
-    img: "/assets/img/services/icon/it-service-2.png",
+    img: "/assets/img/services/icon/icon_for_dependence_on_internet_connectivity.jpg",
     title: `Dependence on Internet Connectivity 
 `,
     des: `Web applications typically require a stable internet connection to function. If you’re creating software for users in areas with spotty connectivity—or if offline access is a must for your functionality—this could be a dealbreaker. Evaluating your audience’s needs is essential here.
@@ -61,7 +61,7 @@ const service_data2 = [
   {
     id: 3,
     link: "/service-3",
-    img: "/assets/img/services/icon/it-service-3.png",
+    img: "/assets/img/services/icon/icon_for_security_risks.jpg",
     title: `Security Risks 
 `,
     des: `Anything accessible online is inherently more exposed. Web apps are vulnerable to a wider range of external threats compared to native solutions. While robust security tools and practices can minimize these risks, it’s vital to consider this carefully, especially if your application will handle sensitive data.

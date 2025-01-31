@@ -7,7 +7,7 @@ const service_data = [
   {
     id: 1,
     link: "/service-3",
-    img: "/assets/img/services/icon/it-service-1.png",
+    img: "/assets/img/services/icon/plugin_dependency_risks.jpg",
     title: `Plugin Dependency Risks 
 `,
     des: ` Over-reliance on plugins can affect site performance, lead to compatibility challenges, and increase security risks. Regular updates and monitoring are essential to mitigate these issues.
@@ -16,7 +16,7 @@ const service_data = [
   {
     id: 2,
     link: "/service-3",
-    img: "/assets/img/services/icon/it-service-2.png",
+    img: "/assets/img/services/icon/icon_for_handling_complex_projects (1).jpg",
     title: `Handling Complex Projects 
 `,
     des: ` For highly complex or enterprise-level sites requiring extensive customization and strict structure, other content management systems may provide better options tailored for scalability and reliability.
@@ -25,7 +25,7 @@ const service_data = [
   {
     id: 3,
     link: "/service-3",
-    img: "/assets/img/services/icon/it-service-3.png",
+    img: "/assets/img/services/icon/icon_for_security_concerns.jpg",
     title: `Security Concerns 
 `,
     des: ` WordPress’s widespread popularity unfortunately makes it a frequent target for hackers. Implementing security best practices, such as regular updates and backups, is crucial for site protection.

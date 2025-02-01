@@ -6,14 +6,14 @@ import React from "react";
 const service_data = [
   {
     id: 1,
-    img: "/assets/img/services/icon/ca-sv-icon-1.png",
+    img: "/assets/img/services/icon/icon_for_drupal_development.jpg",
     title: "Drupal Development ",
     des: `Whether you need a company website, a publishing platform, or a community site, our team specializes in delivering customized solutions built on Drupal. With years of experience, we’ll transform your unique requirements into a high-performing, user-friendly digital platform tailored to your needs.
 `
   },
   {
     id: 2,
-    img: "/assets/img/services/icon/ca-sv-icon-2.png",
+    img: "/assets/img/services/icon/icon_for_concept_design.jpg",
     title: `Concept & Design 
 `,
     des: `We take your ideas and bring them to life with comprehensive concepts and modern design. From visually appealing layouts to user-focused functionality, we create bespoke designs that meet even the most complex challenges. Our goal is to align every element with your vision and business objectives, ensuring a seamless and engaging experience for your audience.
@@ -21,7 +21,7 @@ const service_data = [
   },
   {
     id: 3,
-    img: "/assets/img/services/icon/ca-sv-icon-3.png",
+    img: "/assets/img/services/icon/icon_for_cms_selection_migration (1).jpg",
     title: `CMS Selection & Migration 
 `,
     des: `Not sure which CMS is the best fit for your project? We provide expert guidance to evaluate your options and help select the perfect solution. Whether you're moving to or from Drupal, we ensure a smooth migration process. Our experience with systems like WordPress, Joomla, Contao, and other frameworks allows us to approach any project with flexibility and precision.
@@ -29,7 +29,7 @@ const service_data = [
   },
   {
     id: 4,
-    img: "/assets/img/services/icon/ca-sv-icon-3.png",
+    img: "/assets/img/services/icon/icon_for_support_maintenance.jpg",
     title: `Support & Maintenance 
 `,
     des: `Ensure your website runs smoothly with our ongoing support and maintenance services. Whether you need to recover a hacked site, upgrade an outdated version of Drupal, or ensure your platform stays secure and optimized, we’ve got you covered. Our dedicated monthly service plans are designed to give you peace of mind while keeping your site future-ready.

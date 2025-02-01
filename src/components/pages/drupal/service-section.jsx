@@ -6,7 +6,7 @@ const service_data = [
   {
     id: 1,
     link: "/service-3",
-    img: "/assets/img/services/icon/it-service-1.png",
+    img: "/assets/img/services/icon/icon_for_efficient_content_management.jpg",
     title: `Efficient Content Management
 `,
     des: `Drupal’s core system is designed to handle complex content management tasks seamlessly. With tools to create, organize, and display a wide variety of content types, Drupal excels in crafting highly structured, dynamic websites. One of its standout features is its taxonomy system, which supports complex content architectures. This makes it ideal for projects that demand advanced organization and improved content searchability.
@@ -15,7 +15,7 @@ const service_data = [
   {
     id: 2,
     link: "/service-3",
-    img: "/assets/img/services/icon/it-service-2.png",
+    img: "/assets/img/services/icon/icon_for_advanced_user_roles_and_permissions.jpg",
     title: `Advanced User Roles and Permissions
 `,
     des: `When it comes to managing user access, Drupal is a top contender. It offers extremely granular control over roles and permissions, allowing administrators to tailor access levels for different user groups. Whether you’re managing a large editorial team or a site with distinct user access requirements, Drupal provides the flexibility and security you need.
@@ -24,7 +24,7 @@ const service_data = [
   {
     id: 3,
     link: "/service-3",
-    img: "/assets/img/services/icon/it-service-3.png",
+    img: "/assets/img/services/icon/dedicated_developer_community.jpg",
     title: `Dedicated Developer Community
 `,
     des: `While Drupal’s community may not match the size of WordPress’s, it is known for being highly engaged and committed to improving the platform. This dedication results in regular updates, security enhancements, and a wide array of modules (Drupal’s term for plugins) to extend functionality. No matter your project, you’ll likely find a module—or developer support—tailored to your needs.

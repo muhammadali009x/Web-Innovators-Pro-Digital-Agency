@@ -14,7 +14,7 @@ const service_data = [
   },
   {
     id: 2,
-    img: "/assets/img/services/icon/ca-sv-icon-2.png",
+    img: "/assets/img/services/icon/scalable_enterprise_solutions.jpg",
     title: `Scalable Enterprise Solutions 
 `,
     des: `Empower your organization to scale effortlessly with our Angular-based enterprise solutions. Catering specifically to the needs of large corporations, our solutions are engineered to integrate smoothly with your existing systems while optimizing efficiency. Whether expanding capabilities or streamlining operations, our team ensures every solution supports your organization's growth ambitions.
@@ -22,7 +22,7 @@ const service_data = [
   },
   {
     id: 3,
-    img: "/assets/img/services/icon/ca-sv-icon-3.png",
+    img: "/assets/img/services/icon/component_design_and_development.jpg",
     title: `Component Design and Development 
 `,
     des: `Unlock the true potential of Angular’s component-based architecture with our custom-designed components. These tailored pieces, created by our expert developers, enhance the functionality and performance of your applications. Our focus on seamless integration and user-centric design ensures a highly intuitive experience for your users, meeting both aesthetic and functional standards.
@@ -30,7 +30,7 @@ const service_data = [
   },
   {
     id: 4,
-    img: "/assets/img/services/icon/ca-sv-icon-3.png",
+    img: "/assets/img/services/icon/api_integration_with_angular.jpg",
     title: `API Integration with Angular 
 `,
     des: `Maximize the connectivity of your applications through the seamless integration of APIs. Backed by extensive expertise in designing and implementing RESTful solutions, our team enables your Angular applications to connect effortlessly with external systems. This ensures increased flexibility, interoperability, and a robust flow of data within your technological ecosystem.
@@ -38,7 +38,7 @@ const service_data = [
   },
   {
     id: 5,
-    img: "/assets/img/services/icon/ca-sv-icon-3.png",
+    img: "/assets/img/services/icon/ongoing_maintenance_and_support.jpg",
     title: `Ongoing Maintenance and Support 
 `,
     des: `We believe that exceptional development includes comprehensive post-launch support. Our team provides continuous maintenance to ensure your Angular applications stay up-to-date, secure, and high-performing. With regular monitoring, updates, and prompt troubleshooting, we keep your technology running at its best while adapting to changing requirements.

@@ -6,28 +6,28 @@ import React from "react";
 const service_data = [
     {
         id: 1, 
-        img: "/assets/img/services/icon/ca-sv-icon-1.png",
+        img: "/assets/img/services/icon/icon_for_development_for_new_existing.jpg",
         title: `Development for New & Existing Sites 
 `,
         des: `Whether you're starting from scratch or looking to enhance your current site, our Joomla development services have you covered. Our expert team specializes in planning and building new Joomla websites tailored to your specific needs. Additionally, we offer development and maintenance support for existing Joomla sites, ensuring consistent performance and functionality. No matter the scope of your project, we’re here to provide guidance and execute any development tasks with precision and expertise. 
 `   },
     {
         id: 2, 
-        img: "/assets/img/services/icon/ca-sv-icon-2.png",
+        img: "/assets/img/services/icon/icon_for_joomla_maintenance_recovery_support.jpg",
         title: `Joomla Maintenance, Recovery & Support 
 `,
         des:`Keep your site running smoothly with our comprehensive maintenance services. We offer regular backups, performance audits, and version updates to ensure your Joomla website remains reliable and secure. Facing issues like crashes or cyberattacks? We also specialize in recovering and repairing broken or hacked Joomla websites, helping you regain control and confidence in your digital presence. 
 ` },
     {
         id: 3, 
-        img: "/assets/img/services/icon/ca-sv-icon-3.png",
+        img: "/assets/img/services/icon/icon_for_version_updates_joomla_3_x.jpg",
         title: `Version Updates & Joomla 3.x Migration 
 `,
         des: `Stay ahead with the latest technology. Since 2021, our team has successfully assisted nearly 100 Joomla 3 site owners in migrating or rebuilding their websites with Joomla 4. For those considering a change, we’ve also helped clients transition to alternative CMS platforms. Whether you're upgrading or switching, we ensure a seamless process that aligns with your business goals. 
 `},
     {
       id: 4, 
-      img: "/assets/img/services/icon/ca-sv-icon-3.png",
+      img: "/assets/img/services/icon/icon_for_expertise_in_other_cms.jpg",
       title: `Expertise in Other CMS & Web Technologies 
 `,
       des: `Joomla is just one of the many tools in our repertoire. We also work extensively with WordPress, Drupal, Contao, and numerous other CMS solutions and frameworks. Not sure which platform suits your needs? We provide expert advice to help you make informed decisions and manage smooth migrations to a new CMS if required. Our team's experience means you’ll receive the right solution for your digital strategy. 

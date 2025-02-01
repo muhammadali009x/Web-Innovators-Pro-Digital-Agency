@@ -5,19 +5,19 @@ import React from "react";
 const feature_data = [
     {
         id: 1,
-        icon: "/assets/img/icons/app-fea-icon-1.png",
+        icon: "/assets/img/icons/a_perfect_balance_of_structure_and_flexibility.jpg",
         title: `A Perfect Balance of Structure and Flexibility`,
         des: `  Joomla combines structure and flexibility in a way that appeals to users who need a platform that can adapt to varied use cases while still maintaining easy organization.
 `   },
     {
         id: 2,
-        icon: "/assets/img/icons/app-fea-icon-2.png",
+        icon: "/assets/img/icons/icon_for_robust_core_multilingual_support.jpg",
         title: `Robust Core Multilingual Support`,
           des: `  Unlike some platforms that require third-party plugins for multilingual functionality, Joomla has this built right into its core. This feature provides seamless support for businesses and organizations targeting global audiences.
  ` },
     {
         id: 3,
-        icon: "/assets/img/icons/app-fea-icon-3.png",
+        icon: "/assets/img/icons/icon_for_flexible_menu_creation_and_management.jpg",
         title: `Flexible Menu Creation and Management 
 `,
         des: `  The menu management system in Joomla is highly versatile, offering advanced settings and options that allow users to create complex navigation structures without hassle.
@@ -27,19 +27,19 @@ const feature_data = [
 const feature_data2 = [
   {
       id: 1,
-      icon: "/assets/img/icons/app-fea-icon-1.png",
+      icon: "/assets/img/icons/limited_plugin_ecosystem.jpg",
       title: `Limited Plugin Ecosystem `,
       des: `    While Joomla has a solid range of extensions, its plugin support doesn’t quite match the breadth and innovation seen in platforms like WordPress. For those who rely heavily on plugins to expand functionality, this can be a sticking point.
 `   },
   {
       id: 2,
-      icon: "/assets/img/icons/app-fea-icon-2.png",
+      icon: "/assets/img/icons/icon_for_ecommerce_limitations.jpg",
       title: `Ecommerce Limitations `,
         des: `  Joomla isn't as strong in the ecommerce space. Competitors like WooCommerce (on WordPress) offer more tailored and robust ecommerce solutions, making them a better fit for online retailers.
 ` },
   {
       id: 3,
-      icon: "/assets/img/icons/app-fea-icon-3.png",
+      icon: "/assets/img/icons/icon_for_editor_interface_could_be_more.jpg",
       title: `Editor Interface Could Be More Intuitive`,
       des: `  The user experience (UX) in Joomla’s editor isn’t as seamless as it could be. Compared to other CMS options on the market, new users may find it takes more time to learn the ropes.
 ` }, 
@@ -48,19 +48,19 @@ const feature_data2 = [
 const feature_data3 = [
   {
       id: 1,
-      icon: "/assets/img/icons/app-fea-icon-1.png",
+      icon: "/assets/img/icons/icon_for_resolved_issues_with_joomla_4.jpg",
       title: `Resolved Issues with Joomla 4 `,
       des: `  Early challenges with Joomla 4 caused concerns shortly after its release. However, updates have resolved these issues, ensuring a smoother experience for users. 
 `   },
   {
       id: 2,
-      icon: "/assets/img/icons/app-fea-icon-2.png",
+      icon: "/assets/img/icons/icon_for_joomla_5_launch_october_2023.jpg",
       title: `Joomla 5 Launch (October 2023) `,
         des: `  Joomla 5’s release has brought a range of new features and improvements, helping to restore confidence in the platform.
 ` },
   {
       id: 3,
-      icon: "/assets/img/icons/app-fea-icon-3.png",
+      icon: "/assets/img/icons/icon_for_end_of_support_for_joomla.jpg",
       title: `End of Support for Joomla 3 (August 2023) 
 `,
       des: `  The discontinuation of support for Joomla 3 earlier this year marks a significant shift. Websites still running Joomla 3.x will need to migrate in order to stay secure and up to date.

@@ -57,7 +57,7 @@ const WebApp = () => {
       <HeroAbout />
       <Brand />
       <PromotionArea />
-      <ProjectsArea />
+      {/* <ProjectsArea /> */}
       <AboutArea />
       <ServiceArea />
       <Blog />

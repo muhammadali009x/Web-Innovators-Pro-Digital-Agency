@@ -1,3 +1,4 @@
+
 import React from "react";
 
 
@@ -71,7 +72,7 @@ const ServiceArea = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 wow tpfadeUp">
+            {/* <div className="col-md-4 wow tpfadeUp">
               <div className="ca-service-btn-wrapper float-md-end mb-75">
                 <a href="#" className="tp-white-btn-rgb">
                   {btn_text}
@@ -81,7 +82,7 @@ const ServiceArea = () => {
                   </span>
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="row">
             {service_data.map((item, i) => (

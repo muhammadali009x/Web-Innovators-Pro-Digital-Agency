@@ -14,14 +14,14 @@ const HeroBanner = () => {
             <div className="col-lg-5">
               <div className="da-hero-section mt-40">
                 <span className="da-hero-section__subtitle white-bg mb-15 d-inline-block wow tpfadeUp">
-                  Digital Experience In <b> NYC </b>
+                Shape Your Online Success with 
                 </span>
                 <div className="cd-intro">
                   <h3
                     className="da-hero-section__title cd-headline loading-bar mb-45 wow tpfadeUp"
                     data-wow-delay=".3s"
                   >
-                    <span>Solid product experiences is that </span>
+                    <span>Professional Web Development </span>
                     <span className="cd-words-wrapper text_style" >
 
                     <TypeAnimation
@@ -41,7 +41,7 @@ const HeroBanner = () => {
                   </h3>
                 </div>
               </div>
-              <div
+              {/* <div
                 className="da-header-grd-btn d-inline-block mr-20 mb-30 wow tpfadeUp"
                 data-wow-delay=".3s"
               >
@@ -65,7 +65,7 @@ const HeroBanner = () => {
                   </span>
                   <b></b>
                 </Link>
-              </div>
+              </div> */}
             </div>
 
             <div

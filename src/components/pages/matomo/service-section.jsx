@@ -102,7 +102,7 @@ const Service = () => {
                     <img src={item.img} alt="image-here" />
                   </div>
                   <h3 className="it-service__item-title mb-20">
-                    <Link href={item.link}>{item.title}</Link>
+                    {item.title}
                   </h3>
                   <p className="mb-0">{item.des}</p>
                 </div>
@@ -140,7 +140,7 @@ const Service = () => {
                     <img src={item.img} alt="image-here" />
                   </div>
                   <h3 className="it-service__item-title mb-20">
-                    <Link href={item.link}>{item.title}</Link>
+                    {item.title}
                   </h3>
                   <p className="mb-0">{item.des}</p>
                 </div>

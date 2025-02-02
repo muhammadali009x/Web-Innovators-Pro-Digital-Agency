@@ -50,6 +50,13 @@ const menu_data = [
     id: 2,
     mega_menu: false,
     has_dropdown: false,
+    title: "Insights",
+    link: "/Insights",
+  },
+  {
+    id: 2,
+    mega_menu: false,
+    has_dropdown: false,
     title: "About",
     link: "/about",
   },

@@ -62,8 +62,7 @@ const ServiceArea = () => {
                                                 <img src={item.img} alt="theme-pure" />
                                             </div>
                                             <h3 className="seo-service-item__title mb-20"><a href="#">{item.title}</a></h3>
-                                            <p className="mb-45">{item.des}</p>
-                                            <a href="#" className="seo-service-btn">Details <i className="fal fa-long-arrow-right"></i></a>
+                                             
                                         </div>
                                     </div>
 

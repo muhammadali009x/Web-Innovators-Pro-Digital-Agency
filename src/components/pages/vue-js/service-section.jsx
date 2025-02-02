@@ -87,7 +87,7 @@ const Service = () => {
             </div>
           </div>
           <div className="row it-sv-counter">
-            {service_data.slice(0, 3).map((item, i) => (
+            {service_data.map((item, i) => (
               <div key={i} className="col-lg-4 col-md-6">
                 <div
                   className="it-service__item mb-30 text-center wow tpfadeUp"
@@ -97,7 +97,7 @@ const Service = () => {
                     <img src={item.img} alt="image-here" />
                   </div>
                   <h3 className="it-service__item-title mb-20">
-                    <Link href={item.link}>{item.title}</Link>
+                    {item.title}
                   </h3>
                   <p className="mb-0">{item.des}</p>
                 </div>
@@ -132,7 +132,7 @@ const Service = () => {
                     <img src={item.img} alt="image-here" />
                   </div>
                   <h3 className="it-service__item-title mb-20">
-                    <Link href={item.link}>{item.title}</Link>
+                    {item.title}
                   </h3>
                   <p className="mb-0">{item.des}</p>
                 </div>

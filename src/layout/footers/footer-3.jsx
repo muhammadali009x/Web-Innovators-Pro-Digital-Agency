@@ -44,7 +44,7 @@ const FooterThree = ({ style_4 }) => {
                                 </div>
 
 
-                                <div className="col-xl-4 col-md-6">
+                                {/* <div className="col-xl-4 col-md-6">
                                     <div className="tp-footer__widget bs-pl-60 mb-40">
                                         <h3 className="tp-footer__widget-title mb-35">
                                             {subscribe}
@@ -69,7 +69,7 @@ const FooterThree = ({ style_4 }) => {
                                             <span> <a href="#"><i className="fab fa-youtube"></i></a></span>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
 
 
                             </div>

@@ -76,10 +76,10 @@ const ServiceSection = () => {
           <div className="col-12">
             <div className="section-title-wraper pb-55">
               <div className="tp-section text-center">
-                <span className="tp-section__subtitle vogue-text-color white-bg mb-15 wow tpfadeUp">
+                {/* <span className="tp-section__subtitle vogue-text-color white-bg mb-15 wow tpfadeUp">
                   <i className="before-border"></i>
                   Our Talents <i className="after-border"></i>
-                </span>
+                </span> */}
                 <h2 className="tp-section__title vogue-text-color wow tpfadeUp" data-wow-delay=".3s">
                   Is a Web Application the Right Choice for Your Project?
                 </h2>
@@ -104,7 +104,8 @@ const ServiceSection = () => {
                   <img src={item.img} alt={item.title} />
                 </div>
                 <h3 className="it-service__item-title mb-20">
-                  <Link href={item.link}>{item.title}</Link>
+                  {/* {item.title} */}
+                  {item.title}
                 </h3>
                 <p className="mb-0">{item.des}</p>
               </div>
@@ -135,7 +136,8 @@ const ServiceSection = () => {
                   <img src={item.img} alt={item.title} />
                 </div>
                 <h3 className="it-service__item-title mb-20">
-                  <Link href={item.link}>{item.title}</Link>
+                  {/* {item.title} */}
+                  {item.title}
                 </h3>
                 <p className="mb-0">{item.des}</p>
               </div>

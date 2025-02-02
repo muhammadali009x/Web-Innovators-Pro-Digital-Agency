@@ -1,3 +1,5 @@
+import service_data from './servicesdata';
+
 import React from 'react';
 
 const service_content = {
@@ -7,51 +9,7 @@ const service_content = {
 
 const {title, description}  = service_content
 
-const service_data = [
 
-
-    // service data home 2
-    {
-        id: 1,
-        link: "/agency/laravel",
-        img: "/assets/img/services/icon/it-service-1.png",
-        title: "Laravel Agency",
-        des: `Custom web applications built for scalability and seamless performance.
-`
-    },
-    {
-        id: 2,
-        link: "/agency/symfony",
-        img: "/assets/img/services/icon/it-service-2.png",
-        title: `Symfony Agency`,
-        des: `Elegant and robust solutions designed to tackle complex business challenges.
-`
-    }, 
-    {
-        id: 2,
-        link: "/agency/react",
-        img: "/assets/img/services/icon/it-service-2.png",
-        title: `React Agency`,
-        des: `Modern, dynamic user interfaces that drive engagement and enhance usability.
-`
-    }, 
-    {
-        id: 2,
-        link: "/agency/angular",
-        img: "/assets/img/services/icon/it-service-2.png",
-        title: `Angular Agency`,
-        des: `Build fast, scalable, and feature-rich applications with precision.
-`
-    }, 
-    {
-        id: 2,
-        link: "/agency/vue-js",
-        img: "/assets/img/services/icon/it-service-2.png",
-        title: `Vue.js Agency`,
-        des: `Simple, yet flexible frameworks for efficient, high-performing solutions.
-`
-    }, 
-]
 
 const ServiceArea = () => {
     return (

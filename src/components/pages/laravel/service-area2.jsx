@@ -1,3 +1,4 @@
+import service_data from '@/src/components/pages/web-app/servicesdata';
 import React from 'react';
 
 const service_content = {
@@ -7,50 +8,6 @@ const service_content = {
 }
 const { title, description } = service_content
 
-const service_data = [
-
-
-    // service data home 2
-    {
-        id: 1,
-        link: "/service-3",
-        img: "/assets/img/services/icon/it-service-1.png",
-        title: `Symfony `,
-        des: `From seamless integrations to high-performing applications, our Symfony expertise ensures robust and scalable solutions tailored to your needs.
-`
-    },
-    {
-        id: 2,
-        link: "/service-3",
-        img: "/assets/img/services/icon/it-service-2.png",
-        title: `React `,
-        des: `With a focus on dynamic and user-friendly interfaces, we use React to build applications that feel effortless, intuitive, and modern.
-`
-    },
-    {
-        id: 3,
-        link: "/service-3",
-        img: "/assets/img/services/icon/it-service-3.png",
-        title: `Angular `,
-        des: `Looking for structure and efficiency? Our Angular projects combine cutting-edge features with outstanding performance for both startups and enterprises.
-`
-    },
-
-    // service home 5
-    {
-        id: 4,
-        icon: "flaticon-diaphragm",
-        link: "#",
-        img: "/assets/img/services/icon/it-service-3.png",
-        title: `Vue.js `,
-        des: `Vue.js is all about simplicity and flexibility. We use it to craft lightweight, elegant applications with a strong focus on delivering exceptional user experiences.
-`,
-        counter: "01",
-        delay: ".3s"
-    },
-
-
-]
 
 const ServiceArea = () => {
     return (
@@ -78,9 +35,9 @@ const ServiceArea = () => {
                                             <div className="seo-service-item__thumb mb-35">
                                                 <img src={item.img} alt="theme-pure" />
                                             </div>
-                                            <h3 className="seo-service-item__title mb-20"><a href="#">{item.title}</a></h3>
-                                            <p className="mb-45">{item.des}</p>
-                                            <a href="#" className="seo-service-btn">Details <i className="fal fa-long-arrow-right"></i></a>
+                                            <h3 className="seo-service-item__title mb-20"><a href={item.link}>{item.title}</a></h3>
+                                            {/* <p className="mb-45">{item.des}</p> */}
+                                            {/* <a href="#" className="seo-service-btn">Details <i className="fal fa-long-arrow-right"></i></a> */}
                                         </div>
                                     </div>
 

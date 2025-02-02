@@ -55,14 +55,14 @@ const FeatureArea = () => {
             <div className="col-12">
               <div className="section-title-wraper">
                 <div className="tp-section text-center">
-                  <span
+                  {/* <span
                     className="tp-section__subtitle mb-15 shadow-none text-cornblue p-0 change-icon-size wow tpfadeUp"
                     data-wow-delay=".4s"
                   >
                     <i className="far fa-circle"></i>
                     Our Activities
                     <i className="far fa-circle"></i>
-                  </span>
+                  </span> */}
                   <h2
                     className="tp-section__title mb-60 text-mirage wow tpfadeUp"
                     data-wow-delay=".3s"
@@ -85,17 +85,18 @@ const FeatureArea = () => {
                   </div>
                   <div className="app-feature__info">
                     <h4 className="app-feature__title text-mirage">
-                      <Link href="/service-2">{item.title}</Link>
+                      {/* <Link href="/service-2">{item.title}</Link> */}
+                      {item.title}
                     </h4>
                     <span>{item.des} </span>
                   </div>
-                  <div className="app-feature__arrow">
+                  {/* <div className="app-feature__arrow">
                     <span>
                       <a href="#">
                         <i className="fal fa-long-arrow-right"></i>
                       </a>
                     </span>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             ))}

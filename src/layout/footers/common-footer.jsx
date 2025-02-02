@@ -70,7 +70,7 @@ export default CommonFooter;
 
 // copy right text
 const footer_content = {
-  copy_right_info:  <> Copyright & Design By <a href="#">@Theme Pure</a> - {new Date().getFullYear()} </>,
+  copy_right_info:  <> © {new Date().getFullYear()} Web Innovators Pro. All rights reserved</>,
 };
 
 const { copy_right_info } = footer_content;

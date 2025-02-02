@@ -39,20 +39,20 @@ const BusinessJourney = ({ style_service }) => {
                     </div>
                     <div className="row">
                         <div className="bs-cta-btns text-center">
-                            <a href="#" className={`${style_service ? "tp-btn" : "tp-grd-btn"} mr-30 wow tpfadeUp`}>
-                                Schedule a meeting
+                            <a href="/contact" className={`${style_service ? "tp-btn" : "tp-grd-btn"} mr-30 wow tpfadeUp`}> 
+Get In Touch
                                 <span className="ml-10">
                                     <i className="fal fa-long-arrow-right"></i>
                                     <i className="fal fa-long-arrow-right"></i>
                                 </span>
                             </a> {" "}
-                            <a href="#" className={`${style_service ? "tp-white-btn" : "tp-black-btn-rgb"} wow tpfadeUp`}>
+                            {/* <a href="#" className={`${style_service ? "tp-white-btn" : "tp-black-btn-rgb"} wow tpfadeUp`}>
                                 <span className="mr-10">
                                     <i className="fab fa-google"></i>
                                     <i className="fab fa-google"></i>
                                 </span>
                                 Google Calendar
-                            </a>
+                            </a> */}
                         </div>
                     </div>
                 </div>

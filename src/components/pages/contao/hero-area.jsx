@@ -9,7 +9,7 @@ const hero_content = {
     title: `Your Contao Agency 
 `,
     des: <>We’ve always known that for businesses large and small, IT will <br /> can be a real challenge to manage.</>,
-    btn_text: "786. 869. 350. 00"
+    btn_text: "Get Start Your Project"
 }
 const { bg_img, img_1, img_2, img_3, title, des, btn_text } = hero_content
 
@@ -27,7 +27,7 @@ const HeroAbout = () => {
                     <div className="row">
                         <div className="col-12">
                             <div className="law-hero-info">
-                                <div className="law-hero__imgs mb-35 d-flex">
+                                {/* {/* <div className="law-hero__imgs mb-35 d-flex">
                                     <div className="law-img-1 mr-15 wow tpfadeUp" data-wow-delay=".2s">
                                         <img src={img_1} alt="" />
                                     </div>
@@ -37,7 +37,7 @@ const HeroAbout = () => {
                                     <div className="law-img-1 wow tpfadeUp" data-wow-delay=".4s">
                                         <img src={img_3} alt="" />
                                     </div>
-                                </div>
+                                </div> */} */}
                                 <div className="law-hero__content">
                                     <h2 className="law-hero__content-title mb-20 wow tpfadeUp">{title}</h2>
                                     <p className=" wow tpfadeUp" data-wow-delay=".4s">
@@ -52,7 +52,7 @@ const HeroAbout = () => {
                                         By choosing us, you gain more than just an agency—you gain a team dedicated to delivering tailored solutions, expert guidance, and ongoing support to ensure your success with Contao.
 
                                     </p>
-                                    <a href={`tel:${btn_text}`} className="tp-red-btn tp-btn-hover alt-bg-white wow tpfadeUp" data-wow-delay=".5s">
+                                    <a href='/contact' className="tp-red-btn tp-btn-hover alt-bg-white wow tpfadeUp" data-wow-delay=".5s">
                                         <span className="mr-10">
                                             <i className="fas fa-phone"></i>
                                             <i className="fas fa-phone"></i>

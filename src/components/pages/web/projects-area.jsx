@@ -72,7 +72,7 @@ const ProjectsArea = () => {
                            </div>
                            <div className="tp-bs-project__details wow tpfadeUp">
                               <span className="mb-10 d-inline-block"> <a href="#">{item.sub_title}</a></span>
-                              <h3 className="tp-bs-project__title"><Link href={item.link}>{item.title}</Link></h3>
+                              <h3 className="tp-bs-project__title">{item.title}</h3>
                               <p className="text-lily wow tpfadeUp"> {item.des}</p>
                            </div>
                         </div>

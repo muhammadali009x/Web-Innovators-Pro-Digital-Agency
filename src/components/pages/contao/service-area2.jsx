@@ -1,3 +1,4 @@
+import service_data from '@/src/components/pages/web-app/servicesdata';
 import React from 'react';
 
 const service_content = {
@@ -6,45 +7,7 @@ const service_content = {
 `
 }
 const { title, description } = service_content
-
-const service_data = [
-
-    // service data home 2
-    {
-        id: 1,
-        link: "/service-3",
-        img: "/assets/img/services/icon/it-service-1.png",
-        title: `WordPress`,
-        des: `A trusted WordPress agency offering custom themes, plugins, and robust website solutions that align with your goals. `
-    },
-    {
-        id: 2,
-        link: "/service-3",
-        img: "/assets/img/services/icon/it-service-2.png",
-        title: `Drupal`,
-        des: `A professional Drupal agency delivering scalable and secure websites, ideal for complex and dynamic requirements. `
-    },
-    {
-        id: 3,
-        link: "/service-3",
-        img: "/assets/img/services/icon/it-service-3.png",
-        title: `Joomla`,
-        des: ` Expert Joomla services to create versatile and user-friendly websites, perfect for businesses of any size.`
-    },
-
-    // service home 5
-    {
-        id: 4,
-        icon: "flaticon-diaphragm",
-        link: "#",
-        img: "/assets/img/services/icon/it-service-3.png",
-        title: "Flytographer",
-        des: <>Photographer is someone who takes photographs.</>,
-        counter: "01",
-        delay: ".3s"
-    },
-
-]
+ 
 const ServiceArea = () => {
     return (
         <>
@@ -75,8 +38,7 @@ const ServiceArea = () => {
                                                 <img src={item.img} alt="theme-pure" />
                                             </div>
                                             <h3 className="seo-service-item__title mb-20"><a href="#">{item.title}</a></h3>
-                                            <p className="mb-45">{item.des}</p>
-                                            <a href="#" className="seo-service-btn">Details <i className="fal fa-long-arrow-right"></i></a>
+                                             
                                         </div>
                                     </div>
 

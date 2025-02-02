@@ -34,7 +34,7 @@ const ContactHomeSeven = ({style_from_pric}) => {
                     </div>
                   </div>
                 </div>
-                <div className="it-cta__info wow tpfadeUp" data-wow-delay=".4s">
+                {/* <div className="it-cta__info wow tpfadeUp" data-wow-delay=".4s">
                   <span>
                     <i className="fas fa-phone"></i>
                     <a href={`tel: ${phone}`}>{phone}</a>
@@ -51,7 +51,7 @@ const ContactHomeSeven = ({style_from_pric}) => {
                     <i className="fas fa-clock"></i>
                     {date}
                   </span>
-                </div>
+                </div> */}
                 <p>Let’s brainstorm, collaborate, and bring your ideas to life!
                 </p>
               </div>

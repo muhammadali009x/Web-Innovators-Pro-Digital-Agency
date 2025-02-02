@@ -1,38 +1,106 @@
+import Link from "next/link";
 import React from "react";
 
 
 
 
 const service_data = [
-    {
-        id: 1, 
-        img: "/assets/img/services/icon/ca-sv-icon-1.png",
-        title: "Product Design",
-        des: <>Our typical customer doesn’t want to be distracted by IT Services.</>
-    },
-    {
-        id: 2, 
-        img: "/assets/img/services/icon/ca-sv-icon-2.png",
-        title: "IT & Cyber Security",
-        des: <>Our typical customer doesn’t want to be distracted by IT Services.</>
-    },
-    {
-        id: 3, 
-        img: "/assets/img/services/icon/ca-sv-icon-3.png",
-        title: "Server & Hosting",
-        des: <>Our typical customer doesn’t want to be distracted by IT Services.</>
-    },
+  {
+    id: 1,
+    img: "/assets/img/services/icon/ca-sv-icon-1.png",
+    title: "Web App",
+    link: '/agency/web-app',
+    des: <>Our typical customer doesn’t want to be distracted by IT Services.</>
+  },
+  {
+    id: 2,
+    img: "/assets/img/services/icon/ca-sv-icon-2.png",
+    title: "WordPress",
+    link: '/agency/wordpress',
+    des: <>Our typical customer doesn’t want to be distracted by IT Services.</>
+  },
+  {
+    id: 3,
+    img: "/assets/img/services/icon/ca-sv-icon-3.png",
+    title: "Laravel",
+    link: '/agency/laravel',
+    des: <>Our typical customer doesn’t want to be distracted by IT Services.</>
+  },
+  {
+    id: 4,
+    img: "/assets/img/services/icon/ca-sv-icon-3.png",
+    title: "Angular",
+    link: '/agency/angular',
+    des: <>Our typical customer doesn’t want to be distracted by IT Services.</>
+  },
+  {
+    id: 5,
+    img: "/assets/img/services/icon/ca-sv-icon-3.png",
+    title: "Contao",
+    link: '/agency/contao',
+    des: <>Our typical customer doesn’t want to be distracted by IT Services.</>
+  },
+  {
+    id: 6,
+    img: "/assets/img/services/icon/ca-sv-icon-3.png",
+    title: "Drupal",
+    link: '/agency/drupal',
+    des: <>Our typical customer doesn’t want to be distracted by IT Services.</>
+  },
+  {
+    id: 7,
+    img: "/assets/img/services/icon/ca-sv-icon-3.png",
+    title: "Joomla",
+    link: '/agency/joomla',
+    des: <>Our typical customer doesn’t want to be distracted by IT Services.</>
+  },
+  {
+    id: 8,
+    img: "/assets/img/services/icon/ca-sv-icon-3.png",
+    title: "Matomo",
+    link: '/agency/matomo',
+    des: <>Our typical customer doesn’t want to be distracted by IT Services.</>
+  },
+  {
+    id: 9,
+    img: "/assets/img/services/icon/ca-sv-icon-3.png",
+    title: "Symfony",
+    link: '/agency/symfony',
+    des: <>Our typical customer doesn’t want to be distracted by IT Services.</>
+  },
+  {
+    id: 10,
+    img: "/assets/img/services/icon/ca-sv-icon-3.png",
+    title: "React",
+    link: '/agency/react',
+    des: <>Our typical customer doesn’t want to be distracted by IT Services.</>
+  },
+  {
+    id: 11,
+    img: "/assets/img/services/icon/ca-sv-icon-3.png",
+    title: "Vue.Js",
+    link: '/agency/vue-js',
+    des: <>Our typical customer doesn’t want to be distracted by IT Services.</>
+  },
+  {
+    id: 3,
+    img: "/assets/img/services/icon/ca-sv-icon-3.png",
+    title: "Accessibility",
+    link: '/agency/accessibility',
+    des: <>Our typical customer doesn’t want to be distracted by IT Services.</>
+  },
+  
 ]
 
-const service_content ={
-    title: "Service",
-    main_title: "Our Services",
-    we_do: "What We Do",
-    btn_text: "More Services"
+const service_content = {
+  title: "Service",
+  main_title: "Our Services",
+  we_do: "What We Do",
+  btn_text: "More Services"
 }
 
 
-const {title, main_title , we_do, btn_text}  = service_content
+const { title, main_title, we_do, btn_text } = service_content
 
 const ServiceArea = () => {
   return (
@@ -56,7 +124,7 @@ const ServiceArea = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 wow tpfadeUp">
+            {/* <div className="col-md-4 wow tpfadeUp">
               <div className="ca-service-btn-wrapper float-md-end mb-75">
                 <a href="#" className="tp-white-btn-rgb">
                   {btn_text}
@@ -66,7 +134,7 @@ const ServiceArea = () => {
                   </span>
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="row">
             {service_data.map((item, i) => (
@@ -80,12 +148,12 @@ const ServiceArea = () => {
                       <img src={item.img} alt="" />
                     </div>
                     <h3 className="ca-service__item-title mb-20">
-                      <a href="#">{item.title}</a>
+                      {item.title}
                     </h3>
-                    <p className="mb-30">{item.des}</p>
+                    {/* <p className="mb-30">{item.des}</p>
                     <a href="#" className="read-btn">
                       Read More <i className="fal fa-long-arrow-right"></i>
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>

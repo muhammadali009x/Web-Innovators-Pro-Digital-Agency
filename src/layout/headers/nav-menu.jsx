@@ -13,7 +13,7 @@ const NavMenu = () => {
               item.mega_menus ? "has-megamenu" : ''
             }`}
           >
-            <Link href={item.link}>{item.title}</Link>
+            {item.title}
             {item.sub_menus && (
               <ul className="submenu">
                 {item.sub_menus.map((sub_item, sub_i) => (

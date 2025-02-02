@@ -33,7 +33,7 @@ const ContactHomeSeven = ({ style_from_pric }) => {
                     </div>
                   </div>
                 </div>
-                <div className="it-cta__info wow tpfadeUp" data-wow-delay=".4s">
+              {/* <div className="it-cta__info wow tpfadeUp" data-wow-delay=".4s">
                   <span>
                     <i className="fas fa-phone"></i>
                     <a href={`tel: ${phone}`}>{phone}</a>
@@ -50,7 +50,7 @@ const ContactHomeSeven = ({ style_from_pric }) => {
                     <i className="fas fa-clock"></i>
                     {date}
                   </span>
-                </div>
+                </div> */}
                 <p>If you prefer a more direct approach, feel free to give us a call or send an email. We're here to support you every step of the way in creating an inclusive digital presence.
                 </p>
               </div>

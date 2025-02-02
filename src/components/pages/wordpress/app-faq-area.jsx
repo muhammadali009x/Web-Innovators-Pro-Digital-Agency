@@ -91,7 +91,7 @@ const AppFaqArea = () => {
         <div className="container">
           <div className="row align-items-lg-center align-items-xl-start">
             <div
-              className="col-xl-5 col-lg-6 wow tpfadeUp"
+              className="col-xl-12 col-lg-12 wow tpfadeUp"
               data-wow-delay=".4s"
             >
               <div className="section-title-wraper">
@@ -112,11 +112,11 @@ const AppFaqArea = () => {
                 <Accordion accordion_data={accordion_data} />
               </div>
             </div>
-            <div className="col-xl-7 col-lg-6 wow tpfadeUp">
+            {/* <div className="col-xl-7 col-lg-6 wow tpfadeUp">
               <div className="app-faq-img float-end">
                 <img src="/assets/img/faq/app-faq-image.jpg" alt="" />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

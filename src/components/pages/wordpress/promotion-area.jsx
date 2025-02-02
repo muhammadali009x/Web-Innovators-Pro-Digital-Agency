@@ -41,7 +41,7 @@ const PromotionArea = () => {
                             <div className="tp-section">
                                 <h2 className="tp-section__title text-white mb-10 text-uppercase wow tpfadeUp"> {title}</h2>
                                 <p className="text-lily wow tpfadeUp"> {des}</p>
-                                <a href="#" className="tp-red-btn tp-btn-hover alt-bg-white wow tpfadeUp" data-wow-delay=".3s">
+                                {/* <a href="#" className="tp-red-btn tp-btn-hover alt-bg-white wow tpfadeUp" data-wow-delay=".3s">
                                     download now
                                     <span className="ml-10 wow tpfadeUp">
                                         <i className="fal fa-long-arrow-right"></i>
@@ -49,7 +49,7 @@ const PromotionArea = () => {
                                     </span>
                                     <b></b>
 
-                                </a>
+                                </a> */}
                             </div>
                         </div>
                     </div>

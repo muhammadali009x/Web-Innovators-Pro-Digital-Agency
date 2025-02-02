@@ -6,7 +6,7 @@ import React from "react";
 const service_data = [
   {
     id: 1,
-    img: "/assets/img/services/icon/ca-sv-icon-1.png",
+    img: "/assets/img/services/icon/contao_development.jpg",
     title: `Contao Development 
 `,
     des: <> Unlock the full potential of your digital projects with Contao, tailored to meet your unique requirements. Whether you're launching a corporate website, building an accessible web app, or creating a discussion forum, we bring expertise and creativity to deliver exceptional results.
@@ -15,14 +15,14 @@ const service_data = [
   },
   {
     id: 2,
-    img: "/assets/img/services/icon/ca-sv-icon-2.png",
+    img: "/assets/img/services/icon/concept_and_design.jpg",
     title: ` Concept and Design 
 `,
     des: `We understand that great projects start with great concepts. Our team creates detailed strategies, paired with modern, visually appealing designs, to bring your vision to life. Even the most intricate and challenging projects are handled with precision, ensuring every element aligns with your needs and goals. Our individualized approach guarantees designs that are as functional as they are stunning. 
 ` },
   {
     id: 3,
-    img: "/assets/img/services/icon/ca-sv-icon-3.png",
+    img: "/assets/img/services/icon/cms_selection_and_migration.jpg",
     title: ` CMS Selection and Migration 
 `,
     des: `Choosing the right Content Management System (CMS) is crucial for the success of your project. We offer guidance in selecting the best CMS suited to your goals. Whether you're switching to Contao or migrating away from it, we’ll ensure a seamless transition with minimal disruptions. 
@@ -30,7 +30,7 @@ With extensive experience in platforms like WordPress, Drupal, and Joomla, as we
 `},
   {
     id: 3,
-    img: "/assets/img/services/icon/ca-sv-icon-3.png",
+    img: "/assets/img/services/icon/icon_for_support_and_maintenance.jpg",
     title: ` Support and Maintenance 
 `,
     des: `Keeping your website running smoothly is essential. From recovering hacked sites to upgrading Contao versions, we offer reliable, ongoing support to protect and enhance your digital platform. Our support and maintenance services are customizable, available as part of comprehensive monthly plans to meet your specific needs and keep your website performing at its best. 

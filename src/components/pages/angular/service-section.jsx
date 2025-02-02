@@ -8,7 +8,7 @@ const service_data = [
   {
     id: 1,
     link: "/service-3",
-    img: "/assets/img/services/icon/it-service-1.png",
+    img: "/assets/img/services/icon/steep_learning_curve.jpg",
     title: `Steep Learning Curve
 `,
     des: `Angular is a robust and feature-rich framework, but this comes with complexity. Its reliance on TypeScript and its structured approach might take more time for developers to learn and master. This can extend the onboarding process for team members, potentially impacting project timelines, particularly for teams unfamiliar with the framework.
@@ -17,7 +17,7 @@ const service_data = [
   {
     id: 2,
     link: "/service-3",
-    img: "/assets/img/services/icon/it-service-2.png",
+    img: "/assets/img/services/icon/performance_considerations.jpg",
     title: `Performance Considerations
 `,
     des: `For smaller, less complex applications, Angular might be overkill. Its comprehensive approach can introduce performance overhead, potentially leading to slower load times compared to leaner options like React or Vue.js. If your project doesn’t require the full scope of Angular’s capabilities, these simpler solutions may be more efficient.
@@ -26,7 +26,7 @@ const service_data = [
   {
     id: 3,
     link: "/service-3",
-    img: "/assets/img/services/icon/it-service-3.png",
+    img: "/assets/img/services/icon/application_size.jpg",
     title: `Application Size
 `,
     des: `Applications built with Angular often have larger file sizes when compared to similar projects using other frameworks or libraries. This can result in slower loading speeds, which can negatively impact the user experience, especially in regions with limited internet connectivity or on mobile devices.

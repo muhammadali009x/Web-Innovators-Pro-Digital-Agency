@@ -8,7 +8,7 @@ const service_data = [
   {
       id: 1,
       link: "/service-3",
-      img: "/assets/img/services/icon/it-service-1.png",
+      img: "/assets/img/services/icon/we_re_specialists (2).jpg",
       title: `We’re Specialists
 `,
       des: `Our expertise in Contao goes far beyond the basics. We understand the system’s architecture inside and out, and we know how to maximize its features to build websites that are not only powerful but also scalable and SEO-friendly. Whether you’re looking for superior performance or user engagement, we bring a depth of understanding that ensures exceptional results.
@@ -17,7 +17,7 @@ const service_data = [
   {
       id: 2,
       link: "/service-3",
-      img: "/assets/img/services/icon/it-service-2.png",
+      img: "/assets/img/services/icon/we_re_adaptable.jpg",
       title: `We’re Adaptable
 `,
       des: `Your goals and vision are unique, and so should be your website. Whether you need custom-built modules, specific functionalities, or creative layout elements, our dedicated team specializes in designing tailored solutions that align perfectly with your objectives. Every aspect of your Contao website will be crafted to help you stand out and engage your audience effectively.
@@ -26,7 +26,7 @@ const service_data = [
   {
       id: 3,
       link: "/service-3",
-      img: "/assets/img/services/icon/it-service-3.png",
+      img: "/assets/img/services/icon/we_re_specialists (2).jpg",
       title: `We’re Knowledgeable
 `,
       des: `While Contao is our specialty, our expertise extends beyond it. We have considerable experience with other CMS options, such as WordPress, Drupal, and Joomla, as well as frameworks like React and Laravel. If you’re uncertain about the right platform for your needs, we’ll guide you through the strengths and weaknesses of each, helping you make an informed decision that aligns with your vision and business model.
@@ -69,7 +69,7 @@ const service_data2 = [
   {
       id: 1,
       link: "/service-3",
-      img: "/assets/img/services/icon/it-service-1.png",
+      img: "/assets/img/services/icon/icon_for_scalability_and_performance.jpg",
       title: `Scalability and Performance
 `,
       des: `Contao is designed for efficiency with its lean architecture and optimized coding. These qualities enable it to manage large amounts of content while maintaining smooth performance. Whether you're developing a small business website or scaling up to a more complex enterprise-level project, Contao's scalability makes it a versatile option.
@@ -78,7 +78,7 @@ const service_data2 = [
   {
       id: 2,
       link: "/service-3",
-      img: "/assets/img/services/icon/it-service-2.png",
+      img: "/assets/img/services/icon/icon_for_built_in_seo_and_analytics.jpg",
       title: `Built-in SEO and Analytics`,
       des: `Unlike many CMS platforms that require third-party plugins or extensions, Contao offers built-in SEO tools and analytics. This means you can optimize your site for search engines and monitor its performance straight out of the box. These features save time and ensure your website gets the visibility it deserves without the need for extensive configuration.
 `
@@ -86,7 +86,7 @@ const service_data2 = [
   {
       id: 3,
       link: "/service-3",
-      img: "/assets/img/services/icon/it-service-3.png",
+      img: "/assets/img/services/icon/icon_for_accessibility_and_gdpr_compliance.jpg",
       title: `Accessibility and GDPR Compliance`,
       des: `Accessibility is a key strength of Contao. The CMS meets essential Web Accessibility Initiative (WAI) requirements, ensuring that your website accommodates users with different abilities. On top of this, Contao offers GDPR compliance tools to help your business meet data privacy regulations without complicated setups. This combination ensures your website is both inclusive and compliant with current legal standards.
 `
@@ -102,7 +102,7 @@ const service_data3 = [
   {
       id: 1,
       link: "/service-3",
-      img: "/assets/img/services/icon/it-service-1.png",
+      img: "/assets/img/services/icon/icon_for_no_out_of_the_box_multilingual_support.jpg",
       title: `No Out-of-the-box Multilingual Support
 `,
       des: `For businesses aiming to target an international audience, multilingual support can be a critical feature. Compared to Drupal or Joomla—which provide robust multilingual functionality right out of the box—Contao requires additional configuration or modules for multi-language websites. This may increase the complexity of setup and maintenance for organizations with a global reach.
@@ -111,7 +111,7 @@ const service_data3 = [
   {
       id: 2,
       link: "/service-3",
-      img: "/assets/img/services/icon/it-service-2.png",
+      img: "/assets/img/services/icon/icon_for_limited_e_commerce_capabilities.jpg",
       title: `Limited E-commerce Capabilities
 `,
       des: `If e-commerce is central to your project, Contao may not be the ideal choice. Unlike WordPress with WooCommerce, or Drupal’s powerful e-commerce integrations, Contao offers limited e-commerce solutions that often require additional extensions. Businesses looking for a seamless and comprehensive e-commerce experience may find other platforms better suited to their needs.
@@ -120,7 +120,7 @@ const service_data3 = [
   {
       id: 3,
       link: "/service-3",
-      img: "/assets/img/services/icon/it-service-3.png",
+      img: "/assets/img/services/icon/icon_for_steep_learning_curve.jpg",
       title: `Steep Learning Curve`,
       des: `One of the key considerations with Contao is its usability for non-technical users. While it offers abundant customization and power, mastering its system requires time and some technical expertise. Beginners or those transitioning from more user-friendly platforms like WordPress may face a learning curve as they adapt to Contao's interface and workflows.
 `

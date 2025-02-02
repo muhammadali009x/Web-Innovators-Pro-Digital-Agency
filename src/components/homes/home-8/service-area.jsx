@@ -140,10 +140,7 @@ const ServiceArea = () => {
                     <h3 className="ca-service__item-title mb-20">
                       {item.title}
                     </h3>
-                    {/* <p className="mb-30">{item.des}</p>
-                    {/* <a href="#" className="read-btn">
-                      Read More <i className="fal fa-long-arrow-right"></i>
-                    </a> */} */}
+                     
                   </div>
                 </div>
               </div>

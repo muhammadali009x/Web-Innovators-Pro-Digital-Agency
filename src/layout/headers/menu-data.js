@@ -43,8 +43,8 @@ const menu_data = [
     id: 2,
     mega_menu: false,
     has_dropdown: false,
-    title: "Work",
-    link: "/Work",
+    title: "Portfolio",
+    link: "/portfolio",
   },
   {
     id: 2,

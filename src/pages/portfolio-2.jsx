@@ -1,12 +1,12 @@
 import React from "react";
 import SEO from "../common/seo";
-import PortfolioTwo from "../components/portfolios/portfolio-2";
+import PortfolioFoure from "../components/portfolios/portfolio-4";
 
 const index = () => {
   return (
     <>
-      <SEO pageTitle={"Gencio - Portfolio 2"} />
-      <PortfolioTwo />
+      <SEO pageTitle={"Gencio - Portfolio 4"} />
+      <PortfolioFoure />
     </>
   );
 };

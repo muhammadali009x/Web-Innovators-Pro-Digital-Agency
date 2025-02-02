@@ -32,7 +32,7 @@ const PortfolioItemsArea = () => {
         <div className="container">
 
 
-          <div className="tp-portfolio-header mb-30">
+          {/* <div className="tp-portfolio-header mb-30">
             <div className="row">
               <div className="col-12">
                 <div className="tp-pf-btn-group text-center">
@@ -48,7 +48,7 @@ const PortfolioItemsArea = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
 
           <motion.div layout className="row tp-portfolio-isotop-active">
@@ -62,7 +62,7 @@ const PortfolioItemsArea = () => {
                     <img src={item.img} alt={item.title} />
                   </div>
                   <div className="pf-single-item__info">
-                    <span>{item.title}</span>
+                    {/* <span>{item.title}</span> */}
                     <h3 className="pf-single-item__title">
                       <Link href="/portfolio-details">{item.name}</Link>
                     </h3>
@@ -72,7 +72,7 @@ const PortfolioItemsArea = () => {
             ))}
           </motion.div>
 
-          <div className="pt-istop-btn-wrapper text-center mt-30">
+          {/* <div className="pt-istop-btn-wrapper text-center mt-30">
             <a href="#" className="tp-common-btn">
               load more
               <span>
@@ -80,7 +80,7 @@ const PortfolioItemsArea = () => {
                 <i className="fal fa-plus"></i>
               </span>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

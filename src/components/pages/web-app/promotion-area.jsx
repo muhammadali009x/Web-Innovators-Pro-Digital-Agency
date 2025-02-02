@@ -45,8 +45,8 @@ const PromotionArea = () => {
                                 <p className="text-lily wow tpfadeUp"> {des2}</p>
                                 <p className="text-lily wow tpfadeUp"> {des3}</p>
                                 <p className="text-lily wow tpfadeUp"> {des4}</p>
-                                <a href="#" className="tp-red-btn tp-btn-hover alt-bg-white wow tpfadeUp" data-wow-delay=".3s">
-                                    download now
+                                <a href="/contact-form-section" className="tp-red-btn tp-btn-hover alt-bg-white wow tpfadeUp" data-wow-delay=".3s">
+                                    Get In Touch
                                     <span className="ml-10 wow tpfadeUp">
                                         <i className="fal fa-long-arrow-right"></i>
                                         <i className="fal fa-long-arrow-right"></i>

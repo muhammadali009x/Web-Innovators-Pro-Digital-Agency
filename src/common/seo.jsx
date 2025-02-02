@@ -11,7 +11,7 @@ const SEO = ({
     <Head>
       {/* Title Tag */}
       <title>
-        {pageTitle ? `${pageTitle} - Startup Agency React Next js Template` : 'Startup Agency React Next js Template'}
+        {pageTitle ? `${pageTitle}` : 'Startup Agency Web Innovation Pro'}
       </title>
       
       {/* Meta Tags */}

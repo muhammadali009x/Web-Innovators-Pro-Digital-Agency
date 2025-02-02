@@ -35,7 +35,7 @@ const HeaderThree = () => {
                   </div>
                 </div>
                 <div className="col-xl-3 d-none d-xl-block">
-                  <div className="da-header-cta-btn float-end mt-35">
+                  <div className="da-header-cta-btn float-end ">
                     <a href="#" className="tp-grd-btn">
                       Get Quote
                       <span className="ml-10">

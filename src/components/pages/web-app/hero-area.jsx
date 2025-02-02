@@ -28,10 +28,10 @@ const HeroAbout = () => {
                                     {des}
                                 </p>
                                 <a href='#contact-form-section' className="tp-red-btn tp-btn-hover alt-bg-white wow tpfadeUp" data-wow-delay=".5s">
-                                    <span className="mr-10">
+                                    {/* <span className="mr-10">
                                         <i className="fas fa-phone"></i>
                                         <i className="fas fa-phone"></i>
-                                    </span>
+                                    </span> */}
                                     {btn_text}
                                     <b></b>
                                 </a>

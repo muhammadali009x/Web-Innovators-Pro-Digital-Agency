@@ -53,11 +53,11 @@ const WebApp = () => {
         keywords={SEOData.keywords}
       />
       <HeaderThree />
-      <HeroAbout /> 
+      <HeroAbout />
       <PromotionArea />
       <ProjectsArea />
       <Brand />
-      <AboutArea /> 
+      <AboutArea />
       <ServiceArea />
       <Blog />
       <FeatureArea />

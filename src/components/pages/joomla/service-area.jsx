@@ -69,7 +69,7 @@ const ServiceArea = () => {
               </div>
             </div>
             <div className="col-md-4 wow tpfadeUp">
-              <div className="ca-service-btn-wrapper float-md-end mb-75">
+              {/* <div className="ca-service-btn-wrapper float-md-end mb-75">
                 <a href="#" className="tp-white-btn-rgb">
                   {btn_text}
                   <span className="ml-10">
@@ -77,7 +77,7 @@ const ServiceArea = () => {
                     <i className="fal fa-long-arrow-right"></i>
                   </span>
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="row">
@@ -92,12 +92,12 @@ const ServiceArea = () => {
                       <img src={item.img} alt="" />
                     </div>
                     <h3 className="ca-service__item-title mb-20">
-                      <a href="#">{item.title}</a>
+                       {item.title} 
                     </h3>
                     <p className="mb-30">{item.des}</p>
-                    <a href="#" className="read-btn">
+                    {/* <a href="#" className="read-btn">
                       Read More <i className="fal fa-long-arrow-right"></i>
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>

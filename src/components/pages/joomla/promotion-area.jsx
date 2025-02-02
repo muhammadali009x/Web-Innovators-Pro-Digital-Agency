@@ -21,23 +21,8 @@ const PromotionArea = () => {
             <div className="law-promotion-area wine-bg pt-100 pb-90 p-relative">
             <div className="container">
                 <div className="row align-items-xl-center">
-                    <div className="col-xl-6 col-lg-5">
-                        <div className="law-promotion-books mb-20">
-                            <div className="row">
-                                <div className="col-md-6">
-                                    <div className="law-book text-xl-end mr-10 wow tpfadeUp" data-wow-delay=".4s" data-tilt="" data-tilt-perspective="2000">
-                                        <img src={img_1} alt="" />
-                                    </div>
-                                </div>
-                                <div className="col-md-6">
-                                    <div className="law-book wow tpfadeUp" data-wow-delay=".3s">
-                                        <img src={img_2} alt="" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-xl-6 col-lg-7">
+                    
+                    <div className="col-xl-12 col-lg-12">
                         <div className="section-title-wraper">
                             <div className="tp-section">
                                 <h2 className="tp-section__title text-white mb-10 text-uppercase wow tpfadeUp"> {title}</h2>
@@ -50,7 +35,7 @@ const PromotionArea = () => {
                                 <p className="text-lily wow tpfadeUp"> For me, Joomla is more than just a tool—it's the foundation upon which I built my career and this agency. It represents the start of my professional journey in web development and continues to be a key part of our work with clients every day.
                                 </p>
 
-                                <a href="#" className="tp-red-btn tp-btn-hover alt-bg-white wow tpfadeUp" data-wow-delay=".3s">
+                                 {/* <a href="#" className="tp-red-btn tp-btn-hover alt-bg-white wow tpfadeUp" data-wow-delay=".3s">
                                     download now
                                     <span className="ml-10 wow tpfadeUp">
                                         <i className="fal fa-long-arrow-right"></i>
@@ -58,7 +43,7 @@ const PromotionArea = () => {
                                     </span>
                                     <b></b>
 
-                                </a>
+                                </a> */}
                             </div>
                         </div>
                     </div>

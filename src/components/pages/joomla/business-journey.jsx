@@ -28,28 +28,28 @@ const BusinessJourney = ({ style_service }) => {
                                         className="bs-cta-section__title ca-cta-section-title cd-headline loading-bar mb-55 ca-cta-title wow tpfadeUp">
                                         <span>{title}</span>
                                     </h3>
-                                    <p>Explore our comprehensive range of Joomla resources, designed to enhance your understanding and improve your Joomla website's performance. Whether you're a beginner or an experienced developer, these guides cover essential topics to help you make the most of your Joomla experience.
+                                    <p style={{ color: 'white' }}>Explore our comprehensive range of Joomla resources, designed to enhance your understanding and improve your Joomla website's performance. Whether you're a beginner or an experienced developer, these guides cover essential topics to help you make the most of your Joomla experience.
                                     </p>
                                 </div>
-                                <h2>Centralizing Resources Across Multiple Joomla Websites
+                                <h2 style={{ color: 'white' }}>Centralizing Resources Across Multiple Joomla Websites
                                 </h2>
-                                <p>Managing resources across several Joomla sites can be challenging. Learn how to streamline your processes and centralize resources efficiently, saving time and improving collaboration. This guide outlines practical strategies to reduce duplication and maintain consistency across your sites.
+                                <p style={{ color: 'white' }}>Managing resources across several Joomla sites can be challenging. Learn how to streamline your processes and centralize resources efficiently, saving time and improving collaboration. This guide outlines practical strategies to reduce duplication and maintain consistency across your sites.
                                 </p>
-                                <h2>Building a Joomla Development Workflow with Akeeba UNiTE
+                                <h2 style={{ color: 'white' }}>Building a Joomla Development Workflow with Akeeba UNiTE
                                 </h2>
-                                <p>Discover how to create a structured development workflow using the powerful Akeeba UNiTE tool. This resource offers step-by-step instructions on building a workflow that enhances productivity and simplifies your Joomla development processes.
+                                <p style={{ color: 'white' }}>Discover how to create a structured development workflow using the powerful Akeeba UNiTE tool. This resource offers step-by-step instructions on building a workflow that enhances productivity and simplifies your Joomla development processes.
                                 </p>
-                                <h2>What is a Joomla Template? 
+                                <h2 style={{ color: 'white' }}>What is a Joomla Template?
                                 </h2>
-                                <p>Dive into the basics of Joomla templates and their role in designing your website. This article explains what templates are, how they function, and why they are essential for customizing the appearance and layout of your Joomla site. 
+                                <p style={{ color: 'white' }}>Dive into the basics of Joomla templates and their role in designing your website. This article explains what templates are, how they function, and why they are essential for customizing the appearance and layout of your Joomla site.
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div className="row">
                         <div className="bs-cta-btns text-center">
-                            <a href="/contact" className={`${style_service ? "tp-btn" : "tp-grd-btn"} mr-30 wow tpfadeUp`}> 
-Get In Touch
+                            <a href="/contact" className={`${style_service ? "tp-btn" : "tp-grd-btn"} mr-30 wow tpfadeUp`}>
+                                Get In Touch
                                 <span className="ml-10">
                                     <i className="fal fa-long-arrow-right"></i>
                                     <i className="fal fa-long-arrow-right"></i>

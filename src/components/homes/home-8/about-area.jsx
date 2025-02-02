@@ -5,7 +5,7 @@ import Tilt from "react-parallax-tilt";
 
 const about_content = {
     about_img: "/assets/img/about/ca-about.jpg",
-    circle_img: "/assets/img/about/ca-cirlce-logo.png",
+    circle_img: "/assets/img/about/favicon.webp",
     about: "About",
     sub_title: "About Us",
     title: "To Make Your Digital Experience Brighter.",
@@ -58,7 +58,7 @@ const AboutArea = () => {
                                     <p>{des}</p>
                                 </div>
                             </div>
-                            <div className="ca-about-info tp-border-bottom d-md-flex align-items-center pb-40 mb-50">
+                            {/* <div className="ca-about-info tp-border-bottom d-md-flex align-items-center pb-40 mb-50">
                                 <div className="ca-about-info__thumb mr-30">
                                     <img src={author_img} alt="" />
                                 </div>
@@ -67,11 +67,11 @@ const AboutArea = () => {
                                     <span>{author_name}</span>
                                 </div>
 
-                            </div>
+                            </div> */}
                             <div className="ca-about-btn-wrapper d-md-flex align-items-center">
                                 <div className="ca-about-btn-wrapper mr-30 mb-30">
-                                    <a href={`tel:${phone}`} className="tp-border-btn-rgb">
-                                        Our Services
+                                    <a href='/about' className="tp-border-btn-rgb">
+                                        Read More
                                         <span>
                                             <i className="fal  fa-long-arrow-right"></i>
                                             <i className="fal  fa-long-arrow-right"></i>

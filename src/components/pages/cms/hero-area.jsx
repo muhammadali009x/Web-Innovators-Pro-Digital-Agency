@@ -8,7 +8,7 @@ const hero_content = {
     img_3: "/assets/img/hero/law-3.png",
     title: `Your CMS Agency`,
     des: <>We’ve always known that for businesses large and small, IT will <br /> can be a real challenge to manage.</>,
-    btn_text: "786. 869. 350. 00"
+    btn_text: "Get Started Your Project"
 }
 const { bg_img, img_1, img_2, img_3, title, des, btn_text } = hero_content
 
@@ -55,7 +55,7 @@ const HeroAbout = () => {
                                         Partner with HV Digital, and watch your website thrive.
 
                                     </p>
-                                    <a href={`tel:${btn_text}`} className="tp-red-btn tp-btn-hover alt-bg-white wow tpfadeUp" data-wow-delay=".5s">
+                                    <a href='/contact' className="tp-red-btn tp-btn-hover alt-bg-white wow tpfadeUp" data-wow-delay=".5s">
                                         <span className="mr-10">
                                             <i className="fas fa-phone"></i>
                                             <i className="fas fa-phone"></i>

@@ -53,7 +53,7 @@ const BusinessJourney = ({ style_service }) => {
                                     <i className="fab fa-google"></i>
                                 </span>
                                 Google Calendar
-                            </a> */} */}
+                            </a> */}  
                         </div>
                     </div>
                 </div>

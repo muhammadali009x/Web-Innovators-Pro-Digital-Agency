@@ -70,13 +70,7 @@ const FeatureArea = () => {
                     </h4>
                     <span>{item.des} </span>
                   </div>
-                  {/* <div className="app-feature__arrow">
-                    <span>
-                      <a href="#">
-                        <i className="fal fa-long-arrow-right"></i>
-                      </a>
-                    </span>
-                  </div> */}
+                    
                 </div>
               </div>
             ))}

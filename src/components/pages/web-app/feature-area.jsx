@@ -85,18 +85,12 @@ const FeatureArea = () => {
                   </div>
                   <div className="app-feature__info">
                     <h4 className="app-feature__title text-mirage">
-                      {/* <Link href="/service-2">{item.title}</Link> */}
+                      {/* {item.title} */}
                       {item.title}
                     </h4>
                     <span>{item.des} </span>
                   </div>
-                  {/* <div className="app-feature__arrow">
-                    <span>
-                      <a href="#">
-                        <i className="fal fa-long-arrow-right"></i>
-                      </a>
-                    </span>
-                  </div> */}
+                    
                 </div>
               </div>
             ))}

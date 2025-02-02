@@ -1,4 +1,5 @@
 import React from 'react';
+import service_data from '@/src/components/pages/web-app/servicesdata';
 
 const service_content = {
     title: "Looking for expertise beyond just one technology? We’ve got you covered! ",
@@ -6,48 +7,7 @@ const service_content = {
 `
 }
 const { title, description } = service_content
-const service_data = [
-
-
-    // service data home 2
-    {
-        id: 1,
-        link: "/service-3",
-        img: "/assets/img/services/icon/it-service-1.png",
-        title: `Laravel`,
-        des: `Build cutting-edge applications with the trusted power of this PHP framework. Our Laravel experts craft intuitive and robust web solutions with care. 
-`
-    },
-    {
-        id: 2,
-        link: "/service-3",
-        img: "/assets/img/services/icon/it-service-2.png",
-        title: `Symfony`,
-        des: `Design enterprise-grade platforms with Symfony. Its flexibility and speed make it a standout choice, and we know exactly how to harness it to its full potential. `
-    },
-    {
-        id: 3,
-        link: "/service-3",
-        img: "/assets/img/services/icon/it-service-3.png",
-        title: `Angular`,
-        des: `Create dynamic, scalable web apps with Angular’s razor-sharp capabilities. Perfect for handling complexity without breaking a sweat.`
-    },
-
-    // service home 5
-    {
-        id: 4,
-        icon: "flaticon-diaphragm",
-        link: "#",
-        img: "/assets/img/services/icon/it-service-3.png",
-        title: `Vue.js`,
-        des: `Sleek, elegant, and lightweight—our Vue.js developers bring modern, responsive interfaces to life. `,
-        counter: "01",
-        delay: ".3s"
-    },
-
-
-
-]
+ 
 
 const ServiceArea = () => {
     return (
@@ -75,7 +35,7 @@ const ServiceArea = () => {
                                             <div className="seo-service-item__thumb mb-35">
                                                 <img src={item.img} alt="theme-pure" />
                                             </div>
-                                            <h3 className="seo-service-item__title mb-20"><a href="#">{item.title}</a></h3>
+                                            <h3 className="seo-service-item__title mb-20"><a href={item.link}>{item.title}</a></h3>
                                              
                                         </div>
                                     </div>

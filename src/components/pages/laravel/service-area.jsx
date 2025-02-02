@@ -81,17 +81,7 @@ const ServiceArea = () => {
                 </div>
               </div>
             </div>
-            {/* <div className="col-md-4 wow tpfadeUp">
-              <div className="ca-service-btn-wrapper float-md-end mb-75">
-                <a href="#" className="tp-white-btn-rgb">
-                  {btn_text}
-                  <span className="ml-10">
-                    <i className="fal fa-long-arrow-right"></i>
-                    <i className="fal fa-long-arrow-right"></i>
-                  </span>
-                </a>
-              </div>
-            </div> */}
+                  
           </div>
           <div className="row">
             {service_data.map((item, i) => (
@@ -108,9 +98,7 @@ const ServiceArea = () => {
                       {item.title} 
                     </h3>
                     <p className="mb-30">{item.des}</p>
-                    {/* <a href="#" className="read-btn">
-                      Read More <i className="fal fa-long-arrow-right"></i>
-                    </a> */}
+                          
                   </div>
                 </div>
               </div>

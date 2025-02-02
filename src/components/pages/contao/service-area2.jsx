@@ -7,7 +7,7 @@ const service_content = {
 `
 }
 const { title, description } = service_content
- 
+
 const ServiceArea = () => {
     return (
         <>
@@ -37,8 +37,8 @@ const ServiceArea = () => {
                                             <div className="seo-service-item__thumb mb-35">
                                                 <img src={item.img} alt="theme-pure" />
                                             </div>
-                                            <h3 className="seo-service-item__title mb-20"><a href="#">{item.title}</a></h3>
-                                             
+                                            <h3 className="seo-service-item__title mb-20"><a href={item.link}>{item.title}</a></h3>
+
                                         </div>
                                     </div>
 

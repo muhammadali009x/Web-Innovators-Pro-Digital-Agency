@@ -9,7 +9,7 @@ const hero_content = {
     title: `Your Vue.js Agency 
 `,
     des: <>We’ve always known that for businesses large and small, IT will <br /> can be a real challenge to manage.</>,
-    btn_text: "786. 869. 350. 00"
+    btn_text: "Get Started Your Project"
 }
 const { bg_img, img_1, img_2, img_3, title, des, btn_text } = hero_content
 
@@ -19,7 +19,7 @@ const { bg_img, img_1, img_2, img_3, title, des, btn_text } = hero_content
 const HeroAbout = () => {
     return (
         <>
-            <div className="law-hero-area mt-40"
+            <div className="law-hero-area "
                 style={{ backgroundImage: `url(${bg_img})` }}
 
             >
@@ -48,7 +48,7 @@ const HeroAbout = () => {
                                         By combining technical precision with a deep understanding of modern web development, we deliver scalable, high-performance, and maintainable solutions tailored to your specific needs. Partner with us for seamless collaboration and innovative results that take your project to the next level.
 
                                     </p>
-                                    <a href={`tel:${btn_text}`} className="tp-red-btn tp-btn-hover alt-bg-white wow tpfadeUp" data-wow-delay=".5s">
+                                    <a href='/contact' className="tp-red-btn tp-btn-hover alt-bg-white wow tpfadeUp" data-wow-delay=".5s">
                                         <span className="mr-10">
                                             <i className="fas fa-phone"></i>
                                             <i className="fas fa-phone"></i>

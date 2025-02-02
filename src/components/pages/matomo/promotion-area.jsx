@@ -44,7 +44,7 @@ const PromotionArea = () => {
                                     </ul>
                                     <p>As your web agency partner, our mission is clear—to create a Matomo solution tailored to your needs while empowering you with data insights that drive informed decisions. Connect with us to explore how we can transform your tracking strategy today.
                                     </p>
-                                    <a href="#" className="tp-red-btn tp-btn-hover alt-bg-white wow tpfadeUp" data-wow-delay=".3s">
+                                    {/* <a href="#" className="tp-red-btn tp-btn-hover alt-bg-white wow tpfadeUp" data-wow-delay=".3s">
                                         download now
                                         <span className="ml-10 wow tpfadeUp">
                                             <i className="fal fa-long-arrow-right"></i>
@@ -52,7 +52,7 @@ const PromotionArea = () => {
                                         </span>
                                         <b></b>
 
-                                    </a>
+                                    </a> */}
                                 </div>
                             </div>
                         </div>

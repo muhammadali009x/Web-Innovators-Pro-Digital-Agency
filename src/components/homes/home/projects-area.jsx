@@ -68,7 +68,7 @@ const ProjectsArea = () => {
                              <img  src={item.img} alt="" /></a>
                        </div>
                        <div className="tp-bs-project__details wow tpfadeUp">
-                          <span className="mb-10 d-inline-block"> <a href="#">{item.sub_title}</a></span>
+                           {/* <span className="mb-10 d-inline-block"> <a href="#">{item.sub_title}</a></span> */}
                           <h3 className="tp-bs-project__title">{item.title}</h3>
                        </div>
                     </div>

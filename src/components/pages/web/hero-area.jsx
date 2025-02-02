@@ -60,7 +60,7 @@ const HeroAbout = () => {
 
                                     <p>Partner with us to create a digital presence that boosts your brand, drives engagement, and supports your long-term success. Let's bring your vision to life!
                                     </p>
-                                    <a href={`tel:${btn_text}`} className="tp-red-btn tp-btn-hover alt-bg-white wow tpfadeUp" data-wow-delay=".5s">
+                                    <a href='/contact' className="tp-red-btn tp-btn-hover alt-bg-white wow tpfadeUp" data-wow-delay=".5s">
                                         <span className="mr-10">
                                             <i className="fas fa-phone"></i>
                                             <i className="fas fa-phone"></i>

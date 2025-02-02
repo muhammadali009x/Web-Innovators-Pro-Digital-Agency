@@ -52,7 +52,7 @@ const PromotionArea = () => {
                                     <p className="text-lily wow tpfadeUp">Get in touch with us today to start your next project!
                                     </p>
 
-                                    <a href="#" className="tp-red-btn tp-btn-hover alt-bg-white wow tpfadeUp" data-wow-delay=".3s">
+                                    {/* <a href="#" className="tp-red-btn tp-btn-hover alt-bg-white wow tpfadeUp" data-wow-delay=".3s">
                                         download now
                                         <span className="ml-10 wow tpfadeUp">
                                             <i className="fal fa-long-arrow-right"></i>
@@ -60,7 +60,7 @@ const PromotionArea = () => {
                                         </span>
                                         <b></b>
 
-                                    </a>
+                                    </a> */}
                                 </div>
                             </div>
                         </div>

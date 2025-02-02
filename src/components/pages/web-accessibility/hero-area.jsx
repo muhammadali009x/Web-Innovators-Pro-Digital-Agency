@@ -24,7 +24,7 @@ const {bg_img , img_1, img_2, img_3, title, des, btn_text}  = hero_content
 const HeroAbout = () => {
     return (
         <>
-            <div className="law-hero-area mt-40"  
+            <div className="law-hero-area "  
             style={{backgroundImage: `url(${bg_img})`}}
             
             >
@@ -32,7 +32,7 @@ const HeroAbout = () => {
                 <div className="row">
                     <div className="col-12">
                         <div className="law-hero-info">
-                            <div className="law-hero__imgs mb-35 d-flex">
+                            {/* <div className="law-hero__imgs mb-35 d-flex">
                                 <div className="law-img-1 mr-15 wow tpfadeUp" data-wow-delay=".2s">
                                     <img src={img_1} alt="" />
                                 </div>
@@ -42,13 +42,13 @@ const HeroAbout = () => {
                                 <div className="law-img-1 wow tpfadeUp" data-wow-delay=".4s">
                                     <img src={img_3} alt="" />
                                 </div>
-                            </div>
+                            </div> */}
                             <div className="law-hero__content">
                                 <h2 className="law-hero__content-title mb-20 wow tpfadeUp">{title}</h2>
                                 <p className="mb-50 wow tpfadeUp" data-wow-delay=".4s">
                                     {des}
                                 </p>
-                                <a href={`tel:${btn_text}`} className="tp-red-btn tp-btn-hover alt-bg-white wow tpfadeUp" data-wow-delay=".5s">
+                                <a href='/contact' className="tp-red-btn tp-btn-hover alt-bg-white wow tpfadeUp" data-wow-delay=".5s">
                                     <span className="mr-10">
                                         <i className="fas fa-phone"></i>
                                         <i className="fas fa-phone"></i>

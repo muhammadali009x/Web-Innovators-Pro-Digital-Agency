@@ -66,16 +66,7 @@ const AboutArea = () => {
                                         <p>{des4}</p>
                                     </div>
                                 </div>
-                                {/* <div className="ca-about-info tp-border-bottom d-md-flex align-items-center pb-40 mb-50">
-                                    <div className="ca-about-info__thumb mr-30">
-                                        <img src={author_img} alt="" />
-                                    </div>
-                                    <div className="ca-about-info__content ">
-                                        <h4 className="ca-about-info__content-title">{author_des} </h4>
-                                        <span>{author_name}</span>
-                                    </div>
-
-                                </div> */}
+                                 
                                 <div className="ca-about-btn-wrapper d-md-flex align-items-center">
                                     <div className="ca-about-btn-wrapper mr-30 mb-30">
                                         <a href='/about' className="tp-border-btn-rgb">

@@ -1,4 +1,5 @@
 import React from 'react';
+import service_data from '@/src/components/pages/web-app/servicesdata';
 
 const service_content = {
     title: "Unlock Your Web Potential with Expert CMS Solutions",
@@ -7,33 +8,7 @@ const service_content = {
 }
 const { title, description } = service_content
 
-const service_data = [
-
-
-    // service data home 2
-    {
-        id: 1,
-        link: "/service-3",
-        img: "/assets/img/services/icon/it-service-1.png",
-        title: `WordPress`,
-        des: `Tap into our deep experience as a WordPress agency to create flexible, scalable, and user-friendly websites tailored to your needs. `
-    },
-    {
-        id: 2,
-        link: "/service-3",
-        img: "/assets/img/services/icon/it-service-2.png",
-        title: `Joomla`,
-        des: `Partner with our Joomla agency to build robust web applications and dynamic websites that stand out. `
-    },
-    {
-        id: 3,
-        link: "/service-3",
-        img: "/assets/img/services/icon/it-service-3.png",
-        title: `Contao`,
-        des: `Leverage our knowledge of Contao to develop streamlined and efficient solutions for your business or organization. `
-    },
-
-]
+ 
 
 const ServiceArea = () => {
     return (

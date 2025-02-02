@@ -31,17 +31,7 @@ const HeroAbout = () => {
                     <div className="row">
                         <div className="col-12">
                             <div className="law-hero-info">
-                                {/* {/* <div className="law-hero__imgs mb-35 d-flex">
-                                    <div className="law-img-1 mr-15 wow tpfadeUp" data-wow-delay=".2s">
-                                        <img src={img_1} alt="" />
-                                    </div>
-                                    <div className="law-img-1 mr-15 wow tpfadeUp" data-wow-delay=".3s">
-                                        <img src={img_2} alt="" />
-                                    </div>
-                                    <div className="law-img-1 wow tpfadeUp" data-wow-delay=".4s">
-                                        <img src={img_3} alt="" />
-                                    </div>
-                                </div> */} */}
+                                   
                                 <div className="law-hero__content">
                                     <h2 className="law-hero__content-title mb-20 wow tpfadeUp">{title}</h2>
                                     <p className="mb-50 wow tpfadeUp" data-wow-delay=".4s">

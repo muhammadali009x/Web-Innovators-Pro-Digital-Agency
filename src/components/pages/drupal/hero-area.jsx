@@ -18,7 +18,7 @@ const { bg_img, img_1, img_2, img_3, title, des, btn_text } = hero_content
 const HeroAbout = () => {
     return (
         <>
-            <div className="law-hero-area mt-40"
+            <div className="law-hero-area"
                 style={{ backgroundImage: `url(${bg_img})` }}
 
             >
@@ -51,7 +51,7 @@ const HeroAbout = () => {
                                         Whether you’re looking to launch a new project or enhance an existing one, our expertise guarantees a trusted partnership every step of the way. Together, we’ll unlock the full potential of Drupal for your business.
 
                                     </p>
-                                    <a href={`tel:${btn_text}`} className="tp-red-btn tp-btn-hover alt-bg-white wow tpfadeUp" data-wow-delay=".5s">
+                                    <a href='/contact' className="tp-red-btn tp-btn-hover alt-bg-white wow tpfadeUp" data-wow-delay=".5s">
                                         <span className="mr-10">
                                             <i className="fas fa-phone"></i>
                                             <i className="fas fa-phone"></i>

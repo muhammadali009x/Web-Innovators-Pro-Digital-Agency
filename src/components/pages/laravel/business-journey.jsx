@@ -43,13 +43,7 @@ const BusinessJourney = ({ style_service }) => {
                                     <i className="fal fa-long-arrow-right"></i>
                                 </span>
                             </a> {" "}
-                            {/* {/* <a href="#" className={`${style_service ? "tp-white-btn" : "tp-black-btn-rgb"} wow tpfadeUp`}>
-                                <span className="mr-10">
-                                    <i className="fab fa-google"></i>
-                                    <i className="fab fa-google"></i>
-                                </span>
-                                Google Calendar
-                            </a> */} */}
+                                   
                         </div>
                     </div>
                 </div>

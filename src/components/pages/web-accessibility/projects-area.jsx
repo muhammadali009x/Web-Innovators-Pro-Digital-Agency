@@ -68,11 +68,10 @@ const ProjectsArea = () => {
                      <div key={i} className={item.col}>
                         <div className={`${item.project_cls} mb-65 wow tpfadeUp`}>
                            <div className="tp-bs-project__img w-img fix mb-35">
-                              <a href="#" onClick={() => handleImagePopup(i)} className="bs-project-popup">
-                                 <img src={item.img} alt="" /></a>
+                              <img src={item.img} alt="" />
                            </div>
                            <div className="tp-bs-project__details wow tpfadeUp">
-                              <span className="mb-10 d-inline-block"> <a href="#">{item.sub_title}</a></span>
+                               {/* <span className="mb-10 d-inline-block"> <a href="#">{item.sub_title}</a></span> */}
                               <h3 className="tp-bs-project__title">{item.title}</h3>
                               <p>{item.des}</p>
                            </div>
@@ -85,7 +84,7 @@ const ProjectsArea = () => {
                <div className="row">
                   <div className="col-12">
                      <div className="project-more-btn">
-                        <Link href="/portfolio-3" className="tp-common-btn tp-btn-hover alt-color">more works
+                        <Link href="/portfolio" className="tp-common-btn tp-btn-hover alt-color">more works
                            <span>
                               <i className="fal fa-long-arrow-right"></i>
                               <i className="fal fa-long-arrow-right"></i>

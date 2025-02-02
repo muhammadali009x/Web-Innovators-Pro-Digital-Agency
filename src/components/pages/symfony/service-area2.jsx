@@ -1,5 +1,5 @@
 import React from 'react';
-
+import service_data from '@/src/components/pages/web-app/servicesdata';
 const service_content = {
     title: "Looking for exceptional expertise in cutting-edge digital technologies? You’re in the right place. ",
     description: `We specialize in crafting robust web applications using some of the most powerful frameworks available today. Whether you're building a sleek single-page app or a complex enterprise web solution, our team is ready to bring your vision to life. 
@@ -7,53 +7,7 @@ const service_content = {
 }
 const { title, description } = service_content
 
-const service_data = [
-
-
-    // service data home 2
-    {
-        id: 1,
-        link: "/service-3",
-        img: "/assets/img/services/icon/it-service-1.png",
-        title: "Laravel Development ",
-        des: `Harness the power and flexibility of Laravel with our team of skilled developers. We design secure, scalable, and feature-rich web applications tailored to your needs. 
-`
-    },
-    {
-        id: 2,
-        link: "/service-3",
-        img: "/assets/img/services/icon/it-service-2.png",
-        title: `React Development 
-`,
-        des: `Looking to create interactive, high-performance user interfaces? Our React experts will help you build seamless, responsive web apps that stand out. 
-`
-    },
-    {
-        id: 3,
-        link: "/service-3",
-        img: "/assets/img/services/icon/it-service-3.png",
-        title: `Angular Development 
-`,
-        des: `For dynamic web applications that combine speed and scalability, we provide Angular development services that ensure optimal performance. 
-`
-    },
-
-    // service home 5
-    {
-        id: 4,
-        icon: "flaticon-diaphragm",
-        link: "#",
-        img: "/assets/img/services/icon/it-service-3.png",
-        title: `Vue.js Development 
-`,
-        des: `With Vue.js, simplicity meets sophistication. Our team delivers lightweight, efficient solutions to create visually stunning and highly interactive user experiences. 
-`,
-        counter: "01",
-        delay: ".3s"
-    },
-
-]
-
+ 
 const ServiceArea = () => {
     return (
         <>
@@ -80,7 +34,7 @@ const ServiceArea = () => {
                                             <div className="seo-service-item__thumb mb-35">
                                                 <img src={item.img} alt="theme-pure" />
                                             </div>
-                                            <h3 className="seo-service-item__title mb-20"><a href="#">{item.title}</a></h3>
+                                            <h3 className="seo-service-item__title mb-20"><a href={item.link}>{item.title}</a></h3>
                                              
                                         </div>
                                     </div>

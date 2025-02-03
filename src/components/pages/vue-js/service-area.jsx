@@ -6,7 +6,7 @@ import React from "react";
 const local_service_data = [
   {
     id: 1,
-    img: "/assets/img/services/icon/ca-sv-icon-1.png",
+    img: "/assets/img/services/icon/custom_vue_js_applications_icon (1) (1).jpg",
     title: `Custom Vue.js Applications
 `,
     des: `Our experienced developers specialize in building bespoke web applications using the powerful Vue.js framework. Whether you need a lightweight interface or a feature-rich platform, we craft software designed specifically for your unique business needs. With Vue.js's simplicity and flexibility, we ensure your application delivers superior functionality and a seamless user experience.
@@ -14,7 +14,7 @@ const local_service_data = [
   },
   {
     id: 2,
-    img: "/assets/img/services/icon/ca-sv-icon-2.png",
+    img: "/assets/img/services/icon/icon_for_scalable_enterprise_solutions (2).jpg",
     title: `Scalable Enterprise Solutions
 `,
     des: `For large corporations aiming to innovate and grow, we deliver scalable Vue.js enterprise solutions. Our team develops tailored software capable of adapting to your business’s evolving requirements. By seamlessly integrating with your existing systems, our solutions ensure efficiency and ease of operation, enabling a smooth scaling process.
@@ -22,7 +22,7 @@ const local_service_data = [
   },
   {
     id: 3,
-    img: "/assets/img/services/icon/ca-sv-icon-3.png",
+    img: "/assets/img/services/icon/icon_for_custom_component_development.jpg",
     title: `Custom Component Development
 `,
     des: `Harness the full potential of Vue.js’s component-based architecture with our custom component development services. Our team designs and builds specialized components to extend functionality, offering unmatched levels of performance and interactivity. These components are tailored to your application’s specifications, ensuring an intuitive and superior user experience.
@@ -30,7 +30,7 @@ const local_service_data = [
   },
   {
     id: 4,
-    img: "/assets/img/services/icon/ca-sv-icon-3.png",
+    img: "/assets/img/services/icon/api_integration_with_vue_js_icon.jpg",
     title: `API Integration with Vue.js
 `,
     des: `We enhance the capabilities of your Vue.js applications with expert API integration. Our developers are skilled in crafting functional and dependable RESTful solutions, ensuring smooth communication between systems. This enhances the versatility and connectivity of your applications, allowing you to meet a wider range of business needs.
@@ -38,7 +38,7 @@ const local_service_data = [
   },
   {
     id: 5,
-    img: "/assets/img/services/icon/ca-sv-icon-3.png",
+    img: "/assets/img/services/icon/icon_for_continuous_maintenance_and_support (2).jpg",
     title: `Continuous Maintenance and Support
 `,
     des: `Our commitment extends far beyond the initial development stage. We provide ongoing maintenance and support services to ensure your Vue.js applications remain secure, up-to-date, and optimized for peak performance. From addressing potential issues to rolling out updates, we are here to ensure your software always operates at its best.

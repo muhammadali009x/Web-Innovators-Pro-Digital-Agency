@@ -5,7 +5,7 @@ import React from "react";
 const feature_data = [
   {
     id: 1,
-    icon: "/assets/img/icons/app-fea-icon-1.png",
+    icon: "/assets/img/icons/icon_for_specialists (1).jpg",
     title: `We’re Specialists 
 `,
     des: `React isn’t just a skill for us—it’s our specialty. Our team lives and breathes React’s component-based architecture. This deep expertise allows us to craft dynamic, lightning-fast web applications that are intuitive to use. With React’s reusable components, we can build scalable solutions that adapt as your business grows. 
@@ -13,7 +13,7 @@ const feature_data = [
   },
   {
     id: 2,
-    icon: "/assets/img/icons/app-fea-icon-2.png",
+    icon: "/assets/img/icons/icon_for_we_re_flexible (2).jpg",
     title: `We’re Flexible 
 `,
     des: `Every business is unique, and your React application should be, too. Whether it’s custom hooks for advanced functionality, seamless state management, or beautifully intricate UI components, we create solutions that fit your specific goals. With every project, we aim to deliver not just functionality but also standout creativity that makes your application shine. 
@@ -21,7 +21,7 @@ const feature_data = [
   },
   {
     id: 3,
-    icon: "/assets/img/icons/app-fea-icon-3.png",
+    icon: "/assets/img/icons/icon_for_iclud.jpg",
     title: `We’re Knowledgeable Across Technologies 
 `,
     des: `Our skills don’t stop at React. We have significant experience with complementary frameworks like Angular, Laravel, Symfony, and Vue.js. Need a content management platform? We’re skilled in CMS solutions like Drupal, WordPress, Contao, and Joomla. Not sure which technology is the right fit? We’ll help you weigh the pros and cons so you can make an informed decision that’s best for your project. 
@@ -29,7 +29,7 @@ const feature_data = [
   },
   {
     id: 4,
-    icon: "/assets/img/icons/app-fea-icon-4.png",
+    icon: "/assets/img/icons/icon_for_we_re_transparent (4).jpg",
     title: `We’re Transparent 
 `,
     des: `Trust and collaboration are at the heart of what we do. We involve you at every step of the development process—no surprises, no hidden agendas. Through clear and open communication, we position ourselves as your digital partner, genuinely invested in the success of your project. 
@@ -38,7 +38,7 @@ const feature_data = [
 
   {
     id: 5,
-    icon: "/assets/img/icons/app-fea-icon-4.png",
+    icon: "/assets/img/icons/icon_for_we_re_here_for_the_long.jpg",
     title: `We’re Here for the Long Haul 
 `,
     des: `Our relationship doesn’t end when the project is delivered. We’re all about building lasting partnerships. That’s why we offer comprehensive support and maintenance services to ensure your React application performs at its best. From applying the latest security patches to implementing feature enhancements, we’re here to keep things running smoothly and securely. 

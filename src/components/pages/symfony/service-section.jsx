@@ -8,7 +8,7 @@ const local_service_data = [
   {
       id: 1,
       link: "/service-3",
-      img: "/assets/img/services/icon/it-service-1.png",
+      img: "/assets/img/services/icon/icon_for_versatile_components.jpg",
       title: `Versatile Components
 `,
       des: `Symfony’s reusable components provide flexibility and power that go beyond just its framework. From templating to routing, you can integrate these components into standalone projects. That versatility makes Symfony an excellent choice whether you’re building a large, complex application or just need a flexible toolset for smaller tasks.
@@ -17,7 +17,7 @@ const local_service_data = [
   {
       id: 2,
       link: "/service-3",
-      img: "/assets/img/services/icon/it-service-2.png",
+      img: "/assets/img/services/icon/icon_for_exceptional_performance.jpg",
       title: `Exceptional Performance
 `,
       des: `One reason Symfony is celebrated is its efficiency, and this is in no small part due to Symfony Flex. This feature ensures that projects start lean with minimal dependencies, giving developers the ability to scale selectively. If high performance is a top priority for you, Symfony has tools designed to keep your digital experiences fast and reliable.
@@ -26,7 +26,7 @@ const local_service_data = [
   {
       id: 3,
       link: "/service-3",
-      img: "/assets/img/services/icon/it-service-3.png",
+      img: "/assets/img/services/icon/icon_for_passionate_developer_community.jpg",
       title: `Passionate Developer Community
 `,
       des: `Although not the largest, Symfony’s developer community is thriving. These dedicated contributors constantly enhance the platform, share useful bundles (Symfony’s term for plugins), and provide thorough documentation. With such an active ecosystem, you’re not just choosing a framework—you’re joining a network of innovators working to make Symfony better every day.
@@ -44,7 +44,7 @@ const local_service_data2 = [
   {
       id: 1,
       link: "/service-3",
-      img: "/assets/img/services/icon/it-service-1.png",
+      img: "/assets/img/services/icon/icon_for_steep_learning_curve (1).jpg",
       title: `Steep Learning Curve
 `,
       des: `Symfony is robust and flexible, offering a deep toolbox for tackling complex digital needs. But with great flexibility comes a learning curve. For those unfamiliar with its structure or concepts, it may feel a little overwhelming at first. If tight deadlines or limited technical expertise are factors, onboarding to Symfony could take more time.
@@ -53,7 +53,7 @@ const local_service_data2 = [
   {
       id: 2,
       link: "/service-3",
-      img: "/assets/img/services/icon/it-service-2.png",
+      img: "/assets/img/services/icon/icon_for_bundle_dependencies.jpg",
       title: `Bundle Dependencies
 `,
       des: `The power of Symfony lies in its reusable and modular bundles. However, managing these can create complexity—especially for large-scale projects. Ensuring compatibility, maintaining updates, and managing configurations may require experienced developers to handle effectively.
@@ -62,7 +62,7 @@ const local_service_data2 = [
   {
       id: 3,
       link: "/service-3",
-      img: "/assets/img/services/icon/it-service-3.png",
+      img: "/assets/img/services/icon/icon_for_requires_object_oriented_know_how.jpg",
       title: `Requires Object-Oriented Know-How
 `,
       des: `Symfony is built on Object-Oriented Programming (OOP) principles. While this ensures your code is organized, reusable, and scalable, it could present challenges if your project has limited resources or calls for a simpler framework. For quick projects on tight schedules, a lighter framework might be more practical.

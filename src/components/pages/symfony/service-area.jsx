@@ -6,7 +6,7 @@ import React from "react";
 const local_service_data = [
   {
     id: 1,
-    img: "/assets/img/services/icon/ca-sv-icon-1.png",
+    img: "/assets/img/services/icon/custom_symfony_applications.jpg",
     title: `Custom Symfony Applications 
 `,
     des: `Looking for a tailored web solution that fits your unique needs? Our seasoned developers specialize in creating custom applications using Symfony’s versatile framework. We transform your vision into high-performing software built to meet your specific goals, bringing advanced functionality and precision to every project. 
@@ -14,7 +14,7 @@ const local_service_data = [
   },
   {
     id: 2,
-    img: "/assets/img/services/icon/ca-sv-icon-2.png",
+    img: "/assets/img/services/icon/icon_for_scalable_enterprise_solutions.jpg",
     title: `Scalable Enterprise Solutions 
 `,
     des: `Scaling a large corporation shouldn’t feel like climbing Everest. Our Symfony enterprise solutions are built to support your growth seamlessly. By designing software that aligns perfectly with your business processes and effortlessly integrates with existing systems, we ensure your team is always one step ahead. 
@@ -22,7 +22,7 @@ const local_service_data = [
   },
   {
     id: 3,
-    img: "/assets/img/services/icon/ca-sv-icon-3.png",
+    img: "/assets/img/services/icon/icon_for_custom_bundle_development.jpg",
     title: `Custom Bundle Development 
 `,
     des: `Why settle for standard functionality when you can have something that truly works for you? Our team leverages Symfony’s modular design to develop custom bundles that enhance the performance of your applications. These specialized bundles unlock new efficiencies and usability, ensuring your software works smarter—not harder. 
@@ -30,7 +30,7 @@ const local_service_data = [
   },
   {
     id: 3,
-    img: "/assets/img/services/icon/ca-sv-icon-3.png",
+    img: "/assets/img/services/icon/icon_for_elevate_your_symfony_experience.jpg",
     title: `Elevate Your Symfony Experience 
 `,
     des: `At every stage, our Symfony development services combine expert craftsmanship, scalable solutions, and unwavering support. Whether you're a growing enterprise or need custom features that wow, we ensure your applications are built to shine. 
@@ -38,7 +38,7 @@ const local_service_data = [
   },
   {
     id: 3,
-    img: "/assets/img/services/icon/ca-sv-icon-3.png",
+    img: "/assets/img/services/icon/icon_for_smooth_api_integration.jpg",
     title: `Smooth API Integration 
 `,
     des: `Connectivity fuels modern applications, and our team has the expertise to make it seamless. Whether it’s creating efficient RESTful solutions or integrating complex APIs into your Symfony applications, we ensure everything runs like clockwork while boosting your app's capability and functionality. 
@@ -46,7 +46,7 @@ const local_service_data = [
   },
   {
     id: 3,
-    img: "/assets/img/services/icon/ca-sv-icon-3.png",
+    img: "/assets/img/services/icon/icon_for_ongoing_maintenance_and_support (1).jpg",
     title: `Ongoing Maintenance and Support 
 `,
     des: `Great software doesn’t stop evolving after deployment—and neither do we. With our dedicated maintenance and support services, your Symfony application stays optimized, secure, and ahead of the curve. From updates to troubleshooting, we are here to ensure your software performs at its best every step of the way. 

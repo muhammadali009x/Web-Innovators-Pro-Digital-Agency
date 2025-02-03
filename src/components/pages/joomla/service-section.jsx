@@ -8,7 +8,7 @@ const local_service_data = [
   {
       id: 1,
       link: "/service-3",
-      img: "/assets/img/services/icon/it-service-1.png",
+      img: "/assets/img/services/icon/icon_for_renewed_confidence.jpg",
       title: `Renewed Confidence`,
       des:`  Joomla 5, with its new updates and refinements, is restoring trust and interest in the platform among users and developers.
 `
@@ -16,7 +16,7 @@ const local_service_data = [
   {
       id: 2,
       link: "/service-3",
-      img: "/assets/img/services/icon/it-service-2.png",
+      img: "/assets/img/services/icon/steady_project_request_volume (1).jpg",
       title: `Steady Project Request Volume`,
       des: `  Our agency has observed consistent demand for new Joomla projects, indicating sustained enthusiasm for what the CMS has to offer.
 `
@@ -24,7 +24,7 @@ const local_service_data = [
   {
       id: 3,
       link: "/service-3",
-      img: "/assets/img/services/icon/it-service-3.png",
+      img: "/assets/img/services/icon/a_stable_and_supportive_community.jpg",
       title: `A Stable and Supportive Community 
 `,
       des: `  The strength of the Joomla community is a significant advantage. This vibrant ecosystem of developers and users provides ongoing support and development, ensuring the platform remains relevant in the years to come.

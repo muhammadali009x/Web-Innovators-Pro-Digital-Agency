@@ -2,7 +2,7 @@ const our_blog_data = [
     {
         id: 1,
         home_2: true,
-        img: "/assets/img/blog/it-blog-1.jpg",
+        // img: "/assets/img/blog/it-blog-1.jpg",
         date: "24",
         month: "Nov",
         category: "Technology",
@@ -17,7 +17,7 @@ const our_blog_data = [
     {
         id: 2,
         home_2: true,
-        img: "/assets/img/blog/it-blog-2.jpg",
+        // img: "/assets/img/blog/it-blog-2.jpg",
         date: "16",
         month: "Dec",
         category: "Technology",
@@ -33,7 +33,7 @@ const our_blog_data = [
     {
         id: 3,
         home_2: true,
-        img: "/assets/img/blog/it-blog-2.jpg",
+        // img: "/assets/img/blog/it-blog-2.jpg",
         date: "16",
         month: "Dec",
         category: "Technology",
@@ -49,7 +49,7 @@ const our_blog_data = [
     {
         id: 4,
         home_2: true,
-        img: "/assets/img/blog/it-blog-2.jpg",
+        // img: "/assets/img/blog/it-blog-2.jpg",
         date: "16",
         month: "Dec",
         category: "Technology",
@@ -65,7 +65,7 @@ const our_blog_data = [
     {
         id: 5,
         home_2: true,
-        img: "/assets/img/blog/it-blog-2.jpg",
+        // img: "/assets/img/blog/it-blog-2.jpg",
         date: "16",
         month: "Dec",
         category: "Technology",
@@ -81,7 +81,7 @@ const our_blog_data = [
     {
         id: 6,
         home_2: true,
-        img: "/assets/img/blog/it-blog-2.jpg",
+        // img: "/assets/img/blog/it-blog-2.jpg",
         date: "16",
         month: "Dec",
         category: "Technology",
@@ -97,7 +97,7 @@ const our_blog_data = [
     {
         id: 7,
         home_2: true,
-        img: "/assets/img/blog/it-blog-2.jpg",
+        // img: "/assets/img/blog/it-blog-2.jpg",
         date: "16",
         month: "Dec",
         category: "Technology",
@@ -113,7 +113,7 @@ const our_blog_data = [
     {
         id: 8,
         home_2: true,
-        img: "/assets/img/blog/it-blog-2.jpg",
+        // img: "/assets/img/blog/it-blog-2.jpg",
         date: "16",
         month: "Dec",
         category: "Technology",
@@ -129,7 +129,7 @@ const our_blog_data = [
     {
         id: 9,
         home_2: true,
-        img: "/assets/img/blog/it-blog-2.jpg",
+        // img: "/assets/img/blog/it-blog-2.jpg",
         date: "16",
         month: "Dec",
         category: "Technology",
@@ -145,7 +145,7 @@ const our_blog_data = [
     {
         id: 10,
         home_2: true,
-        img: "/assets/img/blog/it-blog-2.jpg",
+        // img: "/assets/img/blog/it-blog-2.jpg",
         date: "16",
         month: "Dec",
         category: "Technology",
@@ -161,7 +161,7 @@ const our_blog_data = [
     {
         id: 11,
         home_2: true,
-        img: "/assets/img/blog/it-blog-2.jpg",
+        // img: "/assets/img/blog/it-blog-2.jpg",
         date: "16",
         month: "Dec",
         category: "Technology",
@@ -177,7 +177,7 @@ const our_blog_data = [
     {
         id: 12,
         home_2: true,
-        img: "/assets/img/blog/it-blog-2.jpg",
+        // img: "/assets/img/blog/it-blog-2.jpg",
         date: "16",
         month: "Dec",
         category: "Technology",
@@ -192,7 +192,7 @@ const our_blog_data = [
     {
         id: 13,
         home_2: true,
-        img: "/assets/img/blog/it-blog-2.jpg",
+        // img: "/assets/img/blog/it-blog-2.jpg",
         date: "16",
         month: "Dec",
         category: "Technology",
@@ -208,7 +208,7 @@ const our_blog_data = [
     {
         id: 14,
         home_2: true,
-        img: "/assets/img/blog/it-blog-2.jpg",
+        // img: "/assets/img/blog/it-blog-2.jpg",
         date: "16",
         month: "Dec",
         category: "Technology",
@@ -223,7 +223,7 @@ const our_blog_data = [
     {
         id: 15,
         home_2: true,
-        img: "/assets/img/blog/it-blog-2.jpg",
+        // img: "/assets/img/blog/it-blog-2.jpg",
         date: "16",
         month: "Dec",
         category: "Technology",
@@ -239,7 +239,7 @@ const our_blog_data = [
     {
         id: 16,
         home_2: true,
-        img: "/assets/img/blog/it-blog-2.jpg",
+        // img: "/assets/img/blog/it-blog-2.jpg",
         date: "16",
         month: "Dec",
         category: "Technology",
@@ -255,7 +255,7 @@ const our_blog_data = [
     {
         id: 17,
         home_2: true,
-        img: "/assets/img/blog/it-blog-2.jpg",
+        // img: "/assets/img/blog/it-blog-2.jpg",
         date: "16",
         month: "Dec",
         category: "Technology",
@@ -271,7 +271,7 @@ const our_blog_data = [
     {
         id: 18,
         home_2: true,
-        img: "/assets/img/blog/it-blog-2.jpg",
+        // img: "/assets/img/blog/it-blog-2.jpg",
         date: "16",
         month: "Dec",
         category: "Technology",
@@ -287,7 +287,7 @@ const our_blog_data = [
     {
         id: 19,
         home_2: true,
-        img: "/assets/img/blog/it-blog-2.jpg",
+        // img: "/assets/img/blog/it-blog-2.jpg",
         date: "16",
         month: "Dec",
         category: "Technology",
@@ -303,7 +303,7 @@ const our_blog_data = [
     {
         id: 20,
         home_2: true,
-        img: "/assets/img/blog/it-blog-2.jpg",
+        // img: "/assets/img/blog/it-blog-2.jpg",
         date: "16",
         month: "Dec",
         category: "Technology",
@@ -319,7 +319,7 @@ const our_blog_data = [
     {
         id: 21,
         home_2: true,
-        img: "/assets/img/blog/it-blog-2.jpg",
+        // img: "/assets/img/blog/it-blog-2.jpg",
         date: "16",
         month: "Dec",
         category: "Technology",
@@ -336,7 +336,7 @@ const our_blog_data = [
     {
         id: 22,
         home_2: true,
-        img: "/assets/img/blog/it-blog-2.jpg",
+        // img: "/assets/img/blog/it-blog-2.jpg",
         date: "16",
         month: "Dec",
         category: "Technology",
@@ -352,7 +352,7 @@ const our_blog_data = [
     {
         id: 23,
         home_2: true,
-        img: "/assets/img/blog/it-blog-2.jpg",
+        // img: "/assets/img/blog/it-blog-2.jpg",
         date: "16",
         month: "Dec",
         category: "Technology",
@@ -367,7 +367,7 @@ const our_blog_data = [
     {
         id: 24,
         home_2: true,
-        img: "/assets/img/blog/it-blog-2.jpg",
+        // img: "/assets/img/blog/it-blog-2.jpg",
         date: "16",
         month: "Dec",
         category: "Technology",
@@ -383,7 +383,7 @@ const our_blog_data = [
     {
         id: 25,
         home_2: true,
-        img: "/assets/img/blog/it-blog-2.jpg",
+        // img: "/assets/img/blog/it-blog-2.jpg",
         date: "16",
         month: "Dec",
         category: "Technology",
@@ -399,7 +399,7 @@ const our_blog_data = [
     {
         id: 26,
         home_2: true,
-        img: "/assets/img/blog/it-blog-2.jpg",
+        // img: "/assets/img/blog/it-blog-2.jpg",
         date: "16",
         month: "Dec",
         category: "Technology",
@@ -415,7 +415,7 @@ const our_blog_data = [
     {
         id: 27,
         home_2: true,
-        img: "/assets/img/blog/it-blog-2.jpg",
+        // img: "/assets/img/blog/it-blog-2.jpg",
         date: "16",
         month: "Dec",
         category: "Technology",
@@ -431,7 +431,7 @@ const our_blog_data = [
     {
         id: 28,
         home_2: true,
-        img: "/assets/img/blog/it-blog-2.jpg",
+        // img: "/assets/img/blog/it-blog-2.jpg",
         date: "16",
         month: "Dec",
         category: "Technology",
@@ -447,7 +447,7 @@ const our_blog_data = [
     {
         id: 29,
         home_2: true,
-        img: "/assets/img/blog/it-blog-2.jpg",
+        // img: "/assets/img/blog/it-blog-2.jpg",
         date: "16",
         month: "Dec",
         category: "Technology",
@@ -463,7 +463,7 @@ const our_blog_data = [
     {
         id: 30,
         home_2: true,
-        img: "/assets/img/blog/it-blog-2.jpg",
+        // img: "/assets/img/blog/it-blog-2.jpg",
         date: "16",
         month: "Dec",
         category: "Technology",
@@ -479,7 +479,7 @@ const our_blog_data = [
     {
         id: 31,
         home_2: true,
-        img: "/assets/img/blog/it-blog-2.jpg",
+        // img: "/assets/img/blog/it-blog-2.jpg",
         date: "16",
         month: "Dec",
         category: "Technology",
@@ -495,7 +495,7 @@ const our_blog_data = [
     {
         id: 32,
         home_2: true,
-        img: "/assets/img/blog/it-blog-2.jpg",
+        // img: "/assets/img/blog/it-blog-2.jpg",
         date: "16",
         month: "Dec",
         category: "Technology",
@@ -510,7 +510,7 @@ const our_blog_data = [
     {
         id: 33,
         home_2: true,
-        img: "/assets/img/blog/it-blog-2.jpg",
+        // img: "/assets/img/blog/it-blog-2.jpg",
         date: "16",
         month: "Dec",
         category: "Technology",
@@ -526,7 +526,7 @@ const our_blog_data = [
     {
         id: 34,
         home_2: true,
-        img: "/assets/img/blog/it-blog-2.jpg",
+        // img: "/assets/img/blog/it-blog-2.jpg",
         date: "16",
         month: "Dec",
         category: "Technology",

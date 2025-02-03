@@ -3,12 +3,36 @@ import FooterThree from '@/src/layout/footers/footer-3';
 import HeaderThree from '@/src/layout/headers/header-3';
 import Link from 'next/link';
 import React from 'react';
- 
+
+// Define SEO data
+const SEOData = {
+    pageTitle: `How to Create & Publish Joomla Articles | Step-by-Step Guide`,
+    description: `Learn to create, style, and publish Joomla articles! Follow our easy tutorial for adding text, embedding images, and publishing your content.`,
+    image: 'http://localhost:3000/assets/img/preimages/how_to_create_and_publish_a_new.jpeg',  // Update with an actual image path
+    url: 'http://localhost:3000/agency/joomla/how-to-create-and-publish-a-new-joomla-article',  // Replace with the actual URL
+    keywords: `Joomla Article,
+Joomla Tutorial,
+Joomla CMS,
+Joomla,
+Article Publishing,
+Content Creation,
+Joomla Guide,
+Joomla Publishing,
+Joomla Image Embedding
+`
+};
+
 const Index = () => {
     return (
         <>
             <HeaderThree />
-            <SEO />
+            <SEO
+                pageTitle={SEOData.pageTitle}
+                description={SEOData.description}
+                image={SEOData.image}
+                url={SEOData.url}
+                keywords={SEOData.keywords}
+            />
             <div className="postbox__area pt-10 pb-20">
                 <div className="container">
                     <div className="row">

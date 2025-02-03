@@ -53,7 +53,7 @@ const FeatureArea = () => {
                     <i className="far fa-circle"></i>
                   </span>
                   <h2
-                    className="tp-section__title mb-60 text-mirage wow tpfadeUp"
+                    className="tp-section__title text-mirage wow tpfadeUp"
                     data-wow-delay=".3s"
                   >
                  Our Thoughts on WordPress

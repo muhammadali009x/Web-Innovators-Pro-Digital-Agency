@@ -2,7 +2,7 @@ import React from 'react';
 
 
 const hero_content = {
-    bg_img: "/assets/img/hero/law-hero.png",
+    bg_img: "/assets/img/hero/heroimage.webp",
     img_1: "/assets/img/hero/law-1.png",
     img_2: "/assets/img/hero/law-2.png",
     img_3: "/assets/img/hero/law-3.png",

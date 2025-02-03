@@ -62,10 +62,10 @@ const Service = () => {
             <div className="col-12">
               <div className="section-title-wraper pb-55">
                 <div className="tp-section text-center">
-                  <span className="tp-section__subtitle vogue-text-color white-bg mb-15 wow tpfadeUp">
+                {/* <span className="tp-section__subtitle vogue-text-color white-bg mb-15 wow tpfadeUp">
                     <i className="before-border"></i>
                     Services <i className="after-border"></i>
-                  </span>
+                  </span> */}
                   <h2
                     className="tp-section__title vogue-text-color wow tpfadeUp"
                     data-wow-delay=".3s"

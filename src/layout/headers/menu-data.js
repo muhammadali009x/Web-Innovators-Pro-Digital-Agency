@@ -36,7 +36,7 @@ const menu_data = [
       { link: "/agency/symfony", title: "Symfony" }, 
       { link: "/agency/react", title: "React" },
       { link: "/agency/vue-js", title: "Vue.js" },
-      { link: "/agency/accessibility", title: "Accessibility" }, 
+      { link: "/agency/web-accessibility", title: "Accessibility" }, 
     ],
   },
   {

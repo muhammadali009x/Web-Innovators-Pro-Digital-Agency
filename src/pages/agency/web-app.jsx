@@ -29,7 +29,8 @@ const SEOData = {
 `,
   image: '/assets/img/seo-image.jpg',  // Update with an actual image path
   url: 'https://webinnovatorspro.com/agency/web-app',  // Replace with the actual URL
-  keywords: `Web App Development,
+  keywords: `web app,
+  Web App Development,
 Custom Web Applications,
 Innovative Web Apps,
 Web App Design,

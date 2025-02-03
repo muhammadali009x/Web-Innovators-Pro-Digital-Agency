@@ -51,7 +51,7 @@ const ProjectsArea = () => {
 
    return (
       <>
-         <div className="tp-bs-project pt-180 pb-120">
+         <div className="tp-bs-project pt-80 pb-120">
             <div className="container">
                <div className="row">
                   <div className="col-12">

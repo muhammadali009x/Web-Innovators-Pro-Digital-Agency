@@ -12,7 +12,7 @@ const { title, description } = service_content
 const ServiceArea = () => {
     return (
         <>
-            <div className="seo-service-area pt-120 pb-120">
+            <div className="seo-service-area  pb-120">
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
@@ -25,7 +25,7 @@ const ServiceArea = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="seo-service">
+                    <div className="seo-service mb-20">
                         <div className="row">
 
                             {
@@ -44,9 +44,11 @@ const ServiceArea = () => {
                                 )
                             }
                         </div>
-                        <p>No matter your project goals, our team ensures a smooth and engaging development process from start to finish. Let's create something extraordinary together!
-                        </p>
+                      
                     </div>
+
+                    <p>No matter your project goals, our team ensures a smooth and engaging development process from start to finish. Let's create something extraordinary together!
+                    </p>
                 </div>
             </div>
         </>

@@ -1,7 +1,4 @@
-
-h1 {
-    font-size: 80px;
-}
+ 
 .ca-about-circle img {
     width: 200px;
 }
@@ -9,9 +6,11 @@ h1 {
 .checked {
     color: orange;
 }
+
 .text-black {
     color: black;
 }
+
 .bg-hero {
     padding-bottom: 80px;
     padding-top: 80px;
@@ -44,16 +43,20 @@ h1 {
 }
 
 
-.background-color{
+.background-color {
     background-color: #6467f1;
 }
 
-.text-theme{
+.text-theme {
     color: #6467f1;
 }
 
+.tp-offcanvas__logo.mb-50 img {
+    width: 200px;
+}
+
 .logo img {
-    width: 75%;
+    width: 200px;
 }
 
 .bs-footer__top-logo img {
@@ -63,6 +66,7 @@ h1 {
 .swiper-wrapper {
     align-items: center;
 }
-.ab-brand-overlay .tp-app-brand-item{
+
+.ab-brand-overlay .tp-app-brand-item {
     opacity: 1 !important;
 }

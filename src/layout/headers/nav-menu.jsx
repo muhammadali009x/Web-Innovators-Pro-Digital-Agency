@@ -9,11 +9,10 @@ const NavMenu = () => {
         {menu_data.map((item, i) => (
           <li
             key={i}
-            className={`${item.has_dropdown ? "has-dropdown" : ''} ${
-              item.mega_menus ? "has-megamenu" : ''
-            }`}
+            className={`${item.has_dropdown ? "has-dropdown" : ''} ${item.mega_menus ? "has-megamenu" : ''
+              }`}
           >
-            {item.title}
+          <Link href={item.link}>   {item.title} </Link>
             {item.sub_menus && (
               <ul className="submenu">
                 {item.sub_menus.map((sub_item, sub_i) => (

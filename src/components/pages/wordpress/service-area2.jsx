@@ -11,7 +11,7 @@ const {title, description}  = service_content
 const ServiceArea = () => {
     return (
         <>
-            <div className="seo-service-area pt-120 pb-120">
+            <div className="seo-service-area pb-120">
             <div className="container">
                 <div className="row">
                     <div className="col-12">

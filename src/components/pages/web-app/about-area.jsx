@@ -22,7 +22,7 @@ const { about_img, circle_img, about, sub_title, title, des, des2, des3, author_
 const AboutArea = () => {
     return (
         <>
-            <div className="ca-about-area pt-120 pb-90">
+            <div className="ca-about-area  pb-90">
                 <div className="container">
                     <div className="row align-items-xl-center">
                         <div className="col-lg-6 wow tpfadeUp" data-wow-delay=".5s">

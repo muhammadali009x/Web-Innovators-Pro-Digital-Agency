@@ -7,7 +7,7 @@ const service_content = {
 }
 const {title, description}  = service_content
 
-const service_data = [
+const local_service_data = [
 
 
     // service data home 2
@@ -51,7 +51,7 @@ const ServiceArea = () => {
                     <div className="row">
 
                         {
-                            service_data.map((item, i) => 
+                            local_service_data.map((item, i) => 
                             <div key={i} className="col-xl-3 col-lg-6">
                             <div className="seo-service-item text-center wow tpfadeUp" data-wow-delay={item.delay}>
                                 <div className="seo-service-item__thumb mb-35">

@@ -1,4 +1,5 @@
-import service_data from '@/src/data/service-data';
+import local_service_data from '@/src/components/pages/web-app/service-data';
+
 import React from 'react';
 
 const service_content = {
@@ -9,50 +10,7 @@ const service_content = {
 }
 const { title, description } = service_content
 
-const service_data = [
-
-
-    // service data home 2
-    {
-        id: 1,
-        link: "/service-3",
-        img: "/assets/img/services/icon/it-service-1.png",
-        title: `Drupal Development `,
-        des: ` Our Drupal agency combines technical expertise and creative vision to craft scalable, secure, and high-performing websites for organizations of all sizes. 
-`
-    },
-    {
-        id: 2,
-        link: "/service-3",
-        img: "/assets/img/services/icon/it-service-2.png",
-        title: `WordPress Development`,
-        des: ` From blogs to enterprise-grade sites, our WordPress agency delivers custom solutions that are flexible, user-friendly, and designed to grow with your business. 
-`
-    },
-    {
-        id: 3,
-        link: "/service-3",
-        img: "/assets/img/services/icon/it-service-3.png",
-        title: `Joomla Development `,
-        des: ` With a deep understanding of Joomla's powerful features, our Joomla agency creates dynamic and engaging websites tailored to your unique needs. 
-`
-    },
-
-    // service home 5
-    {
-        id: 4,
-        icon: "flaticon-diaphragm",
-        link: "#",
-        img: "/assets/img/services/icon/it-service-3.png",
-        title: `Contao Development `,
-        des: ` Our Contao agency offers professional development services focused on creating sleek, responsive websites that provide seamless user experiences on any device. 
-`,
-        counter: "01",
-        delay: ".3s"
-    },
-
-
-]
+ 
 
 const ServiceArea = () => {
     return (
@@ -74,7 +32,7 @@ const ServiceArea = () => {
                         <div className="row">
 
                             {
-                                service_data.slice(7, 11).map((item, i) =>
+                                local_service_data.slice(7, 11).map((item, i) =>
                                     <div key={i} className="col-xl-3 col-lg-6">
                                         <div className="seo-service-item text-center wow tpfadeUp" data-wow-delay={item.delay}>
                                             <div className="seo-service-item__thumb mb-35">

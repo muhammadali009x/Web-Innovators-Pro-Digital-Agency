@@ -6,7 +6,7 @@ import React,{useState} from 'react';
 const project_data = [
     {
         id: 1,
-        img: "/assets/img/project/project-1.jpg",
+        img: " ",
         sub_title: "Product Design, UI, UX",
         title: "Leonox - Company Website Design",
         link: "/portfolio-details",
@@ -15,7 +15,7 @@ const project_data = [
     },
     {
         id: 2,
-        img: "/assets/img/project/project-2.jpg",
+        img: " ",
         sub_title: "UX, Consultancy",
         title: "Xionicy - Dashboard Design KIT",
         link: "/portfolio-details",

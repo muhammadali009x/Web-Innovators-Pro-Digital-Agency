@@ -1,8 +1,8 @@
 import React from "react";
 
 
-// service_data
-const service_data = [
+// local_service_data
+const local_service_data = [
   {
     id: 1,
     counter: "01",
@@ -69,7 +69,7 @@ const ServiceArea = () => {
             </div>
           </div>
           <div className="row">
-            {service_data.map((item, i) => (
+            {local_service_data.map((item, i) => (
               <div key={i} className="col-xl-4 col-lg-6">
                 <div
                   className="da-service pr-30 pl-30 mb-30 wow tpfadeUp"

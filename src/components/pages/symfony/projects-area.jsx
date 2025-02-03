@@ -6,7 +6,7 @@ import React, { useState } from 'react';
 const project_data = [
    {
       id: 1,
-      img: "/assets/img/project/project-1.jpg",
+      img: " ",
       sub_title: "Product Design, UI, UX",
       title: `Streamlined Back-office System | Online Language School | 2022 
 `,
@@ -18,7 +18,7 @@ const project_data = [
    },
    {
       id: 2,
-      img: "/assets/img/project/project-2.jpg",
+      img: " ",
       sub_title: "UX, Consultancy",
       title: `Building an Industry-Level Career Portal | msg systems | 2020 
 `, des: `Partnering with msg systems, we created an advanced career portal tailored to meet industry standards. The portal offers personalized job recommendations, an intuitive application process, and seamless integration with internal HR tools. By bridging the gap between opportunity and talent, this platform has helped msg systems connect with top-tier candidates worldwide, strengthening its workforce with ease.

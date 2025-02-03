@@ -6,7 +6,7 @@ import React, { useState } from 'react';
 const project_data = [
    {
       id: 1,
-      img: "/assets/img/project/project-1.jpg",
+      img: " ",
       sub_title: "Product Design, UI, UX",
       title: `WordPress Enhancements for Building Radar | 2023 `,
       des: `For Building Radar in 2023, we elevated the capabilities of their WordPress platform, making strategic enhancements to ensure optimal performance, usability, and scalability. This project focused on modernizing their website while maintaining a seamless user experience. Through tailored WordPress solutions, we aimed to position Building Radar as an industry leader with a reliable and efficient digital presence.
@@ -17,7 +17,7 @@ const project_data = [
    },
    {
       id: 2,
-      img: "/assets/img/project/project-2.jpg",
+      img: " ",
       sub_title: "UX, Consultancy",
       title: `Accommodation Platform WordPress Website | 2022 
 `,

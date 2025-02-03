@@ -5,7 +5,7 @@ import ServiceTwo from "../components/service-2";
 const index = () => {
   return (
     <>
-      <SEO pageTitle={"Gencio - Service 2"} />
+      <SEO pageTitle={"Web Innovators Pro - Service 2"} />
       <ServiceTwo />
     </>
   );

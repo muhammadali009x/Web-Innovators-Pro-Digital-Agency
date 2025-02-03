@@ -1,4 +1,4 @@
-import service_data from "@/src/data/service-data";
+import local_service_data from "@/src/data/service-data";
 import React from "react";
 
 const ServiceArea = () => {
@@ -16,7 +16,7 @@ const ServiceArea = () => {
       <div className="ptg-service dark-bg pt-120 pb-80">
         <div className="container">
           <div className="row">
-            {service_data.slice(3, 7).map((item, i) => (
+            {local_service_data.slice(3, 7).map((item, i) => (
               <div key={i} className="col-xl-3 col-md-6">
                 <div
                   className="ptg-service__box p-relative wow tpfadeUp"

@@ -24,7 +24,7 @@ const generateSitemap = () => {
     // Add all other pages dynamically or statically
   ];
 
-  const sitemap = new SitemapStream({ hostname: 'https://yourwebsite.com' });
+  const sitemap = new SitemapStream({ hostname: 'https://webinnovatorspro.com' });
 
   pages.forEach((page) => {
     sitemap.write(page);

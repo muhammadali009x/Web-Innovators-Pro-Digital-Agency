@@ -1,4 +1,5 @@
-import service_data from '@/src/data/service-data';
+import local_service_data from '@/src/components/pages/web-app/service-data';
+
 import Link from 'next/link';
 import React from 'react';
 
@@ -23,7 +24,7 @@ const ServiceDetailsArea = () => {
                      <div className="row">
 
                         {
-                            service_data.slice(28, 32).map((item, i)  => 
+                            local_service_data.slice(28, 32).map((item, i)  => 
                             <div key={i} className="col-lg-6">
                             <div className="sv-detials-sv-item mb-30">
                                <div className="sv-detials-sv-item__icon">

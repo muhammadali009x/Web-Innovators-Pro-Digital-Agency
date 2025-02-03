@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 
 // service data
-const service_data = [
+const local_service_data = [
   {
     id: 1,
     icon: "assets/img/services/icon/service-icon-1.png",
@@ -75,7 +75,7 @@ const ServiceAre = () => {
 
           <div className="tp-bs-service pb-55 tp-border-bottom pt-35">
             <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-5">
-              {service_data.map((item, i) => (
+              {local_service_data.map((item, i) => (
                 <div
                   key={i}
                   className="col wow tpfadeUp"

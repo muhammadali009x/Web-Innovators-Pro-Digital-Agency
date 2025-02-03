@@ -6,7 +6,7 @@ import React, { useState } from 'react';
 const project_data = [
    {
       id: 1,
-      img: "/assets/img/project/project-1.jpg",
+      img: " ",
       sub_title: "Product Design, UI, UX",
       title: `Building an Industry-Level Career Portal for msg systems | 2020 
 `, des: `We partnered with msg systems to create an advanced career portal tailored to meet industry standards. The project included developing a user-friendly interface, integrating precise search functionality, and ensuring scalability for future growth. With a focus on user experience, the portal streamlined the hiring process for both recruiters and applicants. 
@@ -17,7 +17,7 @@ const project_data = [
    },
    {
       id: 2,
-      img: "/assets/img/project/project-2.jpg",
+      img: " ",
       sub_title: "UX, Consultancy",
       title: `Large-scale Migration to Joomla with Matomo Tracking | 2019 
 `, des: `We executed a comprehensive large-scale migration project for a client transitioning to Joomla as their CMS. The initiative involved transferring extensive content and implementing Matomo tracking to ensure robust analytics capabilities. Our approach emphasized minimizing downtime, maintaining data integrity, and optimizing website performance to deliver an enhanced digital experience. 

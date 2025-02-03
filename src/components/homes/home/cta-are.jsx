@@ -24,7 +24,7 @@ const CtaArea = () => {
 
                    <TypeAnimation
                           sequence={[
-                            'Gencio', 
+                            'Web Innovators Pro', 
                             1000,
                             'Branding', 
                             3000,

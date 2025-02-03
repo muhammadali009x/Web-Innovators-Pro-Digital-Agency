@@ -1,7 +1,7 @@
  import Link from "next/link";
 import React from "react";
 
-const service_data = [
+const local_service_data = [
 
 
   // service data home 2
@@ -37,7 +37,7 @@ const service_data = [
 ]
 
 
-const service_data2 = [
+const local_service_data2 = [
 
 
   // service data home 2
@@ -100,7 +100,7 @@ const Service = () => {
             </div>
           </div>
           <div className="row it-sv-counter">
-            {service_data.map((item, i) => (
+            {local_service_data.map((item, i) => (
               <div key={i} className="col-lg-4 col-md-6">
                 <div
                   className="it-service__item mb-30 text-center wow tpfadeUp"
@@ -142,7 +142,7 @@ const Service = () => {
             </div>
           </div>
           <div className="row it-sv-counter">
-            {service_data2.map((item, i) => (
+            {local_service_data2.map((item, i) => (
               <div key={i} className="col-lg-4 col-md-6">
                 <div
                   className="it-service__item mb-30 text-center wow tpfadeUp"

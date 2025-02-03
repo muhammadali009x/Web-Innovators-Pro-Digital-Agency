@@ -6,7 +6,7 @@ import React, { useState } from 'react';
 const project_data = [
    {
       id: 1,
-      img: "/assets/img/project/project-1.jpg",
+      img: " ",
       sub_title: "Product Design, UI, UX",
       title: `Back-Office System for an Online Language School | 2022 `,
       des: `We developed a comprehensive back-office system that streamlined administrative tasks for an online language school. This included features such as automated scheduling, enrollment tracking, and integrated communication tools to improve efficiency and user experience for both educators and students. The system was built with scalability in mind, accommodating future growth and evolving educational needs.
@@ -16,7 +16,7 @@ const project_data = [
    },
    {
       id: 2,
-      img: "/assets/img/project/project-2.jpg",
+      img: " ",
       sub_title: "UX, Consultancy",
       title: `Building an Industry-Level Career Portal for msg systems | 2020 
 `,

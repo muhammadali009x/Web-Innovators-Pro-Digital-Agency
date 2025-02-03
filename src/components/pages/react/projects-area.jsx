@@ -6,7 +6,7 @@ import React, { useState } from 'react';
 const project_data = [
    {
       id: 1,
-      img: "/assets/img/project/project-1.jpg",
+      img: " ",
       sub_title: "Product Design, UI, UX",
       title: "Back-Office System for an Online Language School | 2022 ",
       des: `We collaborated with a leading online language school to revolutionize their back-office operations. By designing and implementing a streamlined system, we empowered their team to manage everything from course schedules to student enrollment with ease. The result? Simplified processes, increased efficiency, and more time for what matters most—connecting students with world-class language education. 
@@ -17,7 +17,7 @@ const project_data = [
    },
    {
       id: 2,
-      img: "/assets/img/project/project-2.jpg",
+      img: " ",
       sub_title: "UX, Consultancy",
       title: "Industry-Level Career Portal for msg systems | 2020 ",
       des: `Creating opportunities was at the heart of this project. For msg systems, we developed a robust career portal tailored for navigating the competitive job market. The portal included personalized job recommendations, advanced filtering options, and tools to enhance candidate-employer connections. This user-friendly platform didn't just help applicants—it redefined how companies could attract and recruit top talent at scale

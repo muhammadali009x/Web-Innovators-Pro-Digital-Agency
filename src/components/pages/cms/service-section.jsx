@@ -1,4 +1,4 @@
-import service_data from "@/src/data/service-data";
+import local_service_data from "@/src/data/service-data";
 import Link from "next/link";
 import React from "react";
 

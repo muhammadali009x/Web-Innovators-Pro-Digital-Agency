@@ -5,6 +5,6 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 repo link 👇👇👇:
 
 ```bash
-https://github.com/ThemePure/gencio-next-js.git
+https://github.com/ThemePure/Web Innovators Pro-next-js.git
 
 ```

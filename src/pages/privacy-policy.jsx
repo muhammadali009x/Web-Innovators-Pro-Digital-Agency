@@ -5,7 +5,7 @@ import PrivacyPolicy from "../components/privacy-policy";
 const index = () => {
   return (
     <>
-      <SEO pageTitle={"Gencio - Privacy Policy"} />
+      <SEO pageTitle={"Web Innovators Pro - Privacy Policy"} />
       <PrivacyPolicy />
 
       

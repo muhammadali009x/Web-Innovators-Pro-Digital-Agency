@@ -1,4 +1,4 @@
-const service_data = [
+const local_service_data = [
 
 
     // service data home 2
@@ -382,4 +382,4 @@ const service_data = [
 
 
 ]
-export default service_data
+export default local_service_data

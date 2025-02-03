@@ -17,7 +17,7 @@ import AppFaqArea from "../home-4/app-faq-area";
 
 const HomeThree = () => {
 
-  const service_data = [
+  const local_service_data = [
     {
       id: 1,
       img: "/assets/img/services/icon/ca-sv-icon-1.png",
@@ -97,7 +97,7 @@ const HomeThree = () => {
       <LineWrap />
       <HeaderThree />
       <HeroBanner />  
-      <ServiceArea service_data={service_data}/> 
+      <ServiceArea local_service_data={local_service_data}/> 
       <ProjectsArea />
       <AppFaqArea />   
       <BlogArea />

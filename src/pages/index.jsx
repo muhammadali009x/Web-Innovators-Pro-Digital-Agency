@@ -7,7 +7,7 @@ import HomeThree from "../components/homes/home-3";
 const Home = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={"Gencio"} />
+      <SEO pageTitle={"Web Innovators Pro"} />
        <HomeThree />
     </Wrapper>
   );

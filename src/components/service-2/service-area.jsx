@@ -1,4 +1,5 @@
-import service_data from '@/src/data/service-data';
+import local_service_data from '@/src/components/pages/web-app/service-data';
+
 import React from 'react';
 
 
@@ -22,7 +23,7 @@ const ServiceArea = () => {
             </div>
             <div className="tp-bs-service pb-55 tp-border-bottom pt-35">
                <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-5">
-                    {service_data.slice(17, 22).map((item, i) =>
+                    {local_service_data.slice(17, 22).map((item, i) =>
                         <div key={i} className="col">
                      <div className="tp-bs-service-box text-center pt-40 pb-40 mb-25 wow tpfadeIn" data-wow-delay=".2s">
                         <div className="tp-bs-sv-icon mb-25">

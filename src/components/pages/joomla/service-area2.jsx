@@ -1,4 +1,5 @@
-import service_data from '@/src/data/service-data';
+import local_service_data from '@/src/components/pages/web-app/service-data';
+
 import React from 'react';
 
 const service_content = {

@@ -3,7 +3,7 @@ import React from "react";
 
 
 
-const service_data = [
+const local_service_data = [
     {
         id: 1, 
         img: "/assets/img/services/icon/icon_for_development_for_new_and_existing.jpg",
@@ -70,7 +70,7 @@ const ServiceArea = () => {
                   
           </div>
           <div className="row">
-            {service_data.map((item, i) => (
+            {local_service_data.map((item, i) => (
               <div key={i} className="col-lg-4 col-md-6">
                 <div
                   className="ca-service-wrapper mb-30 wow tpfadeUp"

@@ -1,4 +1,5 @@
-import service_data from '@/src/data/service-data';
+import local_service_data from '@/src/components/pages/web-app/service-data';
+
 import React from 'react';
 
 const service_content = {
@@ -28,7 +29,7 @@ const ServiceArea = () => {
                     <div className="row">
 
                         {
-                            service_data.slice(7, 11).map((item, i) => 
+                            local_service_data.slice(7, 11).map((item, i) => 
                             <div key={i} className="col-xl-3 col-lg-6">
                             <div className="seo-service-item text-center wow tpfadeUp" data-wow-delay={item.delay}>
                                 <div className="seo-service-item__thumb mb-35">

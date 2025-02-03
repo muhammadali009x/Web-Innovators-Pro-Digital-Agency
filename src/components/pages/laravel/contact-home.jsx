@@ -5,7 +5,7 @@ const contact_content = {
   title: `Got a Laravel project in mind? We’d love to hear about it! 
 `,
   phone: "+123 488 9652",
-  email: "info@gencio-itsolutions.com",
+  email: "info@Web Innovators Pro-itsolutions.com",
   address: "25 West 21th Street, Miami FL, US",
   date: "Mon-Fri: 10:00 - 18:0",
 };

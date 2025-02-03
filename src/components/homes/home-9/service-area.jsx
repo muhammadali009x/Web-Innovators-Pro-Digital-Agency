@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const service_data = [
+const local_service_data = [
     {
         id: 1,
         link: "#",
@@ -34,7 +34,7 @@ const ServiceArea = () => {
             <div className="ha-service white-bg">
             <div className="container-fluid g-0">
                 <div className="row gx-0">
-                    {service_data.map((item, i)  => 
+                    {local_service_data.map((item, i)  => 
                         <div key={i} className="col-xl-3">
                         <a href="#">
                             <div className="ha-service-item d-flex align-items-center justify-content-between">

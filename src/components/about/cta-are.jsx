@@ -18,7 +18,7 @@ const CtaAre = () => {
                            <span>Start your business journey better <br />
                               with </span>
                            <span className="cd-words-wrapper bs-cta-wrapper ca-cta-wrapper">
-                              <b className="is-hidden"> Gencio </b>
+                              <b className="is-hidden"> Web Innovators Pro </b>
                               <b className="is-visible"> Branding </b>
                               <b className="is-hidden"> Markting </b>
                            </span>

@@ -5,7 +5,7 @@ const contact_content = {
   title: `Got a web app idea you’re excited about? We’d love to hear all about it! 
 `,
   phone: "+123 488 9652",
-  email: "info@gencio-itsolutions.com",
+  email: "info@Web Innovators Pro-itsolutions.com",
   address: "25 West 21th Street, Miami FL, US",
   date: "Mon-Fri: 10:00 - 18:0",
   des: `Start by filling out the form and we’ll get back to you within one business day—quick, simple, and hassle-free. Prefer a more personal chat? Give us a call or send an email, and we’ll happily connect to explore your vision together. `,

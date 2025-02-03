@@ -5,7 +5,7 @@ import ShopDetails from "../components/shop-details";
 const index = () => {
   return (
     <>
-      <SEO pageTitle={"Gencio - Shop Details"} />
+      <SEO pageTitle={"Web Innovators Pro - Shop Details"} />
       <ShopDetails />
     </>
   );

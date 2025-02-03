@@ -18,7 +18,7 @@ const { bg_img, img_1, img_2, img_3, title, des, btn_text } = hero_content
 const HeroAbout = () => {
     return (
         <>
-            <div className="law-hero-area mt-40"
+            <div className="law-hero-area"
                 style={{ backgroundImage: `url(${bg_img})` }}
 
             >

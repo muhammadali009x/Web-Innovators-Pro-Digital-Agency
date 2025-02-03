@@ -6,7 +6,7 @@ import React, { useState } from 'react';
 const project_data = [
    {
       id: 1,
-      img: "/assets/img/project/project-1.jpg",
+      img: " ",
       sub_title: "Product Design, UI, UX",
       title: `Building an Industry-Level Career Portal for msg systems | 2020 
 `, des: `In 2020, we collaborated with msg systems to design and develop a robust career portal tailored for industry-level needs. The goal was to create a platform that would streamline job applications and enhance the user experience for both job seekers and hiring teams. With complex functionality, seamless navigation, and professional aesthetics, the portal exemplifies efficiency and innovation. 
@@ -17,7 +17,7 @@ const project_data = [
    },
    {
       id: 2,
-      img: "/assets/img/project/project-2.jpg",
+      img: " ",
       sub_title: "UX, Consultancy",
       title: `Redesigning and Relaunching the Metaphacts Website | 2021 
 `, des: `Our 2021 project with Metaphacts involved a complete redesign and relaunch of their website. This project centered on elevating their digital identity to reflect their expertise in knowledge graph platforms. We focused on modern design elements, intuitive usability, and optimized content management to deliver a website that matched their high standards and commitment to excellence.

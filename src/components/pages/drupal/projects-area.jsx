@@ -6,7 +6,7 @@ import React, { useState } from 'react';
 const project_data = [
    {
       id: 1,
-      img: "/assets/img/project/project-1.jpg",
+      img: " ",
       sub_title: "Product Design, UI, UX",
       title: "Concentric Solutions",
       des: `A recognized leader in business transformation, Concentric Solutions leverages cutting-edge technology to drive meaningful change for its clients. Their homepage redesign was crafted with a clear focus on delivering an engaging and intuitive user experience. By emphasizing ease of navigation and impactful visuals, the project highlights their innovative approach to problem-solving and client engagement.
@@ -17,7 +17,7 @@ const project_data = [
    },
    {
       id: 2,
-      img: "/assets/img/project/project-2.jpg",
+      img: " ",
       sub_title: "UX, Consultancy",
       title: "Spinner Group ",
       des: `Known for their expertise in logistics and supply chain management, the Spinner Group faced the challenge of representing their dynamic services online. Our team developed and implemented a structured, user-friendly platform that emphasizes their industry authority and personalized service offerings. The result is a digital presence that reflects their commitment to efficiency and customer success.

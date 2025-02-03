@@ -4,22 +4,22 @@ const contact_data = [
   {
     id: 1,
     titel: "Become a client",
-    email: "info@gencio-works.com",
-    phone: "720.797.2031",
+    email: " hello@webinnovatorspro.com",
+    phone: " ",
     tel: "78568065900",
   },
   {
     id: 2,
     titel: "Media inquiries",
-    email: "info@gencio-works.com",
-    phone: "720.797.2031",
+    email: " hello@webinnovatorspro.com",
+    phone: " ",
     tel: "78568065900",
   },
   {
     id: 3,
     titel: "General",
-    email: "info@gencio-works.com",
-    phone: "720.797.2031",
+    email: " hello@webinnovatorspro.com",
+    phone: " ",
     tel: "78568065900",
   },
 ];

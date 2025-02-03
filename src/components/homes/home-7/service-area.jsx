@@ -3,7 +3,7 @@ import { Navigation } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 
-const service_data = [
+const local_service_data = [
     {
         id: 1,
         title: "ESTATE PLANNING",
@@ -182,7 +182,7 @@ const ServiceArea = () => {
                 className="swiper-container law-service-slider">
 
                 {
-                    service_data.map((item, i) => 
+                    local_service_data.map((item, i) => 
                     <SwiperSlide key={i} className="wow tpfadeUp" data-wow-delay={item.delay}>
                             <div className="law-sv-item">
                                 <div className="law-sv-item-head d-flex align-items-center mb-25">

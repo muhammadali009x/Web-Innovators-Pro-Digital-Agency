@@ -1,4 +1,5 @@
-import service_data from '@/src/data/service-data';
+import local_service_data from '@/src/components/pages/web-app/service-data';
+
 import React from 'react';
 
 const ServiceArea = () => {
@@ -7,7 +8,7 @@ const ServiceArea = () => {
         <div className="tp-service-page pt-120 pb-90">
          <div className="container">
             <div className="row">
-                { service_data.slice(22, 28).map((item, i)  => 
+                { local_service_data.slice(22, 28).map((item, i)  => 
                     <div key={i} className="col-lg-4 wow">                
                   <div className="sv-page-item white-bg mb-30 wow tpfadeUp" data-wow-delay=".3s">
                      <div className="sv-page-item__img p-relative mb-30">

@@ -1,5 +1,5 @@
 import React from 'react';
-import service_data from '@/src/components/pages/web-app/servicesdata';
+import local_service_data from '@/src/components/pages/web-app/service-data';
 
 const service_content = {
     title: "Unlock Your Web Potential with Expert CMS Solutions",
@@ -30,7 +30,7 @@ const ServiceArea = () => {
                         <div className="row">
 
                             {
-                                service_data.map((item, i) =>
+                                local_service_data.map((item, i) =>
                                     <div key={i} className="col-xl-3 col-lg-6">
                                         <div className="seo-service-item text-center wow tpfadeUp" data-wow-delay={item.delay}>
                                             <div className="seo-service-item__thumb mb-35">

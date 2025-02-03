@@ -18,7 +18,7 @@ const CtaArea = () => {
                 <div className="da-cta-info ml-130">
                   <h4>
                     Focused on providing smart, Route conversation to the <br />
-                    right recipient for your customer in Gencio.
+                    right recipient for your customer in Web Innovators Pro.
                   </h4>
                 </div>
               </div>

@@ -1,4 +1,4 @@
-import service_data from "@/src/data/service-data";
+import local_service_data from "@/src/data/service-data";
 import React from "react";
 
 const ServiceArea = () => {
@@ -7,7 +7,7 @@ const ServiceArea = () => {
       <div className="tp-it-service serive-page-item-title pt-120 pb-90">
         <div className="container">
           <div className="row it-sv-counter">
-            {service_data.slice(11, 17).map((item, i) => (
+            {local_service_data.slice(11, 17).map((item, i) => (
               <div
                 key={i}
                 className="col-lg-4 col-md-6"

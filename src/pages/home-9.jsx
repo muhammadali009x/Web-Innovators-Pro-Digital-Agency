@@ -6,7 +6,7 @@ import Wrapper from '../layout/wrapper';
 const index = () => {
     return (
         <Wrapper>
-            <SEO pageTitle={"Gencio - Architecture"} />
+            <SEO pageTitle={"Web Innovators Pro - Architecture"} />
             <HomeNine />
         </Wrapper>
     );

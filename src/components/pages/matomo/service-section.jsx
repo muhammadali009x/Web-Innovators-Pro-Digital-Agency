@@ -6,7 +6,7 @@ const service_data = [
   {
       id: 1,
       link: "/service-3",
-      img: "/assets/img/services/icon/it-service-1.png",
+      img: "/assets/img/services/icon/data_ownership_gdpr_compliance (1).jpg",
       title: `Data Ownership & GDPR Compliance
 `,
       des: `Matomo offers unmatched data privacy by allowing you to self-host the platform. This means your data isn’t shared with third parties or used in ways you can’t control. Matomo also ensures GDPR compliance, making it an excellent choice for businesses operating in regions with strict privacy regulations. With Matomo, you retain full control and ownership of your data, giving you peace of mind about how it’s handled.
@@ -15,7 +15,7 @@ const service_data = [
   {
       id: 2,
       link: "/service-3",
-      img: "/assets/img/services/icon/it-service-2.png",
+      img: "/assets/img/services/icon/customizable_and_open_source.jpg",
       title: `Customizable and Open Source
 `,
       des: `Unlike Google Analytics, Matomo is open-source, granting you access to its source code. This flexibility allows you to customize templates, develop unique dashboards, and generate tailored reports. If your business requires a highly specific approach to analytics, Matomo’s customizability ensures it can adapt to your unique needs.
@@ -24,7 +24,7 @@ const service_data = [
   {
       id: 3,
       link: "/service-3",
-      img: "/assets/img/services/icon/it-service-3.png",
+      img: "/assets/img/services/icon/icon_for_no_third_party_cookies.jpg",
       title: `No Third-party Cookies
 `,
       des: `Privacy concerns have led many users to block or delete third-party cookies, which Google Analytics relies on for tracking. This can compromise the accuracy of user behavior data and requires intrusive cookie consent pop-ups on websites. Matomo sidesteps this issue entirely by functioning without third-party cookies, offering a more seamless and privacy-centric user experience.
@@ -38,7 +38,7 @@ const service_data2 = [
   {
       id: 1,
       link: "/service-3",
-      img: "/assets/img/services/icon/it-service-1.png",
+      img: "/assets/img/services/icon/icon_for_transition_time_and_effort.jpg",
       title: `Transition Time and Effort
 `,
       des: `Switching to a new platform comes with its own set of challenges. Migrating to Matomo involves a learning curve, financial investment, and careful planning to minimize disruptions. Depending on your current setup, you might experience a temporary dip in your ability to gather and analyze data as your team adjusts.
@@ -47,7 +47,7 @@ const service_data2 = [
   {
       id: 2,
       link: "/service-3",
-      img: "/assets/img/services/icon/it-service-2.png",
+      img: "/assets/img/services/icon/icon_for_integration_with_google_services.jpg",
       title: `Integration with Google Services
 `,
       des: `Many organizations depend heavily on Google’s ecosystem, including tools like Google Ads and Search Console. Google Analytics integrates effortlessly with these services, providing a unified platform for campaign management and performance tracking. While Matomo offers its own integrations, they may not be as seamless or comprehensive as Google’s.
@@ -56,7 +56,7 @@ const service_data2 = [
   {
       id: 3,
       link: "/service-3",
-      img: "/assets/img/services/icon/it-service-3.png",
+      img: "/assets/img/services/icon/icon_for_advanced_machine_learning_insights.jpg",
       title: `Advanced Machine Learning Insights
 `,
       des: `Google Analytics excels in leveraging advanced machine learning to deliver predictive analytics, anomaly detection, and valuable insights. These features can help businesses anticipate user behavior and make data-driven decisions. While Matomo provides a robust analytics suite, it lacks the depth of AI-powered capabilities found in Google Analytics.

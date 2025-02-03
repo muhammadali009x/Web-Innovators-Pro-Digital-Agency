@@ -6,7 +6,7 @@ import React from "react";
 const service_data = [
   {
     id: 1,
-    img: "/assets/img/services/icon/ca-sv-icon-1.png",
+    img: "/assets/img/services/icon/custom_react_applications.jpg",
     title: `Custom React Applications 
 `,
     des: `When it comes to creating bespoke digital experiences, we’ve got you covered! Our skilled developers specialize in crafting custom web applications designed specifically around your needs. With React’s versatility, we build robust solutions that deliver seamless functionality and elevate user experience. Your vision, brought to life—exactly the way you imagined.
@@ -14,7 +14,7 @@ const service_data = [
   },
   {
     id: 2,
-    img: "/assets/img/services/icon/ca-sv-icon-2.png",
+    img: "/assets/img/services/icon/icon_for_scalable_enterprise_solutions (1).jpg",
     title: `Scalable Enterprise Solutions 
 `,
     des: `Enterprises grow, and we make sure your software grows with you! We design tailored React-based solutions that allow corporations to scale effortlessly. Whether it’s expanding your operations or integrating new tools, our enterprise-level applications blend perfectly with existing systems while remaining flexible for future upgrades.
@@ -22,21 +22,21 @@ const service_data = [
   },
   {
     id: 3,
-    img: "/assets/img/services/icon/ca-sv-icon-3.png",
+    img: "/assets/img/services/icon/icon_for_component_design_and_development.jpg",
     title: `Component Design and Development `,
     des: `React thrives on reusability, and so do we! Our team capitalizes on React’s component-based architecture to design and develop custom components. These responsive, reusable building blocks enhance functionality, create an engaging user experience, and save time during future updates or iterations.`
   },
 
   {
     id: 3,
-    img: "/assets/img/services/icon/ca-sv-icon-3.png",
+    img: "/assets/img/services/icon/api_integration_with_react (1).jpg",
     title: `API Integration with React 
 `,
     des: `Enhance connectivity, boost versatility. Our team has extensive expertise in seamlessly integrating APIs with React applications. From designing functional RESTful solutions to ensuring smooth interaction between systems, we help your applications do more—and do it better.
 ` },
   {
     id: 3,
-    img: "/assets/img/services/icon/ca-sv-icon-3.png",
+    img: "/assets/img/services/icon/icon_for_continuous_maintenance_and_support (1) (1).jpg",
     title: `Continuous Maintenance and Support 
 `,
     des: `Building your application is only the beginning. We offer ongoing maintenance and dedicated support to keep your React applications secure, updated, and running at peak performance. Whether it’s implementing updates or troubleshooting issues, we’re here every step of the way to ensure your success.

@@ -6,7 +6,7 @@ const service_data = [
   {
     id: 1,
     link: "/service-3",
-    img: "/assets/img/services/icon/it-service-1.png",
+    img: "/assets/img/services/icon/icon_for_ease_of_use.jpg",
     title: `Ease of Use`,
     des: `Vue.js is well-known for its beginner-friendly structure, making it accessible for developers who are already familiar with HTML, CSS, and JavaScript. Its simplicity allows teams to reduce development time and quickly create prototypes, offering a perfect blend of speed and usability.
 `
@@ -14,7 +14,7 @@ const service_data = [
   {
     id: 2,
     link: "/service-3",
-    img: "/assets/img/services/icon/it-service-2.png",
+    img: "/assets/img/services/icon/icon_for_flexibility.jpg",
     title: `Flexibility`,
     des: `Designed with integration in mind, Vue.js is incrementally adoptable. This means you can use it to power part of your project without committing to a full-scale framework overhaul. Its adaptable nature allows developers to meet a range of project requirements—whether you're building a sophisticated app or adding interactivity to a smaller feature.
 `
@@ -22,7 +22,7 @@ const service_data = [
   {
     id: 3,
     link: "/service-3",
-    img: "/assets/img/services/icon/it-service-3.png",
+    img: "/assets/img/services/icon/icon_for_strong_and_growing_community_support.jpg",
     title: `Strong and Growing Community Support`,
     des: `While not as large as Angular or React, Vue.js boasts an enthusiastic and growing community. Developers can rely on a solid ecosystem of libraries and robust community-provided resources, which are constantly improving. This active support base fosters innovation and ensures Vue.js remains a forward-thinking tool.
 `
@@ -35,7 +35,7 @@ const service_data2 = [
   {
     id: 1,
     link: "/service-3",
-    img: "/assets/img/services/icon/it-service-1.png",
+    img: "/assets/img/services/icon/smaller_community (1).jpg",
     title: `Smaller Community
 `,
     des: `Although the Vue.js community is expanding, its size is still smaller compared to competitors like Angular or React. This can occasionally lead to fewer resources and third-party components being available, as well as limited assistance for obscure issues.
@@ -44,7 +44,7 @@ const service_data2 = [
   {
     id: 2,
     link: "/service-3",
-    img: "/assets/img/services/icon/it-service-2.png",
+    img: "/assets/img/services/icon/icon_for_localization_and_language_barriers.jpg",
     title: `Localization and Language Barriers`,
     des: `Vue.js has a strong following in China, where much of its early documentation and community-led discussion originated. While significant progress has been made in translating resources into other languages, some third-party libraries and support materials may still be primarily available in Chinese.
 `
@@ -52,7 +52,7 @@ const service_data2 = [
   {
     id: 3,
     link: "/service-3",
-    img: "/assets/img/services/icon/it-service-3.png",
+    img: "/assets/img/services/icon/icon_for_limited_large_scale_adoption.jpg",
     title: `Limited Large-Scale Adoption
 `,
     des: `Vue.js is not as widely used in large-scale enterprise applications as Angular or React. While this does not diminish its capabilities for complex projects, the limited number of reference examples can make navigating large, intricate developments more challenging at times.

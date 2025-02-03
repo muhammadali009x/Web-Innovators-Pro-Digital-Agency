@@ -4,7 +4,7 @@ const service_data = [
   {
     id: 1,
     link: "/service-3",
-    img: "/assets/img/services/icon/it-service-1.png",
+    img: "/assets/img/services/icon/component_based_architecture.jpg",
     title: `Component-Based Architecture 
 `,
     des: `React’s component-based structure transforms development into something modular and streamlined. What does this mean for you? Your team can reuse code, build faster, and better maintain your application over time. Say goodbye to bulky, tangled codebases—this architecture keeps things neat and efficient. 
@@ -13,7 +13,7 @@ const service_data = [
   {
     id: 2,
     link: "/service-3",
-    img: "/assets/img/services/icon/it-service-2.png",
+    img: "/assets/img/services/icon/icon_for_exceptional_ui_capabilities.jpg",
     title: `Exceptional UI Capabilities 
 `,
     des: `When it comes to creating a dynamic, interactive user experience, React is a top contender. Responsive interfaces built on React enhance the user experience in ways that increase engagement, retention, and even conversion rates. If delivering a seamless, stunning front-end is a priority, React could be your go-to. 
@@ -22,7 +22,7 @@ const service_data = [
   {
     id: 3,
     link: "/service-3",
-    img: "/assets/img/services/icon/it-service-3.png",
+    img: "/assets/img/services/icon/a_thriving_community.jpg",
     title: `A Thriving Community 
 `,
     des: `React isn’t just a tool; it’s backed by a vibrant, global community. Maintained by Meta (formerly Facebook), React benefits from active contributions, regular updates, and an entire ecosystem of supporting tools. Need a library or plugin? Odds are someone’s already built it. 
@@ -34,7 +34,7 @@ const service_data2 = [
   {
     id: 1,
     link: "/service-3",
-    img: "/assets/img/services/icon/it-service-1.png",
+    img: "/assets/img/services/icon/icon_for_it_s_a_library_not_a.jpg",
     title: `It’s a Library, Not a Full Framework 
 
 `,
@@ -44,7 +44,7 @@ const service_data2 = [
   {
     id: 2,
     link: "/service-3",
-    img: "/assets/img/services/icon/it-service-2.png",
+    img: "/assets/img/services/icon/challenges_with_integration.jpg",
     title: `Challenges with Integration 
 `,
     des: `If you’re integrating React into an existing codebase, be prepared for a potential headache. It often requires significant refactoring to make everything fit just right. For projects relying heavily on smooth transitions and backward compatibility, this could be an issue. 
@@ -53,7 +53,7 @@ const service_data2 = [
   {
     id: 3,
     link: "/service-3",
-    img: "/assets/img/services/icon/it-service-3.png",
+    img: "/assets/img/services/icon/icon_for_seo_considerations (1).jpg",
     title: `SEO Considerations 
 `,
     des: `React’s client-side rendering can present challenges for search engine optimization (SEO). While there are solutions, like server-side rendering or static site generation, they typically require extra configurations and effort. If organic traffic is vital to your business, this is something you absolutely need to address. 

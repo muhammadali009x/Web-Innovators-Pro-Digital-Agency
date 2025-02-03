@@ -6,35 +6,35 @@ import React from "react";
 const service_data = [
   {
     id: 1,
-    img: "/assets/img/services/icon/ca-sv-icon-1.png",
+    img: "/assets/img/services/icon/icon_for_matomo_installation_and_setup.jpg",
     title: `Matomo Installation and Setup 
 `,
     des: `Starting from scratch with Matomo can feel overwhelming, but we’re here to make it easy. Our team takes care of the entire setup process, including server installation, technical configurations, and tailored platform setup. This end-to-end service ensures you can start analyzing your users’ behavior right away without worrying about the technical complexities. 
 `  },
   {
     id: 2,
-    img: "/assets/img/services/icon/ca-sv-icon-2.png",
+    img: "/assets/img/services/icon/icon_for_google_analytics_to_matomo_migration.jpg",
     title: `Google Analytics to Matomo Migration 
 `,
     des: `Looking to break free from Google Analytics? Our specialized migration service ensures a smooth and secure transition to Matomo. We meticulously transfer high-level metrics and historical data, so you can retain valuable context while beginning your analytics journey with Matomo. The process is designed to minimize disruptions, ensuring your data remains accessible and actionable. 
 ` },
   {
     id: 3,
-    img: "/assets/img/services/icon/ca-sv-icon-3.png",
+    img: "/assets/img/services/icon/icon_for_matomo_tag_manager_configuration.jpg",
     title: `Matomo Tag Manager Configuration 
 `,
     des: `Forget the hassle of manually adding tags to your website. Our team can configure Matomo Tag Manager so you can easily add both standard and custom tags without modifying your source code. This streamlined approach offers flexibility, saves time, and eliminates the need for complex coding, allowing you to focus on what matters most—understanding your audience. 
 ` },
   {
     id: 4,
-    img: "/assets/img/services/icon/ca-sv-icon-3.png",
+    img: "/assets/img/services/icon/icon_for_custom_report_configuration.jpg",
     title: `Custom Report Configuration 
 `,
     des: `Generic reports don’t meet the unique needs of every business—that’s why we create tailored solutions. With Matomo, we build custom dashboards that align with your goals and highlight the data that matters most. Whether it’s insights into user behavior, campaign performance, or conversion tracking, our reports provide the metrics you need for informed decision-making. 
 `},
   {
     id: 5,
-    img: "/assets/img/services/icon/ca-sv-icon-3.png",
+    img: "/assets/img/services/icon/icon_for_continuous_support_and_training.jpg",
     title: `Continuous Support and Training 
 `,
     des: `Launching your Matomo platform is just the beginning. We provide ongoing support and training to keep your analytics running smoothly long after launch. From regular updates and maintenance to guidance on navigating the platform, our team ensures your Matomo installation remains optimized, secure, and easy to use. With our continuous support, you’ll always have a reliable partner to help you leverage analytics to its fullest potential. 

@@ -5,32 +5,32 @@ import React from "react";
 const feature_data = [
   {
     id: 1,
-    icon: "/assets/img/icons/app-fea-icon-1.png",
+    icon: "/assets/img/icons/icon_for_continuous_maintenance_and_support (2) (1).jpg",
     title: `We’re Specialists `,
     des: `Our expertise in Vue.js runs deep. With an in-depth understanding of its architecture, we maximize its full potential to craft web applications that are robust, scalable, and optimized for SEO. This means you’ll get a high-performing application built with precision and best practices.
 `  },
   {
     id: 2,
-    icon: "/assets/img/icons/app-fea-icon-2.png",
+    icon: "/assets/img/icons/icon_for_we_re_flexible (3).jpg",
     title: `We’re Flexible `,
     des: `Every business has unique needs, and we’re here to accommodate them. Whether you need specific functionality, tailored components, or a distinctive user interface, our team specializes in building solutions that align perfectly with your objectives. Our custom approach ensures that your Vue.js application not only meets your requirements but exceeds expectations.
 `  },
   {
     id: 3,
-    icon: "/assets/img/icons/app-fea-icon-3.png",
+    icon: "/assets/img/icons/icon_for_we_re_knowledgeable (4).jpg",
     title: `We’re Knowledgeable `,
     des: `Our expertise doesn’t end with Vue.js. We bring a wealth of experience in other frameworks such as Angular, React, Symfony, and Laravel, as well as CMS platforms like Drupal, WordPress, Contao, and Joomla. We’re happy to discuss the strengths of each technology, guiding you to choose the solution that best fits your project’s goals and long-term vision.
 `  },
   {
     id: 4,
-    icon: "/assets/img/icons/app-fea-icon-4.png",
+    icon: "/assets/img/icons/icon_for_we_re_transparent (5).jpg",
     title: `We’re Transparent 
 `,
     des: `Transparency is at the heart of how we work. We believe in open communication at every stage of the development process. From planning to launch, you’ll have a clear view of our processes and progress. Our goal is to be your trusted digital partner, working closely with you to ensure that your project succeeds at every level.
 ` },
   {
     id: 5,
-    icon: "/assets/img/icons/app-fea-icon-4.png",
+    icon: "/assets/img/icons/icon_for_we_re_here_for_you_we_re.jpg",
     title: `We’re Here for You `,
     des: `Building lasting relationships with our clients is a priority for us. Beyond delivering your Vue.js application, we provide long-term support and maintenance services to ensure your project maintains peak performance. From applying the latest security patches to rolling out feature upgrades, we’ll keep your application running smoothly and up to date.`
   },
